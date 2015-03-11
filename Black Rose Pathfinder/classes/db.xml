@@ -252,6 +252,48 @@
 					<p>An aegis may end the duration as a free action at any time.</p>
 				</benefit>
 			</augmentsuit>
+			<mastercraftsman>
+				<name type="string">Master Craftsman</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>At 5th level, an aegis gains the Master Craftsman feat as a bonus feat.</p>
+					<p>He must still meet the prerequisites of the feat in order to gain its benefits.</p>
+				</benefit>
+			</mastercraftsman>
+			<cannibalizesuit>
+				<name type="string">Cannibalize Suit (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>Starting at 12th level, an aegis learns to convert the psionic energy used to create his suit into healing power.</p>
+					<p>Once per day as a standard action, he can dismiss his astral suit and heal a number of hit points equal to his customization pool.</p>
+					<p>The aegis cannot reform his suit again for one minute after using this ability.</p>
+					<p>Every two levels thereafter, the aegis can use this ability an additional time per day.</p>
+					<p>Additional customization points gained from Augment Suit are not counted for this ability.</p>
+				</benefit>
+			</cannibalizesuit>
+			<perfectmerger>
+				<name type="string">Perfect Merger (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>An aegis of 20th level has learned to become one with his suit.</p>
+					<p>His suit cannot be dispelled or removed against his will by any means, although his astral suit ability</p>
+					<p>still does not function within areas where psionics do not work, such as a null psionics field.</p>
+					<p></p>
+					<p>In addition, the aegis can spend two daily uses of his reconfigure ability to alter all of the customizations</p>
+					<p>on his astral suit.</p>
+					<p></p>
+					<p>Finally, once per day, the aegis can boost his cannibalize suit ability, healing all of his hit point damage,</p>
+					<p>although he cannot reform his suit for ten minutes after using this ability, rather than the standard one minute.</p>
+				</benefit>
+			</perfectmerger>
+		</aegis>
+		<artifacer>
 			<a>
 				<name type="string">a</name>
 				<type type="string">Class</type>
@@ -261,7 +303,7 @@
 					<p></p>
 				</benefit>
 			</a>
-		</aegis>
+		</artifacer>
 		
 		<item>
 			<artifacer>
@@ -305,7 +347,371 @@
 	</reference>
 	
 	<lists static="true">
-	
+		<aegis>
+			<basemenu>
+				<name type="string">Aegis Class</name>
+				<index>
+					<r1stats>
+						<listlink type="windowreference">
+							<class>referencetextwide</class>
+							<recordname>lists.aegis.statblock@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Leveling Stats</name>
+					</r1stats>
+					<r2proficiencies>
+						<listlink type="windowreference">
+							<class>referenceindex</class>
+							<recordname>lists.aegis.proficiencies@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Proficiencies</name>
+					</r2proficiencies>
+					<r3favoredclass>
+						<listlink type="windowreference">
+							<class>referenceindex</class>
+							<recordname>lists.aegis.favoredclass@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Favored Class</name>
+					</r3favoredclass>
+					<r4coreaegis>
+						<listlink type="windowreference">
+							<class>referenceindex</class>
+							<recordname>lists.aegis.core@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Core aegis</name>
+					</r4coreaegis>
+					<!--				<r5aegisarchetypes>
+					<listlink type="windowreference">
+					<class>referenceindex</class>
+					<recordname>lists.aegis.archetypes@PFRPG Misc Classes</recordname>
+					</listlink>
+					<name type="string">Archetypes</name>
+					</r5aegisarchetypes>-->
+				</index>
+			</basemenu>
+			<statblock>
+				<name type="string">aegis</name>
+				<text type="formattedtext">
+					<p><b>Alignment:</b> Any</p>
+					<p><b>Hit Die:</b> d10</p>
+					<p><b>Class Skills</b></p>
+					<p>The aegis's class skills are Acrobatics (Dex), Autohypnosis* (Wis), Climb (Str), Craft (Int), Knowledge (psionics)* (Int), Profession (Wis), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).</p>
+					<p><b>Skill Ranks Per Level:</b> 4 + Int modifier.</p>
+					<p><b>Starting Wealth:</b> 3d6 x 10 gp (average 105 gp)</p>
+					<table>
+						<tr><td colspan="9"><b>Table: The aegis</b></td></tr>
+						<tr decoration="underline"><td><b>Level </b></td><td colspan="2"><b>Base Attack</b></td><td><b>Fort</b></td><td><b>Ref</b></td><td><b>Will</b></td><td colspan="3"><b>Special</b></td></tr>
+						<tr><td>1st</td><td colspan="2">+1</td><td>+2</td><td>+0</td><td>+2</td><td colspan="3">Astral repair, form astral suit</td></tr>
+						<tr><td>2nd</td><td colspan="2">+2</td><td>+3</td><td>+0</td><td>+2</td><td colspan="3">Craftsman (+1), damage reduction (2/-)</td></tr>
+						<tr><td>3rd</td><td colspan="2">+3</td><td>+3</td><td>+1</td><td>+3</td><td colspan="3">Invigorating suit, reconfigure (1/day)</td></tr>
+						<tr><td>4th</td><td colspan="2">+4</td><td>+4</td><td>+1</td><td>+4</td><td colspan="3">Augment suit (1)</td></tr>
+						<tr><td>5th</td><td colspan="2">+5</td><td>+4</td><td>+1</td><td>+4</td><td colspan="3">Damage reduction (3/-), Master Craftsman, reconfigure (2/day)</td></tr>
+						<tr><td>6th</td><td colspan="2">+6/+1</td><td>+5</td><td>+2</td><td>+5</td><td colspan="3">Craftsman (+2)</td></tr>
+						<tr><td>7th</td><td colspan="2">+7/+2</td><td>+5</td><td>+2</td><td>+5</td><td colspan="3">Reconfigure (3/day)</td></tr>
+						<tr><td>8th</td><td colspan="2">+8/+3</td><td>+6</td><td>+2</td><td>+6</td><td colspan="3">Augment suit (2), damage reduction (4/-)</td></tr>
+						<tr><td>9th</td><td colspan="2">+9/+4</td><td>+6</td><td>+3</td><td>+6</td><td colspan="3">Reconfigure (4/day)</td></tr>
+						<tr><td>10th</td><td colspan="2">+10/+5</td><td>+7</td><td>+3</td><td>+7</td><td colspan="3">Craftsman (+3)</td></tr>
+						<tr><td>11th</td><td colspan="2">+11/+6/+1</td><td>+7</td><td>+3</td><td>+7</td><td colspan="3">Damage reduction (5/-), reconfigure (5/day)</td></tr>
+						<tr><td>12th</td><td colspan="2">+12/+7/+2</td><td>+8</td><td>+4</td><td>+8</td><td colspan="3">Augment suit (3), cannibalize suit (1/day)</td></tr>
+						<tr><td>13th</td><td colspan="2">+13/+8/+3</td><td>+8</td><td>+4</td><td>+8</td><td colspan="3">Reconfigure (6/day)</td></tr>
+						<tr><td>14th</td><td colspan="2">+14/+9/+4</td><td>+9</td><td>+4</td><td>+9</td><td colspan="3">Craftsman (+4), cannibalize suit (2/day), damage reduction (6/-)</td></tr>
+						<tr><td>15th</td><td colspan="2">+15/+10/+5</td><td>+9</td><td>+5</td><td>+9</td><td colspan="3">Reconfigure (7/day)</td></tr>
+						<tr><td>16th</td><td colspan="2">+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+10</td><td colspan="3">Augment suit (4), cannibalize suit (3/day)</td></tr>
+						<tr><td>17th</td><td colspan="2">+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td colspan="3">Damage reduction (7/-), reconfigure (8/day)</td></tr>
+						<tr><td>18th</td><td colspan="2">+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+11</td><td colspan="3">Cannibalize suit (4/day), Craftsman (+5)</td></tr>
+						<tr><td>19th</td><td colspan="2">+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td colspan="3">Reconfigure (9/day)</td></tr>
+						<tr><td>20th</td><td colspan="2">+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td colspan="3">Augment suit (5), cannibalize suit (5/day), damage reduction (8/-), perfect merger</td></tr>
+					</table>
+					<p></p>
+					<table>
+						<tr><td></td><td colspan="7"><b>Table: powers per Day</b></td></tr>
+						<tr decoration="underline"><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td></tr>
+						<tr><td>1st</td><td>3</td><td>1</td></tr>
+						<tr><td>2nd</td><td>4</td><td>2</td></tr>
+						<tr><td>3rd</td><td>5</td><td>3</td></tr>
+						<tr><td>4th</td><td>7</td><td>5</td></tr>
+						<tr><td>5th</td><td>8</td><td>7</td></tr>
+						<tr><td>6th</td><td>9</td><td>9</td></tr>
+						<tr><td>7th</td><td>10</td><td>11</td></tr>
+						<tr><td>8th</td><td>11</td><td>14</td></tr>
+						<tr><td>9th</td><td>13</td><td>17</td></tr>
+						<tr><td>10th</td><td>14</td><td>20</td></tr>
+						<tr><td>11th</td><td>15</td><td>24</td></tr>
+						<tr><td>12th</td><td>16</td><td>28</td></tr>
+						<tr><td>13th</td><td>17</td><td>32</td></tr>
+						<tr><td>14th</td><td>19</td><td>37</td></tr>
+						<tr><td>15th</td><td>20</td><td>42</td></tr>
+						<tr><td>16th</td><td>21</td><td>47</td></tr>
+						<tr><td>17th</td><td>22</td><td>52</td></tr>
+						<tr><td>18th</td><td>23</td><td>58</td></tr>
+						<tr><td>19th</td><td>25</td><td>64</td></tr>
+						<tr><td>20th</td><td>26</td><td>70</td></tr>
+					</table>
+				</text>
+			</statblock>
+			<favoredclass>
+				<name type="string">aegis Favored Class</name>
+				<index>
+					<dwarf>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.dwarfaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Dwarf: Favored Class [aegis]</name>
+					</dwarf>
+					<elf>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.elfaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Elf: Favored Class [aegis]</name>
+					</elf>
+					<gnome>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.gnomeaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Gnome: Favored Class [aegis]</name>
+					</gnome>
+					<halfelf>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.halfelfaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Half-Elf: Favored Class [aegis]</name>
+					</halfelf>
+					<halfhobgoblin>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.halfhobgoblinaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Half-Hobgoblin: Favored Class [aegis]</name>
+					</halfhobgoblin>
+					<halforc>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.halforcaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Half-Orc: Favored Class [aegis]</name>
+					</halforc>
+					<halfling>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.halflingaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Halfling: Favored Class [aegis]</name>
+					</halfling>
+					<human>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.humanaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Human: Favored Class [aegis]</name>
+					</human>
+					<dhampiraegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.dhampiraegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Dhampir: Favored Class [aegis]</name>
+					</dhampiraegis>
+					<drowaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.drowaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Drow: Favored Class [aegis]</name>
+					</drowaegis>
+					<goblinaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.goblinaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Goblin: Favored Class [aegis]</name>
+					</goblinaegis>
+					<hobgoblinaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.hobgoblinaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Hobgoblin: Favored Class [aegis]</name>
+					</hobgoblinaegis>
+					<ifritaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.ifritaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Ifrit: Favored Class [aegis]</name>
+					</ifritaegis>
+					<koboldaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.koboldaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Kobold: Favored Class [aegis]</name>
+					</koboldaegis>
+					<orcaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.orcaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Orc: Favored Class [aegis]</name>
+					</orcaegis>
+					<ratfolkaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.ratfolkaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Ratfolk: Favored Class [aegis]</name>
+					</ratfolkaegis>
+					<tieflingaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.tieflingaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Tiefling: Favored Class [aegis]</name>
+					</tieflingaegis>
+					<grippliaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.grippliaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Grippli: Favored Class [aegis]</name>
+					</grippliaegis>
+					<nagajiaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.nagajiaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Nagaji: Favored Class [aegis]</name>
+					</nagajiaegis>
+					<svirfneblinaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.svirfneblinaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Svirfneblin: Favored Class [aegis]</name>
+					</svirfneblinaegis>
+					<vanaraaegis>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.favored.vanaraaegis@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Vanara: Favored Class [aegis]</name>
+					</vanaraaegis>
+				</index>
+			</favoredclass>
+			<proficiencies>
+				<name type="string">Proficiencies</name>
+				<index>
+					<simpleweapons>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.proficiencies.simpleweapons@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Simple Weapons</name>
+					</simpleweapons>
+					<aegisweapons>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.proficiencies.aegisweapons@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Aegis</name>
+					</aegisweapons>
+					<lightarmor>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.proficiencies.lightarmor@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Light Armor</name>
+					</lightarmor>
+				</index>
+			</proficiencies>
+			<core>
+				<name type="string">Core Aegis</name>
+				<index>
+					<astralrepair>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.astralrepair@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Astral Repair</name>
+					</astralrepair>
+					<formastralsuit>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.formastralsuit@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Form Astral Suit</name>
+					</formastralsuit>
+					<craftsman>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.craftsman@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Craftsman</name>
+					</craftsman>
+					<damagereduction>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.damagereduction@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Damage Reduction</name>
+					</damagereduction>
+					<invigoratingsuit>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.invigoratingsuit@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Invigorating Suit</name>
+					</invigoratingsuit>
+					<reconfigure>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.reconfigure@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Reconfigure</name>
+					</reconfigure>
+					<augmentsuit>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.augmentsuit@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Augment Suit</name>
+					</augmentsuit>
+					<mastercraftsman>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.mastercraftsman@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Master Craftsman</name>
+					</mastercraftsman>
+					<cannibalizesuit>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.cannibalizesuit@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Cannibalize Suit</name>
+					</cannibalizesuit>
+					<perfectmerger>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.aegis.perfectmerger@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Perfect Merger</name>
+					</perfectmerger>
+				</index>
+			</core>
+		</aegis>
+		<artifacer>
+					<a>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.artifacer.a@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">A</name>
+					</a>
+		</artifacer>
+		
 	</lists>
 		<item>
 			<librarylink type="windowreference">
