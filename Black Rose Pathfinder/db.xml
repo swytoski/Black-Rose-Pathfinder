@@ -2,7 +2,7 @@
 <root version="3.0" release="1|3.5E:14|CoreRPG:3">
 	<library static="true">
 		<BRP_Races>
-			<name type="string">PFRPG Misc</name>
+			<name type="string">PFRPG Misc Races</name>
 			<categoryname type="string">Black Rose Pathfinder</categoryname>
 			<entries>
 				<elan>
@@ -21,15 +21,109 @@
 				</warforged>
 			</entries>
 		</BRP_Races>
-		<item>
-			<librarylink type="windowreference">
-				<class>referenceindexsorted</class>
-				<recordname>lists.item@PFRPG Misc</recordname>
-			</librarylink>
-			<name type="string">Items</name>
-		</item>
+		<BRP_Classes>
+			<name type="string">PFRPG Misc Classes</name>
+			<categoryname type="string">Black Rose Pathfinder</categoryname>
+			<entries>
+				<aegis>
+					<librarylink type="windowreference">
+						<class>referenceindex</class>
+						<recordname>lists.aegis.basemenu@PFRPG Misc</recordname>
+					</librarylink>
+					<name type="string">Aegis</name>
+				</aegis>
+				<artifacer>
+					<librarylink type="windowreference">
+						<class>referenceindex</class>
+						<recordname>lists.artifacer.basemenu@PFRPG Misc</recordname>
+					</librarylink>
+					<name type="string">Artifacer</name>
+				</artifacer>
+				<cryptic>
+					<librarylink type="windowreference">
+						<class>referenceindex</class>
+						<recordname>lists.cryptic.basemenu@PFRPG Misc</recordname>
+					</librarylink>
+					<name type="string">cryptic</name>
+				</cryptic>
+				<tactician>
+					<librarylink type="windowreference">
+						<class>referenceindex</class>
+						<recordname>lists.tactician.basemenu@PFRPG Misc</recordname>
+					</librarylink>
+					<name type="string">Tactician</name>
+				</tactician>
+				<vitalists>
+					<librarylink type="windowreference">
+						<class>referenceindex</class>
+						<recordname>lists.vitalists.basemenu@PFRPG Misc</recordname>
+					</librarylink>
+					<name type="string">Vitalists</name>
+				</vitalists>
+			</entries>
+		</BRP_Classes>
 	</library>
+	
 	<reference static="true">
+		<warforged>
+			<warforgedstats>
+				<name type="string">Warforged Stats</name>
+				<type type="string">Racial</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>+2 Constitution, -2 Wisdom, -2 Charisma</p>
+				</benefit>
+			</warforgedstats>
+			<warforgedslam>
+				<name type="string">Warforged Slam</name>
+				<type type="string">Racial</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>warforged get a natural slam attack for being a construct, 1d4 damage.</p>
+				</benefit>
+			</warforgedslam>
+			<warforgedconstruct>
+				<name type="string">Warforged Construct</name>
+				<type type="string">Racial</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A Warforged is considered a Construct with the Living Construct sub-type.</p>
+				</benefit>
+			</warforgedconstruct>
+			<warforgedplates>
+				<name type="string">Warforged Plates</name>
+				<type type="string">Racial</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A Warforged is constructed with composite plating and gets a +2 bonus to AC.</p>
+				</benefit>
+			</warforgedplates>
+			<warforgedadamantinebody>
+				<name type="string">Warforged Adamantine Body</name>
+				<type type="string">Racial Feat</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>Prerequisites: Warforged, 1st level only.</p>
+					<p>Benefit: AC increased by +8 and you gain DR 2/Adamantine.</p>
+					<p>However, your base speed is decreased to +20 feet.</p>
+				</benefit>
+			</warforgedadamantinebody>
+			<warforgedmithralbody>
+				<name type="string">Warforged Adamantine Body</name>
+				<type type="string">Racial Feat</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>Prerequisites: Warforged, 1st level only.</p>
+					<p>Benefit: AC increased by +5 </p>
+				</benefit>
+			</warforgedmithralbody>
+		</warforged>
 		<elan>
 			<elanstats>
 				<name type="string">Elan Stats</name>
@@ -97,156 +191,6 @@
 				</benefit>
 			</elanpsionicaptitude>
 		</elan>
-		<warforged>
-			<warforgedslam>
-				<name type="string">Warforged Slam</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>warforged get a natural slam attack for being a construct, 1d4 damage.</p>
-				</benefit>
-			</warforgedslam>
-		</warforged>
-	</reference>
-	
-	<item>
-		<category name="" mergeid="" baseicon="0" decalicon="0">
-			<id-00001>
-				<ac type="number">0</ac>
-				<bonus type="number">0</bonus>
-				<checkpenalty type="number">0</checkpenalty>
-				<cl type="number">0</cl>
-				<description type="formattedtext">
-					<p></p>
-				</description>
-				<isidentified type="number">0</isidentified>
-				<locked type="number">1</locked>
-				<maxstatbonus type="number">0</maxstatbonus>
-				<name type="string">warhammer</name>
-				<range type="number">0</range>
-				<speed20 type="number">0</speed20>
-				<speed30 type="number">0</speed30>
-				<spellfailure type="number">0</spellfailure>
-				<type type="string">bludgen</type>
-				<weight type="number">0</weight>
-			</id-00001>
-		</category>
-	</item>
-	<reference static="true">
-		<warforged>
-			<warforgedstats>
-				<name type="string">Warforged Stats</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>+2 Constitution, -2 Wisdom, -2 Charisma</p>
-				</benefit>
-			</warforgedstats>
-			<warforgedslam>
-				<name type="string">Warforged Slam</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>warforged get a natural slam attack for being a construct, 1d4 damage.</p>
-				</benefit>
-			</warforgedslam>
-			
-			<p>    Construct (Living Construct)</p>
-			<p>    Medium</p>
-			<p>    Warforged base land speed is 30 feet.</p>
-			<p>    Composite Plating +2 to AC.</p>
-			<p>    Slam 1d4.</p>
-			<p>    Automatic Languages: Common.</p>
-			<p>    Favored Class: Fighter.</p>
-			<p></p>
-			<h>Warforged Racial Feats</h>
-			<p>    <b>Adamantine Body</b></p>
-			<p>Prerequisites: Warforged, 1st level only</p>
-			<p>Benefit: AC increased by +8 and you gain DR 2/Adamantine. However, your base speed is decreased to +20 feet.</p>
-			<p>    <b>Mithral Body</b></p>
-			<p>Prerequisites: Warforged, 1st level only Benefit: AC increased by +5 </p>
-		</warforged>
-		<elan>
-			<elanstats>
-				<name type="string">Elan Stats</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Elans gain a +2 bonus to one ability score chosen at creation to represent their varied nature.</p>
-				</benefit>
-			</elanstats>
-			<elanblood>
-				<name type="string">Elan Blood</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Aberrant Blood: Elans are of the humanoid (aberrant) subtype.</p>
-				</benefit>
-			</elanblood>
-						<naturallypsionic>
-				<name type="string">Naturally Psionic</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Elans gain the Wild Talent feat as a bonus feat at 1st level. If an elan takes levels in a psionic class, they instead gains the Psionic Talent feat.</p>
-				</benefit>
-			</naturallypsionic>
-			<elanresistance>
-				<name type="string">Elan Resistance</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Resistance (Su): Elans can use psionic energy to increase their resistance to various forms of attack.</p>
-					<p>As an immediate action, an elan can spend 1 power point to gain a +4 racial bonus on saving throws until the beginning of her next action.</p>
-				</benefit>
-			</elanresistance>
-			<elanresilience>
-				<name type="string">Elan Resilience</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Resilience (Su): When an elan takes damage, he can spend power points to reduce its severity.</p>
-					<p>As an immediate action, he can reduce the damage he is about to take by 2 hit points for every 1 power point he spends.</p>
-				</benefit>
-			</elanresilience>
-			<elanrepletion>
-				<name type="string">Elan Repletion</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Repletion (Su): An elan can sustain his body without need of food or water. If he spends 1 power point, an elan does not need to eat or drink for 24 hours.</p>
-				</benefit>
-			</elanrepletion>
-			<elanpsionicaptitude>
-				<name type="string">Elan Psionic Aptitude</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formatedtext">
-					<p>Psionic Aptitude: When an elan takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</p>
-				</benefit>
-			</elanpsionicaptitude>
-		
-			
-			<p>    Medium: Elan are Medium creatures and have no bonuses or penalties due to their size.</p>
-			<p>    Normal Speed: Elans have a base speed of 30 feet.</p>
-			<p>    Aberrant Nature: Although human in appearance, elans suffer from a nature slightly off from the rest of the non-elan society. They suffer a -1 penalty to Charisma-based skill checks when dealing with non-elans.</p>
-			<p>    Naturally Psionic: Elans gain the Wild Talent feat as a bonus feat at 1st level. If an elan takes levels in a psionic class, she instead gains the Psionic Talent feat.</p>
-			<p>    Resistance (Su): Elans can use psionic energy to increase their resistance to various forms of attack. As an immediate action, an elan can spend 1 power point to gain a +4 racial bonus on saving throws until the beginning of her next action.</p>
-			<p>    Resilience (Su): When an elan takes damage, he can spend power points to reduce its severity. As an immediate action, he can reduce the damage he is about to take by 2 hit points for every 1 power point he spends.</p>
-			<p>    Repletion (Su): An elan can sustain his body without need of food or water. If he spends 1 power point, an elan does not need to eat or drink for 24 hours.</p>
-			<p>    Psionic Aptitude: When an elan takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</p>
-			<p>    Languages: Elans begin play speaking Common. Elans with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).</p>
-		</elan>
 		<artifacer>
 			<artifacerworkbook>
 				<name type="string">Artifacer Workbook</name><isidentified type="number">1</isidentified>
@@ -284,6 +228,7 @@
 				<subtype type="string">Magical Rod</subtype>
 			</rodofartifacermight>
 		</artifacer>
+		
 	</reference>
 	
 	<lists static="true">
@@ -344,20 +289,20 @@
 			<feats>
 				<name type="string">Racial Feats</name>
 				<index>
-					<adamantinebody>
+					<warforgedadamantinebody>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.wargorged.adamantinebody@PFRPG Misc</recordname>
+							<recordname>reference.wargorged.warforgedadamantinebody@PFRPG Misc</recordname>
 						</listlink>
 						<name type="string">Adamantine Body</name>
-					</adamantinebody>
-					<mithralbody>
+					</warforgedadamantinebody>
+					<warforgedmithralbody>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.wargorged.mithralbody@PFRPG Misc</recordname>
+							<recordname>reference.wargorged.warforgedmithralbody@PFRPG Misc</recordname>
 						</listlink>
 						<name type="string">Mithral Body</name>
-					</mithralbody>
+					</warforgedmithralbody>
 				</index>
 			</feats>
 		</warforged>
@@ -372,13 +317,6 @@
 						</listlink>
 						<name type="string">Core Elan</name>
 					</core>
-					<feats>
-						<listlink type="windowreference">
-							<class>referenceindex</class>
-							<recordname>lists.elan.feats@PFRPG Misc</recordname>
-						</listlink>
-						<name type="string">Racial Feats</name>
-					</feats>
 				</index>
 			</basemenu>
 			<core>
@@ -397,10 +335,26 @@
 				<name type="string">Core elan</name>
 				<text type="formattedtext">
 					<list>
-						<li>+2 Dexterity, +2 Intelligence, -2 Constitution: Elves are nimble, both in body and mind, but their form is frail.</li>
+						<li>Elans gain a +2 bonus to one ability score chosen at creation to represent their varied nature.</li>
+						<li>Medium: Elan are Medium creatures and have no bonuses or penalties due to their size.</li>
+						<li>Normal Speed: Elans have a base speed of 30 feet.</li>
+						<li>Aberrant Nature: Although human in appearance, elans suffer from a nature slightly off from the rest of the non-elan society. They suffer a -1 penalty to Charisma-based skill checks when dealing with non-elans.</li>
+						<li>Naturally Psionic: Elans gain the Wild Talent feat as a bonus feat at 1st level. If an elan takes levels in a psionic class, she instead gains the Psionic Talent feat.</li>
+						<li>Resistance (Su): Elans can use psionic energy to increase their resistance to various forms of attack. As an immediate action, an elan can spend 1 power point to gain a +4 racial bonus on saving throws until the beginning of her next action.</li>
+						<li>Resilience (Su): When an elan takes damage, he can spend power points to reduce its severity. As an immediate action, he can reduce the damage he is about to take by 2 hit points for every 1 power point he spends.</li>
+						<li>Repletion (Su): An elan can sustain his body without need of food or water. If he spends 1 power point, an elan does not need to eat or drink for 24 hours.</li>
+						<li>Psionic Aptitude: When an elan takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</li>
+						<li>Languages: Elans begin play speaking Common. Elans with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).</li>
 					</list>
 				</text>
 			</statblock>
 		</elan>
 	</lists>
+		<item>
+			<librarylink type="windowreference">
+				<class>referenceindexsorted</class>
+				<recordname>lists.item@PFRPG Misc</recordname>
+			</librarylink>
+			<name type="string">Items</name>
+		</item>
 </root>
