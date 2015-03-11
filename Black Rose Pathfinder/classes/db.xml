@@ -294,6 +294,87 @@
 			</perfectmerger>
 		</aegis>
 		<artifacer>
+			<elbowgrease>
+				<name type="string">Elbow Grease</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>The artificer gains a +2 bonus to all Craft checks. This bonus raises to +4 at 6th level, and +6 at 10th level.</p>
+				</benefit>
+			</elbowgrease>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
 			<a>
 				<name type="string">a</name>
 				<type type="string">Class</type>
@@ -304,6 +385,39 @@
 				</benefit>
 			</a>
 		</artifacer>
+		<cryptic>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+		</cryptic>
+		<tactician>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+		</tactician>
+		<vitalist>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+		</vitalist>
 		
 		<item>
 			<artifacer>
@@ -423,183 +537,21 @@
 					</table>
 					<p></p>
 					<table>
-						<tr><td></td><td colspan="7"><b>Table: powers per Day</b></td></tr>
-						<tr decoration="underline"><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td></tr>
-						<tr><td>1st</td><td>3</td><td>1</td></tr>
-						<tr><td>2nd</td><td>4</td><td>2</td></tr>
-						<tr><td>3rd</td><td>5</td><td>3</td></tr>
-						<tr><td>4th</td><td>7</td><td>5</td></tr>
-						<tr><td>5th</td><td>8</td><td>7</td></tr>
-						<tr><td>6th</td><td>9</td><td>9</td></tr>
-						<tr><td>7th</td><td>10</td><td>11</td></tr>
-						<tr><td>8th</td><td>11</td><td>14</td></tr>
-						<tr><td>9th</td><td>13</td><td>17</td></tr>
-						<tr><td>10th</td><td>14</td><td>20</td></tr>
-						<tr><td>11th</td><td>15</td><td>24</td></tr>
-						<tr><td>12th</td><td>16</td><td>28</td></tr>
-						<tr><td>13th</td><td>17</td><td>32</td></tr>
-						<tr><td>14th</td><td>19</td><td>37</td></tr>
-						<tr><td>15th</td><td>20</td><td>42</td></tr>
-						<tr><td>16th</td><td>21</td><td>47</td></tr>
-						<tr><td>17th</td><td>22</td><td>52</td></tr>
-						<tr><td>18th</td><td>23</td><td>58</td></tr>
-						<tr><td>19th</td><td>25</td><td>64</td></tr>
-						<tr><td>20th</td><td>26</td><td>70</td></tr>
+						<tr><td></td><td colspan="7"><b>Table: Customization/Power points per Day</b></td></tr>
+						<tr decoration="underline"><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td></tr>
+						<tr><td>1st</td><td>3</td><td>1</td><td>11th</td><td>15</td><td>24</td></tr>
+						<tr><td>2nd</td><td>4</td><td>2</td><td>12th</td><td>16</td><td>28</td></tr>
+						<tr><td>3rd</td><td>5</td><td>3</td><td>13th</td><td>17</td><td>32</td></tr>
+						<tr><td>4th</td><td>7</td><td>5</td><td>14th</td><td>19</td><td>37</td></tr>
+						<tr><td>5th</td><td>8</td><td>7</td><td>15th</td><td>20</td><td>42</td></tr>
+						<tr><td>6th</td><td>9</td><td>9</td><td>16th</td><td>21</td><td>47</td></tr>
+						<tr><td>7th</td><td>10</td><td>11</td><td>17th</td><td>22</td><td>52</td></tr>
+						<tr><td>8th</td><td>11</td><td>14</td><td>18th</td><td>23</td><td>58</td></tr>
+						<tr><td>9th</td><td>13</td><td>17</td><td>19th</td><td>25</td><td>64</td></tr>
+						<tr><td>10th</td><td>14</td><td>20</td><td>20th</td><td>26</td><td>70</td></tr>
 					</table>
 				</text>
 			</statblock>
-			<favoredclass>
-				<name type="string">aegis Favored Class</name>
-				<index>
-					<dwarf>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.dwarfaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Dwarf: Favored Class [aegis]</name>
-					</dwarf>
-					<elf>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.elfaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Elf: Favored Class [aegis]</name>
-					</elf>
-					<gnome>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.gnomeaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Gnome: Favored Class [aegis]</name>
-					</gnome>
-					<halfelf>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.halfelfaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Half-Elf: Favored Class [aegis]</name>
-					</halfelf>
-					<halfhobgoblin>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.halfhobgoblinaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Half-Hobgoblin: Favored Class [aegis]</name>
-					</halfhobgoblin>
-					<halforc>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.halforcaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Half-Orc: Favored Class [aegis]</name>
-					</halforc>
-					<halfling>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.halflingaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Halfling: Favored Class [aegis]</name>
-					</halfling>
-					<human>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.humanaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Human: Favored Class [aegis]</name>
-					</human>
-					<dhampiraegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.dhampiraegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Dhampir: Favored Class [aegis]</name>
-					</dhampiraegis>
-					<drowaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.drowaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Drow: Favored Class [aegis]</name>
-					</drowaegis>
-					<goblinaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.goblinaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Goblin: Favored Class [aegis]</name>
-					</goblinaegis>
-					<hobgoblinaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.hobgoblinaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Hobgoblin: Favored Class [aegis]</name>
-					</hobgoblinaegis>
-					<ifritaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.ifritaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Ifrit: Favored Class [aegis]</name>
-					</ifritaegis>
-					<koboldaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.koboldaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Kobold: Favored Class [aegis]</name>
-					</koboldaegis>
-					<orcaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.orcaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Orc: Favored Class [aegis]</name>
-					</orcaegis>
-					<ratfolkaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.ratfolkaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Ratfolk: Favored Class [aegis]</name>
-					</ratfolkaegis>
-					<tieflingaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.tieflingaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Tiefling: Favored Class [aegis]</name>
-					</tieflingaegis>
-					<grippliaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.grippliaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Grippli: Favored Class [aegis]</name>
-					</grippliaegis>
-					<nagajiaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.nagajiaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Nagaji: Favored Class [aegis]</name>
-					</nagajiaegis>
-					<svirfneblinaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.svirfneblinaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Svirfneblin: Favored Class [aegis]</name>
-					</svirfneblinaegis>
-					<vanaraaegis>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.favored.vanaraaegis@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Vanara: Favored Class [aegis]</name>
-					</vanaraaegis>
-				</index>
-			</favoredclass>
 			<proficiencies>
 				<name type="string">Proficiencies</name>
 				<index>
@@ -610,13 +562,6 @@
 						</listlink>
 						<name type="string">Simple Weapons</name>
 					</simpleweapons>
-					<aegisweapons>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.proficiencies.aegisweapons@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Aegis</name>
-					</aegisweapons>
 					<lightarmor>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
@@ -711,6 +656,33 @@
 						<name type="string">A</name>
 					</a>
 		</artifacer>
+		<cryptic>
+					<a>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.artifacer.a@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">A</name>
+					</a>
+		</cryptic>
+		<tactician>
+					<a>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.artifacer.a@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">A</name>
+					</a>
+		</tactician>
+		<vitalist>
+					<a>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.artifacer.a@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">A</name>
+					</a>
+		</vitalist>
 		
 	</lists>
 		<item>
