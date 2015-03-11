@@ -1,68 +1,42 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.0" release="1|3.5E:14|CoreRPG:3">
 	<library static="true">
-		<BRP_Races>
-			<name type="string">PFRPG Misc</name>
-			<categoryname type="string">Black Rose Pathfinder</categoryname>
-			<entries>
-				<races>
-					<librarylink type="windowreference">
-						<class>referenceindex</class>
-					</librarylink>
-					<name type="string"><h><b>Current Races</b></h></name>
-				</races>
-				<elan>
-					<librarylink type="windowreference">
-						<class>referenceindex</class>
-						<recordname>lists.elan.basemenu@PFRPG Misc</recordname>
-					</librarylink>
-					<name type="string">Elan</name>
-				</elan>
-				<warforged>
-					<librarylink type="windowreference">
-						<class>referenceindex</class>
-						<recordname>lists.warforged.basemenu@PFRPG Misc</recordname>
-					</librarylink>
-					<name type="string">warforged</name>
-				</warforged>
-			</entries>
-		</BRP_Races>
 		<BRP_Classes>
-			<name type="string">PFRPG Misc</name>
+			<name type="string">PFRPG Misc Classes</name>
 			<categoryname type="string">Black Rose Pathfinder</categoryname>
 			<entries>
 				<aegis>
 					<librarylink type="windowreference">
 						<class>referenceindex</class>
-						<recordname>lists.aegis.basemenu@PFRPG Misc</recordname>
+						<recordname>lists.aegis.basemenu@PFRPG Misc Classes</recordname>
 					</librarylink>
 					<name type="string">Aegis</name>
 				</aegis>
 				<artifacer>
 					<librarylink type="windowreference">
 						<class>referenceindex</class>
-						<recordname>lists.artifacer.basemenu@PFRPG Misc</recordname>
+						<recordname>lists.artifacer.basemenu@PFRPG Misc Classes</recordname>
 					</librarylink>
 					<name type="string">Artifacer</name>
 				</artifacer>
 				<cryptic>
 					<librarylink type="windowreference">
 						<class>referenceindex</class>
-						<recordname>lists.cryptic.basemenu@PFRPG Misc</recordname>
+						<recordname>lists.cryptic.basemenu@PFRPG Misc Classes</recordname>
 					</librarylink>
 					<name type="string">cryptic</name>
 				</cryptic>
 				<tactician>
 					<librarylink type="windowreference">
 						<class>referenceindex</class>
-						<recordname>lists.tactician.basemenu@PFRPG Misc</recordname>
+						<recordname>lists.tactician.basemenu@PFRPG Misc Classes</recordname>
 					</librarylink>
 					<name type="string">Tactician</name>
 				</tactician>
 				<vitalists>
 					<librarylink type="windowreference">
 						<class>referenceindex</class>
-						<recordname>lists.vitalists.basemenu@PFRPG Misc</recordname>
+						<recordname>lists.vitalists.basemenu@PFRPG Misc Classes</recordname>
 					</librarylink>
 					<name type="string">Vitalists</name>
 				</vitalists>
@@ -71,295 +45,272 @@
 	</library>
 	
 	<reference static="true">
-		<warforged>
-			<warforgedstats>
-				<name type="string">Warforged Stats</name>
-				<type type="string">Racial</type>
+		<proficiencies>
+				<lightarmor>
+					<name type="string">Light</name>
+					<type type="string">Combat</type>
+					<mult type="number">0</mult>
+					<stack type="number">0</stack>
+					<benefit type="formattedtext">
+						<p>You are skilled at wearing light armors. When you wear light armor, the armor check penalty for that armor applies only to Dexterity- and Strength-based skill checks.</p>
+					</benefit>
+					<normal type="formattedtext">
+						<p>A character who is wearing armor with which he is not proficient applies its armor check penalty to attack rolls and to all skill checks that involve moving.</p>
+					</normal>
+				</lightarmor>
+				<mediumarmor>
+					<name type="string">Medium</name>
+					<type type="string">Combat</type>
+					<mult type="number">0</mult>
+					<stack type="number">0</stack>
+					<prerequisites type="string">
+						Light Armor Proficiency.
+					</prerequisites>
+					<benefit type="formattedtext">
+						<p>You are skilled at wearing medium armor. When you wear medium armor, the armor check penalty for that armor applies only to Dexterity- and Strength-based skill checks.</p>
+					</benefit>
+					<normal type="formattedtext">
+						<p>A character who is wearing armor with which he is not proficient applies its armor check penalty to attack rolls and to all skill checks that involve moving.</p>
+					</normal>
+				</mediumarmor>
+				<heavyarmor>
+					<name type="string">Heavy</name>
+					<type type="string">Combat</type>
+					<mult type="number">0</mult>
+					<stack type="number">0</stack>
+					<prerequisites type="string">
+						Light Armor Proficiency, Medium Armor Proficiency.
+					</prerequisites>
+					<benefit type="formattedtext">
+						<p>You are skilled at wearing heavy armor. When you wear heavy armor, the armor check penalty for that armor applies only to Dexterity- and Strength-based skill checks.</p>
+					</benefit>
+					<normal type="formattedtext">
+						<p>A character who is wearing armor with which he is not proficient applies its armor check penalty to attack rolls and to all skill checks that involve moving.</p>
+					</normal>
+				</heavyarmor>
+				<regularshields>
+					<name type="string">Shield</name>
+					<type type="string">Combat</type>
+					<mult type="number">0</mult>
+					<stack type="number">0</stack>
+					<benefit type="formattedtext">
+						<p>You are trained in how to properly use a shield. When you use a shield (except a tower shield), the shield's armor check penalty only applies to Strength- and Dexterity-based skills.</p>
+					</benefit>
+					<normal type="formattedtext">
+						<p>When you are using a shield with which you are not proficient, you take the shield's armor check penalty on attack rolls and on all skill checks that involve moving.</p>
+					</normal>
+				</regularshields>
+				<towershields>
+					<name type="string">Tower Shield</name>
+					<type type="string">Combat</type>
+					<mult type="number">0</mult>
+					<stack type="number">0</stack>
+					<prerequisites type="string">
+						Shield Proficiency.
+					</prerequisites>
+					<benefit type="formattedtext">
+						<p>You are trained in how to properly use a tower shield. When you use a tower shield, the shield's armor check penalty only applies to Strength and Dexterity-based skills.</p>
+					</benefit>
+					<normal type="formattedtext">
+						<p>A character using a shield with which he is not proficient takes the shield's armor check penalty on attack rolls and on all skill checks that involve moving, including Ride.</p>
+					</normal>
+				</towershields>
+				<simpleweapons>
+					<name type="string">Simple</name>
+					<type type="string">Combat</type>
+					<mult type="number">0</mult>
+					<stack type="number">0</stack>
+					<benefit type="formattedtext">
+						<p>You are trained in the use of basic weapons. You make attack rolls with simple weapons without penalty.</p>
+					</benefit>
+					<normal type="formattedtext">
+						<p>When using a weapon with which you are not proficient, you take a –4 penalty on attack rolls.</p>
+					</normal>
+				</simpleweapons>
+				<martialweapons>
+					<name type="string">Martial</name>
+					<type type="string">Combat</type>
+					<mult type="number">0</mult>
+					<stack type="number">0</stack>
+					<benefit type="formattedtext">
+						<p>You understand how to use one or more martial weapons in combat. You make attack rolls with all or one selected martial weapon normally.</p>
+					</benefit>
+					<normal type="formattedtext">
+						<p>When using a weapon with which you are not proficient, you take a –4 penalty on attack rolls.</p>
+					</normal>
+				</martialweapons>
+				<favoredweapon>
+					<name type="string">Favored Weapon []</name>
+					<type type="string">Class</type>
+					<mult type="number">0</mult>
+					<stack type="number">0</stack>
+					<benefit type="formattedtext">
+						<p>You are proficient with the favored weapon of your deity.</p>
+					</benefit>
+					<normal type="formattedtext">
+						<p>A character who uses a weapon with which he is not proficient takes a –4 penalty on attack rolls.</p>
+					</normal>
+				</favoredweapon>
+		</proficiencies>
+		<aegis>
+			<astralrepair>
+				<name type="string">Astral Repair (Ps)</name>
+				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p>+2 Constitution, -2 Wisdom, -2 Charisma</p>
+					<p>An aegis is capable of repairing mundane items, restoring 2 hit points of damage to the touched item as a standard action usable at will.</p>
+					<p>If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points.</p>
+					<p>All of the pieces of an object must be present for this ability to function. This ability has no effect on objects that have been warped</p>
+					<p>or otherwise transmuted, but it can still repair damage done to such items.</p>
 				</benefit>
-			</warforgedstats>
-			<warforgedslam>
-				<name type="string">Warforged Slam</name>
-				<type type="string">Racial</type>
+			</astralrepair>
+			<formastralsuit>
+				<name type="string">Form Astral Suit (Su)</name>
+				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p>warforged get a natural slam attack for being a construct, 1d4 damage.</p>
+					<p>Every aegis learns to draw forth ectoplasm and form an astral suit around their form.</p>
+					<p>The aegis can select from three different types when forming his astral suit- skin, armor, or juggernaut.</p>
+					<p>An aegis is always considered to be proficient with his astral suit, even if he does not have the appropriate armor proficiency.</p>
+					<p>The amount of time forming this astral suit takes depends on the type of suit being formed.</p>
+					<p>Different astral suit forms grant different free customizations.</p>
+					<p>These free customizations never count against the aegis's total number of customization points spent on his astral suit.</p>
+					<p></p>
+					<p>The aegis chooses the appearance of his astral suit, although its shape must reflect the selections the aegis has chosen:</p>
+					<p>astral skin would cover the aegis like a psychoactive skin, astral juggernaut would appear to cover the aegis like plate armor, etc.</p>
+					<p></p>
+					<p>An astral suit can be dismissed as a free action.</p>
+					<p></p>
+					<p>An astral suit does not function in areas where psionics do not work, such as a null psionics field.</p>
+					<p>Dismiss ectoplasm can be used against an astral suit; treat the manifester level as the aegis's class level,</p>
+					<p>although the aegis can simply form his astral suit again on his next turn.</p>
 				</benefit>
-			</warforgedslam>
-			<warforgedconstruct>
-				<name type="string">Warforged Construct</name>
-				<type type="string">Racial</type>
+			</formastralsuit>
+			<craftsman>
+				<name type="string">Craftsman</name>
+				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p>A Warforged is considered a Construct with the Living Construct sub-type.</p>
+					<p>Beginning at 2nd level, an aegis gains a +1 bonus to any one Craft skill of his choice.</p>
+					<p>At 6th level and every four levels thereafter, this bonus increases by 1.</p>
 				</benefit>
-			</warforgedconstruct>
-			<warforgedplates>
-				<name type="string">Warforged Plates</name>
-				<type type="string">Racial</type>
+			</craftsman>
+			<damagereduction>
+				<name type="string">Damage Reduction</name>
+				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p>A Warforged is constructed with composite plating and gets a +2 bonus to AC.</p>
+					<p>Starting at 2nd level, when an aegis is wearing his astral suit, he gains damage reduction 2/-,</p>
+					<p>regardless of what type of astral suit he is wearing.</p>
+					<p>At 5th level and every three levels thereafter, this damage reduction improves by 1.</p>
 				</benefit>
-			</warforgedplates>
-			<warforgedadamantinebody>
-				<name type="string">Warforged Adamantine Body</name>
-				<type type="string">Racial Feat</type>
+			</damagereduction>
+			<invigoratingsuit>
+				<name type="string">Invigorating Suit (Su)</name>
+				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p>Prerequisites: Warforged, 1st level only.</p>
-					<p>Benefit: AC increased by +8 and you gain DR 2/Adamantine.</p>
-					<p>However, your base speed is decreased to +20 feet.</p>
+					<p>An aegis of at least 3rd level wearing his astral suit gains a +4 bonus on the following checks and saves:</p>
+					<p>Swim checks made to resist nonlethal damage from exhaustion;</p>
+					<p>Constitution checks made to continue running;</p>
+					<p>Constitution checks made to avoid nonlethal damage from a forced march;</p>
+					<p>Constitution checks made to hold breath;</p>
+					<p>Constitution checks made to avoid nonlethal damage from starvation or thirst;</p>
+					<p>Fortitude saves made to avoid nonlethal damage from hot or cold environments;</p>
+					<p>and Fortitude saves made to resist damage from suffocation.</p>
 				</benefit>
-			</warforgedadamantinebody>
-			<warforgedmithralbody>
-				<name type="string">Warforged Adamantine Body</name>
-				<type type="string">Racial Feat</type>
+			</invigoratingsuit>
+			<reconfigure>
+				<name type="string">Reconfigure</name>
+				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p>Prerequisites: Warforged, 1st level only.</p>
-					<p>Benefit: AC increased by +5 </p>
+					<p>Starting at 3rd level, an aegis can reconfigure up to his Intelligence modifier in customization points on his astral suit once per day as a standard action.</p>
+					<p>Every two levels thereafter, he can use this ability an additional time per day.</p>
 				</benefit>
-			</warforgedmithralbody>
-		</warforged>
-		<elan>
-			<elanstats>
-				<name type="string">Elan Stats</name>
-				<type type="string">Racial</type>
+			</reconfigure>
+			<augmentsuit>
+				<name type="string">Augment Suit (Su)</name>
+				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p>Elans gain a +2 bonus to one ability score chosen at creation to represent their varied nature.</p>
+					<p>An aegis learns how to infuse his astral suit with his psionic power, augmenting the capacity of his suit.</p>
+					<p>Beginning at 4th level, the aegis may spend up to one power point per four class levels to customize his Astral Suit,</p>
+					<p>gaining one temporary customization point for each power point spent.</p>
+					<p></p>
+					<p>This ability, activated as a standard action, lasts for a number of rounds equal to the aegis' Intelligence modifier.</p>
+					<p></p>
+					<p>Activating this ability again, while already in use, immediately causes the previous duration to end.</p>
+					<p></p>
+					<p>An aegis may end the duration as a free action at any time.</p>
 				</benefit>
-			</elanstats>
-			<elanblood>
-				<name type="string">Elan Blood</name>
-				<type type="string">Racial</type>
+			</augmentsuit>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p>Aberrant Blood: Elans are of the humanoid (aberrant) subtype.</p>
+					<p></p>
 				</benefit>
-			</elanblood>
-			<naturallypsionic>
-				<name type="string">Naturally Psionic</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Elans gain the Wild Talent feat as a bonus feat at 1st level. If an elan takes levels in a psionic class, they instead gains the Psionic Talent feat.</p>
-				</benefit>
-			</naturallypsionic>
-			<elanresistance>
-				<name type="string">Elan Resistance</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Resistance (Su): Elans can use psionic energy to increase their resistance to various forms of attack.</p>
-					<p>As an immediate action, an elan can spend 1 power point to gain a +4 racial bonus on saving throws until the beginning of her next action.</p>
-				</benefit>
-			</elanresistance>
-			<elanresilience>
-				<name type="string">Elan Resilience</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Resilience (Su): When an elan takes damage, he can spend power points to reduce its severity.</p>
-					<p>As an immediate action, he can reduce the damage he is about to take by 2 hit points for every 1 power point he spends.</p>
-				</benefit>
-			</elanresilience>
-			<elanrepletion>
-				<name type="string">Elan Repletion</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formattedtext">
-					<p>Repletion (Su): An elan can sustain his body without need of food or water. If he spends 1 power point, an elan does not need to eat or drink for 24 hours.</p>
-				</benefit>
-			</elanrepletion>
-			<elanpsionicaptitude>
-				<name type="string">Elan Psionic Aptitude</name>
-				<type type="string">Racial</type>
-				<mult type="number">0</mult>
-				<stack type="number">0</stack>
-				<benefit type="formatedtext">
-					<p>Psionic Aptitude: When an elan takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</p>
-				</benefit>
-			</elanpsionicaptitude>
-		</elan>
-		<artifacer>
-			<artifacerworkbook>
-				<name type="string">Artifacer Workbook</name><isidentified type="number">1</isidentified>
-				<cost type="string">200 gp</cost>
-				<weight type="number">2</weight>
-				<type type="string">Item</type>
-				<subtype type="string">Tools and Skill Kits</subtype>
-				<description type="formattedtext">
-					<p>An artifacer is proficient with making items of magic and temporary items through weird science from any branch of magic.</p>
-					<list>
-						<li>An artifacer workbook contains the spells of domain or arcane that the artifacer knows.</li>
-						<li>an artifacer will need 1 workbook for each </li>
-						<li>When used as a reference, an artifacer workbook grants:</li>
-						<li>+2 bonus on a craft checks.</li>
-						<li>weird science inventions require 1 spell level less time to create.</li>
-					</list>
-				</description>
-			</artifacerworkbook>
-			<rodofartifacermight>
-				<name type="string">Rod of Artifacer Might</name><isidentified type="number">1</isidentified>
-				<description type="formattedtext">
-					<p>This artifacer version of the more famous rod of lordly might has no spell-like powers; however, when wielded by an artifacer, it increases all AC, attack roll, CMD, CMB, and saving throw bonuses from a artifacer's class traits by +1. The rod shares the mundane powers of a rod of lordly might, but its magical weapon forms are tailored to an Artifacers' preferences.</p>
-					<list>
-						<li>In its normal form, the rod can be used as a +1 returning light mace.</li>
-						<li>When button 1 is pushed, the rod becomes a +3 longspear.</li>
-						<li>When button 2 is pushed, the rod becomes a +4 heavy mace.</li>
-						<li>When button 3 is pushed, the rod becomes a +2 light crossbow or +2 heavy crossbow.</li>
-					</list>
-				</description>
-				<aura type="string">strong transmutation</aura>
-				<cl type="number">19</cl>
-				<prerequisites type="string">Craft Magic Arms and Armor, Craft Rod, bull's strength, telekinesis, creator must be an artifacer</prerequisites>
-				<cost type="string">80,000 gp</cost>
-				<type type="string">Item</type>
-				<subtype type="string">Magical Rod</subtype>
-			</rodofartifacermight>
-		</artifacer>
+			</a>
+		</aegis>
 		
+		<item>
+			<artifacer>
+				<artifacerworkbook>
+					<name type="string">Artifacer Workbook</name><isidentified type="number">1</isidentified>
+					<cost type="string">200 gp</cost>
+					<weight type="number">2</weight>
+					<type type="string">Item</type>
+					<subtype type="string">Tools and Skill Kits</subtype>
+					<description type="formattedtext">
+						<p>An artifacer is proficient with making items of magic and temporary items through weird science from any branch of magic.</p>
+						<list>
+							<li>An artifacer workbook contains the spells of domain or arcane that the artifacer knows.</li>
+							<li>an artifacer will need 1 workbook for each </li>
+							<li>When used as a reference, an artifacer workbook grants:</li>
+							<li>+2 bonus on a craft checks.</li>
+							<li>weird science inventions require 1 spell level less time to create.</li>
+						</list>
+					</description>
+				</artifacerworkbook>
+				<rodofartifacermight>
+					<name type="string">Rod of Artifacer Might</name><isidentified type="number">1</isidentified>
+					<description type="formattedtext">
+						<p>This artifacer version of the more famous rod of lordly might has no spell-like powers; however, when wielded by an artifacer, it increases all AC, attack roll, CMD, CMB, and saving throw bonuses from a artifacer's class traits by +1. The rod shares the mundane powers of a rod of lordly might, but its magical weapon forms are tailored to an Artifacers' preferences.</p>
+						<list>
+							<li>In its normal form, the rod can be used as a +1 returning light mace.</li>
+							<li>When button 1 is pushed, the rod becomes a +3 longspear.</li>
+							<li>When button 2 is pushed, the rod becomes a +4 heavy mace.</li>
+							<li>When button 3 is pushed, the rod becomes a +2 light crossbow or +2 heavy crossbow.</li>
+						</list>
+					</description>
+					<aura type="string">strong transmutation</aura>
+					<cl type="number">19</cl>
+					<prerequisites type="string">Craft Magic Arms and Armor, Craft Rod, bull's strength, telekinesis, creator must be an artifacer</prerequisites>
+					<cost type="string">80,000 gp</cost>
+					<type type="string">Item</type>
+					<subtype type="string">Magical Rod</subtype>
+				</rodofartifacermight>
+			</artifacer>
+		</item>
 	</reference>
 	
 	<lists static="true">
-		<warforged>
-			<basemenu>
-				<name type="string">Warforged</name>
-				<index>
-					<core>
-						<listlink type="windowreference">
-							<class>referenceindex</class>
-							<recordname>lists.wargorged.core@PFRPG Misc</recordname>
-						</listlink>
-						<name type="string">Core wargorged</name>
-					</core>
-					<feats>
-						<listlink type="windowreference">
-							<class>referenceindex</class>
-							<recordname>lists.wargorged.feats@PFRPG Misc</recordname>
-						</listlink>
-						<name type="string">Racial Feats</name>
-					</feats>
-				</index>
-			</basemenu>
-			<core>
-				<name type="string">Core wargorged</name>
-				<index>
-					<stats>
-						<listlink type="windowreference">
-							<class>referencetextwide</class>
-							<recordname>lists.wargorged.statblock@PFRPG Misc</recordname>
-						</listlink>
-						<name type="string">Core Abilities</name>
-					</stats>
-					<wargorgedweapons>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.wargorged.wargorgedweapons@PFRPG Misc</recordname>
-						</listlink>
-						<name type="string">wargorged Weapon Proficiencies</name>
-					</wargorgedweapons>
-				</index>
-			</core>
-			<statblock>
-				<name type="string">Core wargorged</name>
-				<text type="formattedtext">
-					<list>
-						<li>+2 Constitution, -2 Wisdom, -2 Charisma</li>
-						<li>Construct (Living Construct)</li>
-						<li>Medium</li>
-						<li>Warforged base land speed is 30 feet.</li>
-						<li>Composite Plating +2 to AC.</li>
-						<li>Slam 1d4.</li>
-						<li>Automatic Languages: Common.</li>
-						<li>Favored Class: Fighter.</li>
-					</list>
-				</text>
-			</statblock>
-			<feats>
-				<name type="string">Racial Feats</name>
-				<index>
-					<warforgedadamantinebody>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.wargorged.warforgedadamantinebody@PFRPG Misc</recordname>
-						</listlink>
-						<name type="string">Adamantine Body</name>
-					</warforgedadamantinebody>
-					<warforgedmithralbody>
-						<listlink type="windowreference">
-							<class>referencefeat</class>
-							<recordname>reference.wargorged.warforgedmithralbody@PFRPG Misc</recordname>
-						</listlink>
-						<name type="string">Mithral Body</name>
-					</warforgedmithralbody>
-				</index>
-			</feats>
-		</warforged>
-		<elan>
-			<basemenu>
-				<name type="string">Elan</name>
-				<index>
-					<core>
-						<listlink type="windowreference">
-							<class>referenceindex</class>
-							<recordname>lists.elan.core@PFRPG Misc</recordname>
-						</listlink>
-						<name type="string">Core Elan</name>
-					</core>
-				</index>
-			</basemenu>
-			<core>
-				<name type="string">Core elan</name>
-				<index>
-					<stats>
-						<listlink type="windowreference">
-							<class>referencetextwide</class>
-							<recordname>lists.elan.statblock@PFRPG Misc</recordname>
-						</listlink>
-						<name type="string">Core Abilities</name>
-					</stats>
-				</index>
-			</core>
-			<statblock>
-				<name type="string">Core elan</name>
-				<text type="formattedtext">
-					<list>
-						<li>Elans gain a +2 bonus to one ability score chosen at creation to represent their varied nature.</li>
-						<li>Medium: Elan are Medium creatures and have no bonuses or penalties due to their size.</li>
-						<li>Normal Speed: Elans have a base speed of 30 feet.</li>
-						<li>Aberrant Nature: Although human in appearance, elans suffer from a nature slightly off from the rest of the non-elan society. They suffer a -1 penalty to Charisma-based skill checks when dealing with non-elans.</li>
-						<li>Naturally Psionic: Elans gain the Wild Talent feat as a bonus feat at 1st level. If an elan takes levels in a psionic class, she instead gains the Psionic Talent feat.</li>
-						<li>Resistance (Su): Elans can use psionic energy to increase their resistance to various forms of attack. As an immediate action, an elan can spend 1 power point to gain a +4 racial bonus on saving throws until the beginning of her next action.</li>
-						<li>Resilience (Su): When an elan takes damage, he can spend power points to reduce its severity. As an immediate action, he can reduce the damage he is about to take by 2 hit points for every 1 power point he spends.</li>
-						<li>Repletion (Su): An elan can sustain his body without need of food or water. If he spends 1 power point, an elan does not need to eat or drink for 24 hours.</li>
-						<li>Psionic Aptitude: When an elan takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.</li>
-						<li>Languages: Elans begin play speaking Common. Elans with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).</li>
-					</list>
-				</text>
-			</statblock>
-		</elan>
+	
 	</lists>
 		<item>
 			<librarylink type="windowreference">
 				<class>referenceindexsorted</class>
-				<recordname>lists.item@PFRPG Misc</recordname>
+				<recordname>lists.item@PFRPG Misc Classes</recordname>
 			</librarylink>
 			<name type="string">Items</name>
 		</item>

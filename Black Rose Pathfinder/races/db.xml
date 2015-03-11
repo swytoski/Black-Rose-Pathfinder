@@ -2,7 +2,7 @@
 <root version="3.0" release="1|3.5E:14|CoreRPG:3">
 	<library static="true">
 		<BRP_Races>
-			<name type="string">PFRPG Misc Races Races</name>
+			<name type="string">PFRPG Misc Races</name>
 			<categoryname type="string">Black Rose Pathfinder</categoryname>
 			<entries>
 				<elan>
