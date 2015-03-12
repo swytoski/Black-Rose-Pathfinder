@@ -303,89 +303,497 @@
 					<p>The artificer gains a +2 bonus to all Craft checks. This bonus raises to +4 at 6th level, and +6 at 10th level.</p>
 				</benefit>
 			</elbowgrease>
-			<a>
-				<name type="string">a</name>
+			<jackofalltrades>
+				<name type="string">Jack of All Trades</name>
 				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p></p>
+					<p>The artificer has picked up a smattering of even the most obscure skills. They may use any skill untrained.</p>
 				</benefit>
-			</a>
-			<a>
-				<name type="string">a</name>
+			</jackofalltrades>
+			<weirdscience>
+				<name type="string">Weird Science</name>
 				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
+					<p>An artificer is not a spellcaster, but instead possesses the ability to imbue items with magical power.</p>
+					<p>This weird science allows the artificer to create devices that combine the effects of one or more spells, either arcane or divine.</p>
 					<p></p>
+					<p>An artificer has access to both arcane and divine spell lists, but only up to 4th level.</p>
+					<p>Any number of spells can be combined into a single device. Spell statistics (casting times, etc.) remain unchanged,</p>
+					<p>although no components are required and the artificer is considered the "caster" for the purposes of CL.</p>
+					<p></p>
+					<p>Weird science devices must be invented in advance, however -- they cannot be created on the fly.</p>
+					<p>The time to create such devices is 4 hours per spell level used. As such, an artificer usually has a fixed collection of</p>
+					<p>regularly-carried devices.</p>
+					<p></p>
+					<p>Weird science devices are temporary and unreliable. They are able to be used reliably a number of times per day equal to</p>
+					<p>1 plus half the class level of the artificer who built the device (rounding up, naturally).</p>
+					<p>The device may be used by anyone -- but if used by someone other than the artificer who built it, it requires a Use Magic Device</p>
+					<p>roll at DC 15 to activate (a failed roll indicates that the device fails to activate for that user, and a roll of 1 means that the</p>
+					<p>device breaks down for good).</p>
+					<p></p>
+					<p>If the device is used more times than allowed (by anyone), it requires a Use Magic Device skill check with a DC equal starting at</p>
+					<p>20 and rising by 1 every additional time the device is used. A failed roll means that the device breaks down and may not be used</p>
+					<p>again (the artificer will have to build another).</p>
+					<p></p>
+					<p>Combining multiple magical effects into a single device means that both effects function simultaneously upon activation</p>
+					<p>(effectively casting two or more spells at once) -- but such devices are even more unstable than usual:</p>
+					<p>The Use Magic Device check for extra activations starts at DC 25 + the number of effects used,</p>
+					<p>and goes up for each additional usage by the number of effects used.</p>
 				</benefit>
-			</a>
-			<a>
-				<name type="string">a</name>
+			</weirdscience>
+			<itemcreation>
+				<name type="string">Item Creation</name>
 				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
+					<p>At second level, an artificer's invention ability expands to include the creation of true magic items,</p>
+					<p>even if the artificer does not have access to the prerequisite spells. The artificer must make a successful Craft check (DC 20 + caster level)</p>
+					<p>to emulate each spell normally required to create the item. This ability does not stack with the Master Craftsman feat.</p>
 					<p></p>
+					<p>The magic item creation guidelines are used, and for the purpose of emulating prerequisites, the artificer's effective CL</p>
+					<p>equals his class level +2. However, if the item duplicates a spell effect, the statistics of that effect use the artificer's actual level.</p>
 				</benefit>
-			</a>
-			<a>
-				<name type="string">a</name>
+			</itemcreation>
+			<bonusfeats>
+				<name type="string">Bonus Feats</name>
 				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
+					<p>An artificer gains every item creation feat as a bonus feat.</p>
+					<p>He gets Scribe Scroll as a bonus feat at 2nd level,</p>
+					<p>Brew Potion at 3rd level,</p>
+					<p>Craft Wondrous Item at 4th level,</p>
+					<p>Craft Magic Arms and Armor at 5th level,</p>
+					<p>Craft Wand at 7th level,</p>
+					<p>Craft Rod at 9th level,</p>
+					<p>Craft Staff at 12th level,</p>
+					<p>and Forge Ring at 14th level.</p>
 					<p></p>
+					<p>In addition, an artificer gains a bonus feat at 3rd, 8th, 12th, 16th and 19th level.</p>
+					<p>For each of these bonus feats, the artificer must choose a feat from the following list:</p>
+					<p>Empower Spell, Enlarge Spell, Extend Spell, Heighten Spell, Magical Aptitude, Maximize Spell,</p>
+					<p>Quicken Spell, Silent Spell, Skill Focus, Still Spell, Widen Spell.</p>
 				</benefit>
-			</a>
-			<a>
-				<name type="string">a</name>
+			</bonusfeats>
+			<salvage>
+				<name type="string">Salvage</name>
 				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p></p>
+					<p>At 5th level, an artificer gains the ability to salvage the gold piece value from a magic item and use those funds to create</p>
+					<p>another magic item. The artificer must spend a day with the item, and he must also have the appropriate item creation feat for the</p>
+					<p>item he is salvaging. After one day, the item is destroyed and the artificer gains the gp value it took to create the item.</p>
+					<p>This value is cannot be spent as gold, it may only be used in the creation of another magic item.</p>
 				</benefit>
-			</a>
-			<a>
-				<name type="string">a</name>
+			</salvage>
+			<metamagicscience>
+				<name type="string">Metamagic Science</name>
 				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p></p>
+					<p>At 6th level, an artificer gains the ability to apply a metamagic feat he knows to a spell trigger item (such as a wand).</p>
+					<p>He must have the appropriate item creation feat for the spell trigger item he is using. Using this ability expends additional</p>
+					<p>charges from the item equal to the number of effective spell levels the metamagic feat would add to a spell.</p>
 				</benefit>
-			</a>
-			<a>
-				<name type="string">a</name>
+			</metamagicscience>
+			<improvedmetamagicscience>
+				<name type="string">Improved Metamagic Science</name>
 				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p></p>
+					<p>At 11th level, an artificer gains the ability to apply a metamagic feat he knows to a spell completion item (a scroll, for example).</p>
+					<p>He must have the appropriate item creation feat for the spell completion item he is using. The DC for the Use Magic Device check is</p>
+					<p>equal to 20 + (3 times the modified level of the spell).</p>
 				</benefit>
-			</a>
-			<a>
-				<name type="string">a</name>
+			</improvedmetamagicscience>
+			<improvedjackofalltrades>
+				<name type="string">Improved Jack of All Trades</name>
 				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p></p>
+					<p>All skills are now considered class skills for the artificer, receiving the usual +3 bonus given to class skill checks.</p>
 				</benefit>
-			</a>
-			<a>
-				<name type="string">a</name>
+			</improvedjackofalltrades>
+			<exemplar>
+				<name type="string">Exemplar</name>
 				<type type="string">Class</type>
 				<mult type="number">0</mult>
 				<stack type="number">0</stack>
 				<benefit type="formattedtext">
-					<p></p>
+					<p>The artificer's Jack of All Trades ability reaches its zenith: The artificer may now add half his class level to all untrained skill checks.</p>
 				</benefit>
-			</a>
+			</exemplar>
 		</artifacer>
 		<cryptic>
+			<patterndesigns>
+				<name type="string">Pattern Designs (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>Unlike normal manifesters, a cryptic manipulates the world around her by creating tattoos and patterns that alters reality in different</p>
+					<p>ways. Cryptic powers show up on the cryptic's body in the form of tattoos. The cryptic's known powers can be identified via Spellcraft</p>
+					<p>checks with a DC equal to 10 + double the power's level. These tattoos do not count against the number of psionic tattoos that the cryptic</p>
+					<p>can safely wear.</p>
+					<p></p>
+					<p>When a cryptic manifests one of her powers, it creates a visual pattern of energy during the action taken to manifest the pattern.</p>
+					<p>While the cryptic's powers have the normal displays for psionic powers - auditory, mental, and the like - this visual pattern unique to</p>
+					<p>the cryptic cannot be suppressed as normal displays can be suppressed.</p>
+				</benefit>
+			</patterndesigns>
+			<altereddefense>
+				<name type="string">Altered Defense (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A cryptic learns early on to modify the patterns around her to grant her protection as a swift action.</p>
+					<p>The cryptic chooses from the options below and may only have one such effect active at any given time.</p>
+					<p>The cryptic can use this ability for a number of rounds per day equal to 4 + her Intelligence modifier.</p>
+					<p>The cryptic can maintain this ability as long as she wants as long as she has rounds available, or dismiss it at any time as a free action.</p>
+					<p></p>
+					<p>    Absorb: The cryptic gains DR 1/-.</p>
+					<p></p>
+ 					<p>    Deflect: The cryptic gains a +1 dodge bonus to his AC.</p>
+					<p></p>
+					<p>    Retaliate: The cryptic gains a +1 bonus on his attack rolls against any opponent that successfully hit him since his last turn.</p>
+					<p></p>
+					<p>Every four cryptic levels thereafter, this bonus increases by 1 (to 2 at 5th level, 3 at 9th level, 4 at 13th level, and 5 at 17th level).</p>
+				</benefit>
+			</altereddefense>
+			<disruptpattern>
+				<name type="string">Disrupt Pattern (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>All cryptics are able to disrupt the patterns they can perceive, although the potency of this disruption is based on the cryptic's focus.</p>
+					<p>When a cryptic gains psionic focus, she selects one creature type as her active type (she does not need to select a subtype).</p>
+					<p>As a standard action, the cryptic can make a ranged touch attack with a range of 30 feet, firing a ray of black energy at the target.</p>
+					<p>If the attack is successful, the cryptic deals 1d6 points of damage + additional damage equal to the cryptic's Intelligence modifier.</p>
+					<p>This attack deals half damage if the target's type is not of the cryptic's active type. Like some other rays, if the attack roll of this ability would</p>
+					<p>indicate a critical hit, the damage is doubled. This ability can only be used once per round, even if an item or other effect would duplicate it.</p>
+				</benefit>
+			</disruptpattern>
+			<lesserinsights>
+				<name type="string">Lesser Insights</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>Cryptics learn minor powers they can use at will to aid them in a variety of ways. The cryptic gains 2 talents from the cryptic talent list.</p>
+				</benefit>
+			</lesserinsights>
+			<scribetattoo>
+				<name type="string">Scribe Tattoo</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>At 1st level, cryptics receive Scribe Tattoo as a bonus feat. A cryptic can scribe tattoos of any power she knows (up to 3rd level).</p>
+					<p>The power must be one that can be made into a tattoo. The cryptic does not need to meet the prerequisites for this feat.</p>
+				</benefit>
+			</scribetattoo>
+			<trapfinding>
+				<name type="string">Trapfinding</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A cryptic adds 1/2 her level to Perception skill checks made to locate traps and to Disable Device skill checks (minimum +1).</p>
+					<p>A cryptic can use Disable Device to disarm magic traps.</p>
+				</benefit>
+			</trapfinding>
+			<trapmaker>
+				<name type="string">Trapmaker</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A cryptic gains a competence bonus on Craft (traps) checks equal to her class level.</p>
+				</benefit>
+			</trapmaker>
+			<hiddenpattern>
+				<name type="string">Hidden Pattern (Ex)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A cryptic learns how to recognize patterns in light and sound around her that can help her to mask her presence.</p>
+					<p>At 2nd level, a cryptic gains a +2 competence bonus on all Stealth checks. This bonus increases to +4 at 5th level, and then again to +6 at 8th level.</p>
+					<p>At 10th level, as long as the cryptic maintains psionic focus, she can use the Stealth skill to hide, even while being observed.</p>
+				</benefit>
+			</hiddenpattern>
+			<insight>
+				<name type="string">Insight (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>Starting at 2nd level, and then again every 2 levels thereafter (up to 18th level),</p>
+					<p>a cryptic learns a unique ability related to her perception of the patterns in the world around her.</p>
+				</benefit>
+			</insight>
+			<enhanceddisruption>
+				<name type="string">Enhanced Disruption</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>At 3rd level and every two levels thereafter, the cryptic's disrupt pattern deals an additional 1d6 points of damage.</p>
+					<p>This additional damage is not multiplied on a critical hit or by using feats such as Vital Strike, but it is halved if the creature</p>
+					<p>struck is not of the cryptic's active creature type.</p>
+				</benefit>
+			</enhanceddisruption>
+			<evasion>
+				<name type="string">Evasion (Ex)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>At 3rd level and higher, a cryptic can avoid even magical and unusual attacks with great agility.</p>
+					<p>If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage.</p>
+					<p>Evasion can be used only if the cryptic is wearing light armor or no armor. A helpless cryptic does not gain the benefit of evasion.</p>
+				</benefit>
+			</evasion>
+			<rapiddefense>
+				<name type="string">Rapid Defense (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>Starting at 4th level, a cryptic can use her altered defense ability as a free action by expending her psionic focus.</p>
+					<p>The cryptic may even do this when it is not her turn.</p>
+				</benefit>
+			</rapiddefense>
+			<swifttrapper>
+				<name type="string">Swift Trapper (Ex)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>At 6th level, a cryptic can create traps with astounding speed. It takes a cryptic half the normal amount of time to create traps.</p>
+				</benefit>
+			</swifttrapper>
+			<enduringdefense>
+				<name type="string">Enduring Defense</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A cryptic of 14th level can choose any option from the altered defense ability and always be under that effect.</p>
+					<p>The cryptic can still change the effect as a swift action, but she is no longer limited to how many rounds per day she can have Altered Defense active.</p>
+				</benefit>
+			</enduringdefense>
+			<unchangingpattern>
+				<name type="string">Unchanging Pattern</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>At 18th level, the cryptic gains power resistance equal to 12 + her class level.</p>
+				</benefit>
+			</unchangingpattern>
+			<supremeinsight>
+				<name type="string">Supreme Insight (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>At 20th level, the cryptic makes astounding leaps of insight. She immediately learns two normal insights, but also learns a third insight</p>
+					<p>chosen from the list to the right, representing a truly astounding breakthrough in understanding how patterns work. For many cryptics,</p>
+					<p>the possibility of this sort of discoveries is the driving force for their studying of patterns.</p>
+				</benefit>
+			</supremeinsight>
+		</cryptic>
+		<tactician>
+			<collective>
+				<name type="string">Collective (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A tactician learns to use psionic power to connect willing minds through an internal network that strengthens their psychic bonds.</p>
+					<p>As a standard action, a tactician can join any number of willing targets into his collective (up to his limit, see below).</p>
+					<p>The tactician must have line of sight to each target, each target must have a Wisdom score of at least 1, and all targets must be within</p>
+					<p>Medium range (100 ft. + 10 ft. per class level). The collective can contain up to his key ability modifier or half his tactician level, whichever is higher.</p>
+					<p>The tactician is always considered a member of his own collective, and does not count against this limit.</p>
+					<p></p>
+					<p>The tactician can choose to remove a member as a free action on his turn, and any member can voluntarily leave the collective as a free action on their turn.</p>
+					<p>Any member whose Wisdom drops to zero or who moves out of range of the collective is automatically removed.</p>
+					<p>If a member enters a null psionics field, the connection to the collective is suppressed until the member leaves the field.</p>
+					<p>A member who leaves the collective for any reason immediately loses any and all benefits they may have gained from being a member.</p>
+					<p>A tactician is aware of the status of his collective and can, roughly, sense the presence of each member, although beyond telling if such a creature</p>
+					<p>is still a member, this has no mechanical benefit until higher levels (see telepathy below).</p>
+					<p></p>
+					<p>A tactician can manifest certain powers through his collective. If a tactician power specifies one or more willing targets (or is harmless) and has a</p>
+					<p>range greater than personal, he can manifest this power on a member of his collective regardless of the range of the actual power. All other non-range</p>
+					<p>restrictions still apply. He may manifest any power with the Network Descriptor this way, regardless of their actual ranges or targets.</p>
+					<p>If he is capable of manifesting powers or casting spells from a different class (as is the case for a multiclass tactician), any compatible spell or power</p>
+					<p>with a range greater than touch can also be used through the collective.</p>
+					<p></p>
+					<p>If a member of the collective dies, the member is removed from the collective and the tactician must make a Fortitude save (DC 15) or lose 1 power point</p>
+					<p>for every Hit Die of the fallen member or be sickened for an equal number of rounds.</p>
+					<p></p>
+					<p>At 15th level, a tactician's collective range is limitless on the same plane as the tactician</p>
+					<p></p>
+					<p>At 19th level, a tactician's range reaches even across other planes and dimensions.</p>
+				</benefit>
+			</collective>
+			<coordinatedstrike>
+				<name type="string">Coordinated Strike (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>The tacician is able to direct his allies to coordinating their attacks upon a single target to devastating effect. As a swift action,</p>
+					<p>the tactician can declare one target within his line of sight as the primary foe. All members of the tactician's collective, including the</p>
+					<p>tactician himself gain a +1 insight bonus to attacks against the primary foe until the beginning of the tactician's next turn.</p>
+					<p>At 5th level and every four levels thereafter, this bonus increases by 1.</p>
+					<p></p>
+					<p>This ability may be used a number of times per day equal to 3 + the tacticians Intelligence modifier.</p>
+				</benefit>
+			</coordinatedstrike>
+			<lesserstrategies>
+				<name type="string">Lesser Strategies</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>Tacticians learn minor powers they can use at will to aid them in coordination and tactics. The tactician gains 3 talents from the tactician talent list.</p>
+				</benefit>
+			</lesserstrategies>
+			<spiritofmany>
+				<name type="string">Spirit of Many (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A tactician of 2nd level gains special abilities when manifesting powers with the Network descriptor.</p>
+					<p>He can manifest these powers on any member of his collective, even if they are out of the power's range or would normally be immune to the power.</p>
+					<p>Whenever a tactician manifests a power with the Network descriptor targeting only members of his collective, the power loses the</p>
+					<p>mind-affecting descriptor (if it had it) and is treated as a supernatural ability (bypassing Power Resistance and becoming immune to dispel attempts),</p>
+					<p>although it still provokes an attacks of opportunity to manifest as normal. Network powers manifest only on members of the collective never allow</p>
+					<p>saving throws - their saving throw entry becomes "None," although if the power specifies a subsequent saving throw, subjects attempt those saves normally.</p>
+					<p>The tactician also adds the following augment to all powers with the network descriptor:</p>
+					<p></p>
+					<p>Augment: For every additional power point you spent, you can choose an additional target, so long as the target is a member of your collective.</p>
+				</benefit>
+			</spiritofmany>
+			<telepathy>
+				<name type="string">Telepathy (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>When a tactician reaches 3rd level, all willing members of his collective (including the tactician himself) can communicate with each</p>
+					<p>other telepathically, even if they do not share a common language. Psionic creatures who are willing members in a tactician's collective</p>
+					<p>(including the tactician himself) may manifest unknown powers known by another willing psionic creature in the collective as if they were</p>
+					<p>making physical contact.</p>
+				</benefit>
+			</telepathy>
+			<strategy>
+				<name type="string">Strategy (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>At 4th level, and every three tactician levels thereafter, a tactician learns a new tactical strategy, granting him special abilities in combat.</p>
+					<p>Unless specified otherwise, using a strategy is a swift action that does not provoke attacks of opportunity. Strategies are often orders or suggestions</p>
+					<p>that the tactician issues to members of his collective. A tactician may not direct a strategy at himself unless a strategy specifies otherwise.</p>
+					<p></p>
+					<p>Strategies may be used a number of times per day equal to 3 + the tactician's Charisma modifier.</p>
+					<p></p>
+					<p>The tactician chooses his strategy from the list below.</p>
+					<p></p>
+					<p>Collective Defenses:The tactician is able to harness the sensory information available through his collective to bolster the defenses of members of</p>
+					<p>his collective. For a number of rounds equal to the tactician's Charisma modifier (minimum 1), the tactician and all members of his collective within</p>
+					<p>line of sight of the tactician gain an insight bonus to Armor Class equal to the tactician's Intelligence modifier (minimum 1).</p>
+					<p></p>
+					<p>Coordinated Distraction: The tactician can direct a member of his collective to attack a single enemy, granting the directed member a +1 competence bonus</p>
+					<p>on the attack roll for a number of rounds equal to the tactician's Charisma modifier (minimum 1). If the directed member performs the attack, regardless</p>
+					<p>of where the directed member is in relation to the tactician, the tactician treats the enemy as being flanked and the tactician may make a single melee</p>
+					<p>attack against the targeted enemy as an Immediate action. The tactician may only make one such attack per use of this strategy. Alternatively, the</p>
+					<p>tactician may make the initial attack against the targeted enemy, gaining the +1 flanked, but but using the strategy in this fashion makes it a</p>
+					<p>full-round action instead of a swift action. At 8th level and every four tactician levels thereafter, the competence bonus on the attack roll increases by 1.</p>
+					<p></p>
+					<p>Coordinated Maneuvers:The tactician can sense when opponents have become vulnerable to different kinds of attack and direct his allies to capitalize on</p>
+					<p>these weaknesses, granting members of his collective a +1 insight bonus on one type of combat maneuver attempt, such as bull rushes or repositions, for</p>
+					<p>a number of rounds equaling his Charisma modifier (minimum 1). The tactician chooses the kind of maneuver this benefit applies to when he activates this</p>
+					<p>strategy. At 8th level and every four levels thereafter, the insight bonus increases by 1.</p>
+					<p></p>
+					<p>Directed Assault:The tactician directs a member of his collective to attack a particular target, granting this ally a +1 competence bonus on the attack</p>
+					<p>roll for a number of rounds equal to the tactician's Charisma modifier (minimum 1). If the attack is made, the tactician may immediately make a single</p>
+					<p>attack at any target within range as an immediate action. This attack does not count as an attack action, so does not qualify for special abilities that</p>
+					<p>can be used with an attack action, such as Vital Strike. At 8th level and every four tactical levels thereafter, the competence bonus increases by 1.</p>
+					<p></p>
+					<p>Disruptive Terrain:The tactician charges the terrain around him with psychokinetic energy. Any creature not in the tactician's collective treats the</p>
+					<p>terrain as difficult terrain for a number of rounds equal to the tactician's Charisma modifier (minimum 1). The area of terrain affected is a burst</p>
+					<p>effect centered on the tactician with a range of 5 feet per three tactician levels. The affected area does not change if the tactician moves after using</p>
+					<p>this strategy. Selecting this strategy requires the tactician to be at least 10th level.</p>
+					<p></p>
+					<p>Distracting Gaze:The tactician can target one enemy within 30 feet and make a ranged touch attack against that enemy. If the attack is successful, that</p>
+					<p>enemy is treated as if the tactician was adjacent to him for the purposes of determining if he is flanked for a number of rounds equal to the tactician's</p>
+					<p>Charisma modifier (minimum 1). Treat the direction for flanking as the direction of the tactician. Selecting this strategy requires the tactician to be</p>
+					<p>at least 7th level.</p>
+					<p></p>
+					<p>Focus Attack:The tactician can direct a member of his collective to attack a single enemy. If the directed member performs the attack, all subsequent</p>
+					<p>attacks on that target for the next round by anyone in the collective deal an additional 1d6 points of damage. An individual gains this additional</p>
+					<p>damage on only one successful attack per round, even if they make multiple successful attacks on the targeted enemy. At 8th level and every four</p>
+					<p>tactician levels thereafter, this damage increases by 1d6.</p>
+					<p></p>
+					<p>Guard Target:The tactician directs a member of his collective to guard a specific target (which may be the tactician, but not the directed member),</p>
+					<p>granting the directed member a +1 competence bonus to attack rolls. In addition, the directed member can spend an attack of opportunity to redirect</p>
+					<p>an attack made at the target as if it was made at him, even if the attack itself would not normally have provoked an attack of opportunity. Anytime</p>
+					<p>the directed member redirects an attack in this fashion, the tactician gains a cumulative +1 bonus to his next attack against the source of the</p>
+					<p>redirected attack. This effect lasts a number of rounds equal to the tactician's Charisma modifier (minimum 1). If the directed member would not</p>
+					<p>normally be able to make an attack of opportunity, for example, if they already made one and do not possess the Combat Reflexes feat, they may not</p>
+					<p>redirect attacks. At 8th level and every four tactician levels thereafter, the competence bonus on attack rolls increases by 1.</p>
+					<p></p>
+					<p>Hold Position:The tactician can direct a member of his collective to hold their ground, granting the directed member a +1 dodge bonus to AC and a +1</p>
+					<p>competence bonus to attack rolls for a number of rounds equal to the tactician's Charisma modifier (minimum 1). For each round the directed member</p>
+					<p>does not move from the spot, the tactician may immediately take a free move action on the same round, but must move toward the directed member in as</p>
+					<p>direct a manner as possible. The tactician gains a +1 dodge bonus to his AC during this move. At 8th level and every four tactician levels thereafter,</p>
+					<p>the dodge bonuses and the competence bonus to attack rolls increase by 1.</p>
+					<p></p>
+					<p>Into the Fray:The tactician directs a member of his collective to charge a particular enemy, granting the ally a +1 competence bonus on the damage roll.</p>
+					<p>If the charge is performed, the tactician may charge the same enemy as an immediate action, gaining a +1 competence bonus on the damage roll.</p>
+					<p>At 8th level and every four tactician levels thereafter, the competence bonus increases by 1</p>
+					<p></p>
+					<p>Reposition: The tactician direct each ally in collective to take a 5-foot step as a free action immediately. The tactician may also immediately take a</p>
+					<p>5-foot step. This does not count against the number of 5-foot steps allowed in the tactician's or each ally's turns. If all directed allies takes their</p>
+					<p>5-foot step, the tactician may immediately make a full attack against any target within range and gain a +1 competence bonus on the attack and damage rolls.</p>
+					<p>Selecting this strategy to be at least a 13th level tactician. At 16th level and every four tactician levels thereafter, the competence bonus increases by 1.</p>
+					<p></p>
+					<p>Telempathic Resistance: The tactician shares not only thoughts, but also resilience to members of his collective. For a number of rounds equal to the</p>
+					<p>tactician's Charisma modifier (minimum 1), all members of the tactician's collective gain a +1 insight bonus to saving throws At 8th level and every</p>
+					<p>four tactician levels thereafter, the insight bonus increases by 1.</p>
+				</benefit>
+			</strategy>
+			<improvedshare>
+				<name type="string">Improved Share (Su)</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p>A tactician learns special techniques when manifesting powers with the Shared descriptor. Beginning at 5th level, the tactician may maintain</p>
+					<p>two powers with the Shared descriptor at any time instead of only one. Should he manifest a third power with the Shared descriptor, the tactician</p>
+					<p>can choose which of the maintained Shared powers ends immediately.</p>
+					<p></p>
+					<p>Every six tactician levels thereafter (11th, 17th), the tactician may maintain an additional power with the Shared descriptor before a maintained</p>
+					<p>power with the Shared descriptor expires.</p>
+				</benefit>
+			</improvedshare>
 			<a>
 				<name type="string">a</name>
 				<type type="string">Class</type>
@@ -395,8 +803,33 @@
 					<p></p>
 				</benefit>
 			</a>
-		</cryptic>
-		<tactician>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
 			<a>
 				<name type="string">a</name>
 				<type type="string">Class</type>
@@ -408,6 +841,159 @@
 			</a>
 		</tactician>
 		<vitalist>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
+			<a>
+				<name type="string">a</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+					<p></p>
+				</benefit>
+			</a>
 			<a>
 				<name type="string">a</name>
 				<type type="string">Class</type>
