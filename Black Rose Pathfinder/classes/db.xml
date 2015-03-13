@@ -33,17 +33,16 @@
 					</librarylink>
 					<name type="string">Tactician</name>
 				</tactician>
-				<vitalists>
+				<vitalist>
 					<librarylink type="windowreference">
 						<class>referenceindex</class>
-						<recordname>lists.vitalists.basemenu@PFRPG Misc Classes</recordname>
+						<recordname>lists.vitalist.basemenu@PFRPG Misc Classes</recordname>
 					</librarylink>
-					<name type="string">Vitalists</name>
-				</vitalists>
+					<name type="string">Vitalist</name>
+				</vitalist>
 			</entries>
 		</BRP_Classes>
 	</library>
-	
 	<reference static="true">
 		<proficiencies>
 				<lightarmor>
@@ -1120,10 +1119,163 @@
 				<benefit type="formattedtext">
 					<p>All vitalists must choose a particular method that encompasses their focus in the skills they develop. As they gain in level,</p>
 					<p>their method determines the abilities they gain.</p>
+					<p></p>
+					<p>Presented below are several options for vitalist methods. Additional methods may be available at your GM's discretion.</p>
+					<p></p>
+					<p>Guardian Method</p>
+					<p></p>
+					<p>A guardian vitalist focuses his skill on keeping his allies from suffering wounds. He develops psionic abilities that deflect, absorb, and</p>
+					<p>reflect damage proactively, rather than healing wounds after they are suffered.</p>
+					<p></p>
+					<p>Guardian Power</p>
+					<p></p>
+					<p>A guardian vitalist adds biofeedback to his list of powers known. This does not count against his number of powers known.</p>
+					<p>Guardian Knacks</p>
+					<p></p>
+					<p>A guardian can select one of the knacks below as his method knack.</p>
+					<p></p>
+					<p>    Toughen: The guardian grants one member of his collective a +1 natural armor bonus for 1 minute.</p>
+					<p>    Resistant: The guardian grants one member of his collective a +1 resistance bonus on saves for 1 minute.</p>
+					<p></p>
+					<p>Guardian's Touch</p>
+					<p></p>
+					<p>A guardian vitalist of 2nd level who utilizes transfer wounds grants the target a number of temporary hit points equal to his class level.</p>
+					<p>These temporary hit points last a number of rounds equal to the vitalist's Wisdom modifier (minimum 1) and do not stack with any other temporary</p>
+					<p>hit points.</p>
+					<p></p>
+					<p>Guardian's Pulse</p>
+					<p></p>
+					<p>As a free action, guardian of 6th level may project a pulse to all members of his collective by spending one power point, granting them DR 2/-</p>
+					<p>for one round. Every three vitalist levels thereafter, this DR increases by 1.</p>
+					<p></p>
+					<p>Swift Aid</p>
+					<p></p>
+					<p>A guardian of 8th level may, as an immediate action and by expending his psionic focus, grant a member of his collective a +1 insight bonus to AC</p>
+					<p>or saves (guardian's choice) that lasts until the beginning of the target's next turn. This insight bonus increases by +1 every four vitalist</p>
+					<p>levels thereafter.</p>
+					<p></p>
+					<p>Guardian's Expertise</p>
+					<p></p>
+					<p>Upon achieving 11th level, anytime a guardian manifests empathic feedback, the power gains two additional augment options.</p>
+					<p></p>
+					<p>    If you spend 6 additional power points, this power may be manifested as an immediate action.</p>
+					<p>    If you spend 4 additional power points, the damage dealt to the attacker is subtracted from the damage you take.</p>
+					<p></p>
+					<p>In addition, any time a guardian manifests a power on a member of his collective (including himself) with a range of You and a duration measured</p>
+					<p>in rounds, the guardian may expend his psionic focus to treat that power as if affected by the Extend Power feat.</p>
+					<p></p>
+					<p>Master Guardian</p>
+					<p></p>
+					<p>A guardian of 20th level can, as a full-round action and by expending his psionic focus, give one member of the collective a psionic bubble of</p>
+					<p>protection. This protective bubble grants DR 6/-, PR 27, resistance 20 against any attack that deals acid, cold, electricity, fire, or sonic damage,</p>
+					<p>and a +6 deflection bonus to AC. This protective bubble lasts for one minute. The guardian can use this ability once every 10 minutes.</p>
+					<p></p>
+					<p>Mender Method</p>
+					<p></p>
+					<p>A mender vitalist is the most common found, as he focuses on healing wounds more efficiently, even bringing back life to the dead. The mender</p>
+					<p>vitalist learns how to boost the body's natural healing ability to unimaginable regenerative levels.</p>
+					<p></p>
+					<p>Mender Power</p>
+					<p></p>
+					<p>A mender vitalist adds natural healing to his list of powers known. This does not count against his number of powers known.</p>
+					<p></p>
+					<p>Mender Knacks</p>
+					<p></p>
+					<p>The mender gains the talent below as his method knack.</p>
+					<p></p>
+					<p>    Halt Death: The mender can target one member of his collective that is dying (at -1 hp or less). That creature is automatically stabilized and</p>
+					<p>    does not lose any further hit points. If the creature later takes damage, it continues dying normally.</p>
+					<p></p>
+					<p>Mender's Touch</p>
+					<p></p>
+					<p>A mender vitalist of 2nd level who utilizes transfer wounds heals the target an additional number of hit points equal to his class level. This</p>
+					<p>additional healing is not transferred to the mender like the normal amount healed.</p>
+					<p></p>
+					<p>Mender's Pulse</p>
+					<p></p>
+					<p>As a free action, a mender of 6th level may project a pulse to all members of his collective by spending one power point, granting fast healing 1</p>
+					<p>for one round. Every three vitalist levels thereafter, this fast healing increases by 1. This healing is not eligible to be redirected using</p>
+					<p>collective healing.</p>
+					<p></p>
+					<p>Swift Aid</p>
+					<p></p>
+					<p>A mender of 8th level may, as an immediate action and by expending his psionic focus, heal a member of his collective as if he had used transfer wounds.</p>
+					<p></p>
+					<p>Mender's Expertise</p>
+					<p></p>
+					<p>Upon achieving 11th level, a mender is skilled at restoring the psyche of the recently deceased and efficiently healing his collective members.</p>
+					<p>Any time a mender manifests psionic revivify, the maximum number of rounds after the target's death allowed increases by his Wisdom modifier</p>
+					<p>(minimum 1) without the need to suffer additional negative levels.</p>
+					<p></p>
+					<p>In addition, anytime a mender manifests a power with the [Healing] descriptor, it heals an additional 50% hit points (round down).</p>
+					<p></p>
+					<p>Master Mender</p>
+					<p></p>
+					<p>A mender of 20th level is capable of healing even the most grievous of injuries. As a full-round action and by expending his psionic focus, the</p>
+					<p>mender can heal a member of his collective to full health, including restoring any ability drain, removing fatigue or exhaustion, and curing any</p>
+					<p>poisons or diseases. The mender can use this ability once every 10 minutes.</p>
+					<p></p>
+					<p>Soulthief Method</p>
+					<p></p>
+					<p>A soulthief vitalist develops techniques that focus on harnessing the energy of enemies, siphoning it off and using it to heal himself and his allies.</p>
+					<p></p>
+					<p>Soulthief Power</p>
+					<p></p>
+					<p>A soulthief vitalist adds collapse to his list of powers known. This does not count against his number of powers known.</p>
+					<p></p>
+					<p>Soulthief Knacks</p>
+					<p></p>
+					<p>The soulthief vitalist can choose a talent that focuses on debilitating and manipulating the energy of enemies.</p>
+					<p></p>
+					<p>    Fatigue: As a ranged touch attack, a soulthief may cause a target to be fatigued for a number of rounds equal to his class level. A successful</p>
+					<p>    Fortitude save (DC 10 + soulthief's wisdom modifier) negates this effect. This ability has no effect on a creature that is already fatigued.</p>
+					<p>    Siphon: A soulthief may direct a ray of psionic energy at a target as a ranged touch attack. If it hits, the target suffers 1d3 points of damage,</p>
+					<p>    and the soulthief, or one member of his collective (soulthief's choice), gains 1 temporary hit point for 1 minute.</p>
+					<p></p>
+					<p>Soulthief's Touch</p>
+					<p></p>
+					<p>A soulthief vitalist of 2nd level who utilizes transfer wounds can choose to instead deal the amount of damage that transfer wounds would normally</p>
+					<p>heal plus the soulthief's class level to the target, healing himself a number of hit points equal to the damage dealt. A soulthief may not heal more</p>
+					<p>hit points than the touched creature had prior to using this ability.</p>
+					<p></p>
+					<p>This ability may only be used on creatures with a Constitution score and may not be used against creatures in the soulthief's collective. A soulthief</p>
+					<p>may use this ability on creatures with a total number of hit dice less than half his vitalist level, but he gains no healing from it.</p>
+					<p></p>
+					<p>Soulthief's Pulse</p>
+					<p></p>
+					<p>As a free action, a soulthief of 6th level may project a pulse to all members of his collective by spending one power point, which empowers the</p>
+					<p>attacks of the members of the collective for one round. Any successful damaging attack made with an attack roll made by a member of the collective</p>
+					<p>heals the attacker for the damage dealt, up to 2 hit points of damage. Every three vitalist levels thereafter, the maximum healing granted by this</p>
+					<p>aura increases by 1.</p>
+					<p></p>
+					<p>Swift Aid</p>
+					<p></p>
+					<p>A soulthief of 8th level may, as an immediate action and by expending his psionic focus, transfer the wounds of a member of his collective to an</p>
+					<p>enemy within 15 ft. of the ally for an amount of damage equal to the soulthief's transfer wounds ability. A successful Fortitude save</p>
+					<p>(DC 10 + 1/2 class level + Wisdom modifier) negates the effect.</p>
+					<p></p>
+					<p>Soulthief's Expertise</p>
+					<p></p>
+					<p>Upon achieving 11th level, anytime a soulthief manifests hostile empathic transfer, the attack can be made as a ranged touch attack with a range</p>
+					<p>of 30 feet instead of as a melee touch attack. In addition, every additional power point spent augmenting hostile empathic transfer increases the</p>
+					<p>additional damage transferred by 7, rather than by 5, and the maximum number of points of damage transferred increases to 85.</p>
+					<p></p>
+					<p>In addition, any time a soulthief manifests a power or psi-like ability that deals hit point damage, it heals him for 50% of the damage dealt.</p>
+					<p>If the power does hit point damage to multiple targets, the soulthief only heals 50% of the damage to the target dealt the highest damage.</p>
+					<p></p>
+					<p>Master Soulthief</p>
+					<p></p>
+					<p>A soulthief of 20th level learns how to siphon the life out of a creature. Once every 10 minutes, the soulthief can choose one target to which he</p>
+					<p>has line of sight and, as a full-round action and by expending his psionic focus, begin draining the target of health (12d6 points of empathic</p>
+					<p>damage) which is then transferred to the collective and heals an equal amount of damage. A successful Will save (DC 20 + Wis modifier) negates</p>
+					<p>the effect. Each round, the target may attempt another Will save to negate the effect. The soulthief can maintain concentration to continue the</p>
+					<p>damage each round, for up to one minute. Any damage done after all members of the collective are healed completely instead grants temporary hit</p>
+					<p>points to any member of the collective (soulthief's choice) for 10 minutes. The soulthief may divide these temporary hit points as he so chooses</p>
+					<p>among members of the collective.</p>
+					<p></p>
 				</benefit>
 			</vitalistmethod>
 		</vitalist>
-		
 		<item>
 			<artifacer>
 				<artifacerworkbook>
@@ -1164,7 +1316,6 @@
 			</artifacer>
 		</item>
 	</reference>
-	
 	<lists static="true">
 		<aegis>
 			<basemenu>
@@ -1194,7 +1345,7 @@
 				</index>
 			</basemenu>
 			<statblock>
-				<name type="string">aegis</name>
+				<name type="string">Aegis</name>
 				<text type="formattedtext">
 					<p><b>Alignment:</b> Any</p>
 					<p><b>Hit Die:</b> d10</p>
@@ -1203,7 +1354,7 @@
 					<p><b>Skill Ranks Per Level:</b> 4 + Int modifier.</p>
 					<p><b>Starting Wealth:</b> 3d6 x 10 gp (average 105 gp)</p>
 					<table>
-						<tr><td colspan="9"><b>Table: The aegis</b></td></tr>
+						<tr><td colspan="9"><b>Table: The Aegis</b></td></tr>
 						<tr decoration="underline"><td><b>Level </b></td><td colspan="2"><b>Base Attack</b></td><td><b>Fort</b></td><td><b>Ref</b></td><td><b>Will</b></td><td colspan="3"><b>Special</b></td></tr>
 						<tr><td>1st</td><td colspan="2">+1</td><td>+2</td><td>+0</td><td>+2</td><td colspan="3">Astral repair, form astral suit</td></tr>
 						<tr><td>2nd</td><td colspan="2">+2</td><td>+3</td><td>+0</td><td>+2</td><td colspan="3">Craftsman (+1), damage reduction (2/-)</td></tr>
@@ -1229,7 +1380,7 @@
 					<p></p>
 					<table>
 						<tr><td></td><td colspan="7"><b>Table: Customization/Power points per Day</b></td></tr>
-						<tr decoration="underline"><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td></tr>
+						<tr decoration="underline"><td><b>Level</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td><td><b>Level</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td></tr>
 						<tr><td>1st</td><td>3</td><td>1</td><td>11th</td><td>15</td><td>24</td></tr>
 						<tr><td>2nd</td><td>4</td><td>2</td><td>12th</td><td>16</td><td>28</td></tr>
 						<tr><td>3rd</td><td>5</td><td>3</td><td>13th</td><td>17</td><td>32</td></tr>
@@ -1242,7 +1393,7 @@
 						<tr><td>10th</td><td>14</td><td>20</td><td>20th</td><td>26</td><td>70</td></tr>
 					</table>
 					<p></p>
-					<p><h1><b>Class Features</b></h1></p>
+					<p><b>Class Features</b></p>
 					<p></p>
 					<p>The following are class features of the aegis.</p>
 					<p></p>
@@ -1558,7 +1709,7 @@
 				</index>
 			</basemenu>
 			<statblock>
-				<name type="string">cryptic</name>
+				<name type="string">Cryptic</name>
 				<text type="formattedtext">
 					<p><b>Alignment:</b> Any</p>
 					<p><b>Hit Die:</b> d8</p>
@@ -1592,8 +1743,8 @@
 					</table>
 					<p></p>
 					<table>
-						<tr><td></td><td colspan="7"><b>Table: Customization/Power points per Day</b></td></tr>
-						<tr decoration="underline"><td><b>Power Points/Day</b></td><td><b>Power Known</b></td><td><b>Maximum Design Level Known</b></td><td><b>Power Points/Day</b></td><td><b>Power Known</b></td><td><b>Maximum Design Level Known</b></td></tr>
+						<tr><td></td><td colspan="7"><b>Table: Power points per Day, Powers Known, Maximum Design Level Known</b></td></tr>
+						<tr decoration="underline"><td><b>Level</b></td><td><b>Power Points/Day</b></td><td><b>Power Known</b></td><td><b>Maximum Design Level Known</b></td><td><b>Level</b></td><td><b>Power Points/Day</b></td><td><b>Power Known</b></td><td><b>Maximum Design Level Known</b></td></tr>
 						<tr><td>1st</td><td>1</td><td>1</td><td>1st</td><td>11th</td><td>36</td><td>11</td><td>4th</td></tr>
 						<tr><td>2nd</td><td>2</td><td>2</td><td>1st</td><td>12th</td><td>44</td><td>12</td><td>4th</td></tr>
 						<tr><td>3rd</td><td>4</td><td>3</td><td>1st</td><td>13th</td><td>52</td><td>13</td><td>5th</td></tr>
@@ -1606,7 +1757,7 @@
 						<tr><td>10th</td><td>28</td><td>10</td><td>4th</td><td>20th</td><td>128</td><td>20</td><td>6th</td></tr>
 					</table>
 					<p></p>
-					<p><h1><b>Class Features</b></h1></p>
+					<p><b>Class Features</b></p>
 					<p></p>
 					<p>The following are class features of the cryptic.</p>
 					<p></p>
@@ -1779,7 +1930,7 @@
 		</cryptic>
 		<tactician>
 			<basemenu>
-				<name type="string">tactician Class</name>
+				<name type="string">Tactician Class</name>
 				<index>
 					<r1stats>
 						<listlink type="windowreference">
@@ -1800,58 +1951,86 @@
 							<class>referenceindex</class>
 							<recordname>lists.tactician.core@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Core tactician</name>
+						<name type="string">Core Tactician</name>
 					</r3coretactician>
 				</index>
 			</basemenu>
 			<statblock>
-				<name type="string">tactician</name>
+				<name type="string">Tactician</name>
 				<text type="formattedtext">
 					<p><b>Alignment:</b> Any</p>
-					<p><b>Hit Die:</b> d10</p>
+					<p><b>Hit Die:</b> d8</p>
 					<p><b>Class Skills</b></p>
-					<p>The aegis's class skills are Acrobatics (Dex), Autohypnosis* (Wis), Climb (Str), Craft (Int), Knowledge (psionics)* (Int), Profession (Wis), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).</p>
+					<p>The tactician's class skills are Autohypnosis (Wis), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Intimidate (Cha), Knowledge (engineering) (Int), Knowledge (history) (Int), Knowledge (psionics) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).</p>
 					<p><b>Skill Ranks Per Level:</b> 4 + Int modifier.</p>
-					<p><b>Starting Wealth:</b> 3d6 x 10 gp (average 105 gp)</p>
+					<p><b>Starting Wealth:</b> 4d6 x 10 (140 gp.)</p>
 					<table>
-						<tr><td colspan="9"><b>Table: The aegis</b></td></tr>
+						<tr><td colspan="9"><b>Table: The Tactician</b></td></tr>
 						<tr decoration="underline"><td><b>Level </b></td><td colspan="2"><b>Base Attack</b></td><td><b>Fort</b></td><td><b>Ref</b></td><td><b>Will</b></td><td colspan="3"><b>Special</b></td></tr>
-						<tr><td>1st</td><td colspan="2">+1</td><td>+2</td><td>+0</td><td>+2</td><td colspan="3">Astral repair, form astral suit</td></tr>
-						<tr><td>2nd</td><td colspan="2">+2</td><td>+3</td><td>+0</td><td>+2</td><td colspan="3">Craftsman (+1), damage reduction (2/-)</td></tr>
-						<tr><td>3rd</td><td colspan="2">+3</td><td>+3</td><td>+1</td><td>+3</td><td colspan="3">Invigorating suit, reconfigure (1/day)</td></tr>
-						<tr><td>4th</td><td colspan="2">+4</td><td>+4</td><td>+1</td><td>+4</td><td colspan="3">Augment suit (1)</td></tr>
-						<tr><td>5th</td><td colspan="2">+5</td><td>+4</td><td>+1</td><td>+4</td><td colspan="3">Damage reduction (3/-), Master Craftsman, reconfigure (2/day)</td></tr>
-						<tr><td>6th</td><td colspan="2">+6/+1</td><td>+5</td><td>+2</td><td>+5</td><td colspan="3">Craftsman (+2)</td></tr>
-						<tr><td>7th</td><td colspan="2">+7/+2</td><td>+5</td><td>+2</td><td>+5</td><td colspan="3">Reconfigure (3/day)</td></tr>
-						<tr><td>8th</td><td colspan="2">+8/+3</td><td>+6</td><td>+2</td><td>+6</td><td colspan="3">Augment suit (2), damage reduction (4/-)</td></tr>
-						<tr><td>9th</td><td colspan="2">+9/+4</td><td>+6</td><td>+3</td><td>+6</td><td colspan="3">Reconfigure (4/day)</td></tr>
-						<tr><td>10th</td><td colspan="2">+10/+5</td><td>+7</td><td>+3</td><td>+7</td><td colspan="3">Craftsman (+3)</td></tr>
-						<tr><td>11th</td><td colspan="2">+11/+6/+1</td><td>+7</td><td>+3</td><td>+7</td><td colspan="3">Damage reduction (5/-), reconfigure (5/day)</td></tr>
-						<tr><td>12th</td><td colspan="2">+12/+7/+2</td><td>+8</td><td>+4</td><td>+8</td><td colspan="3">Augment suit (3), cannibalize suit (1/day)</td></tr>
-						<tr><td>13th</td><td colspan="2">+13/+8/+3</td><td>+8</td><td>+4</td><td>+8</td><td colspan="3">Reconfigure (6/day)</td></tr>
-						<tr><td>14th</td><td colspan="2">+14/+9/+4</td><td>+9</td><td>+4</td><td>+9</td><td colspan="3">Craftsman (+4), cannibalize suit (2/day), damage reduction (6/-)</td></tr>
-						<tr><td>15th</td><td colspan="2">+15/+10/+5</td><td>+9</td><td>+5</td><td>+9</td><td colspan="3">Reconfigure (7/day)</td></tr>
-						<tr><td>16th</td><td colspan="2">+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+10</td><td colspan="3">Augment suit (4), cannibalize suit (3/day)</td></tr>
-						<tr><td>17th</td><td colspan="2">+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td colspan="3">Damage reduction (7/-), reconfigure (8/day)</td></tr>
-						<tr><td>18th</td><td colspan="2">+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+11</td><td colspan="3">Cannibalize suit (4/day), Craftsman (+5)</td></tr>
-						<tr><td>19th</td><td colspan="2">+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td colspan="3">Reconfigure (9/day)</td></tr>
-						<tr><td>20th</td><td colspan="2">+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td colspan="3">Augment suit (5), cannibalize suit (5/day), damage reduction (8/-), perfect merger</td></tr>
+						<tr><td>1st</td><td colspan="2">+0</td><td>+0</td><td>+0</td><td>+2</td><td colspan="3">Collective, coordinated strike (+1), lesser strategies</td></tr>
+						<tr><td>2nd</td><td colspan="2">+1</td><td>+0</td><td>+0</td><td>+3</td><td colspan="3">Spirit of many</td></tr>
+						<tr><td>3rd</td><td colspan="2">+2</td><td>+1</td><td>+1</td><td>+3</td><td colspan="3">Telepathy</td></tr>
+						<tr><td>4th</td><td colspan="2">+3</td><td>+1</td><td>+1</td><td>+4</td><td colspan="3">Strategy</td></tr>
+						<tr><td>5th</td><td colspan="2">+3</td><td>+1</td><td>+1</td><td>+4</td><td colspan="3">Coordinated strike (+2), improved share (1)</td></tr>
+						<tr><td>6th</td><td colspan="2">+4</td><td>+2</td><td>+2</td><td>+5</td><td colspan="3">Coordinate, Teamwork feat</td></tr>
+						<tr><td>7th</td><td colspan="2">+5</td><td>+2</td><td>+2</td><td>+5</td><td colspan="3">Strategy</td></tr>
+						<tr><td>8th</td><td colspan="2">+6/+1</td><td>+2</td><td>+2</td><td>+6</td><td colspan="3">Echo effect</td></tr>
+						<tr><td>9th</td><td colspan="2">+6/+1</td><td>+3</td><td>+3</td><td>+6</td><td colspan="3">Coordinated strike (+3)</td></tr>
+						<tr><td>10th</td><td colspan="2">+7/+2</td><td>+3</td><td>+3</td><td>+7</td><td colspan="3">Strategy</td></tr>
+						<tr><td>11th</td><td colspan="2">+8/+3</td><td>+3</td><td>+3</td><td>+7</td><td colspan="3">Improved share (2)</td></tr>
+						<tr><td>12th</td><td colspan="2">+9/+4</td><td>+4</td><td>+4</td><td>+8</td><td colspan="3">Teamwork feat</td></tr>
+						<tr><td>13th</td><td colspan="2">+9/+4</td><td>+4</td><td>+4</td><td>+8</td><td colspan="3">Coordinated strike (+4), strategy</td></tr>
+						<tr><td>14th</td><td colspan="2">+10/+5</td><td>+4</td><td>+4</td><td>+9</td><td colspan="3">Pooled knowledge</td></tr>
+						<tr><td>15th</td><td colspan="2">+11/+6/+1</td><td>+5</td><td>+5</td><td>+9</td><td colspan="3">Collective range (unlimited)</td></tr>
+						<tr><td>16th</td><td colspan="2">+12/+7/+2</td><td>+5</td><td>+5</td><td>+10</td><td colspan="3">Strategy</td></tr>
+						<tr><td>17th</td><td colspan="2">+12/+7/+2</td><td>+5</td><td>+5</td><td>+10</td><td colspan="3">Coordinated strike (+5), improved share (3)</td></tr>
+						<tr><td>18th</td><td colspan="2">+13/+8/+3</td><td>+6</td><td>+6</td><td>+11</td><td colspan="3">Teamwork feat</td></tr>
+						<tr><td>19th</td><td colspan="2">+14/+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td colspan="3">Collective range (planar), strategy</td></tr>
+						<tr><td>20th</td><td colspan="2">+15/+10/+5</td><td>+6</td><td>+6</td><td>+12</td><td colspan="3">Master strategist</td></tr>
 					</table>
 					<p></p>
 					<table>
-						<tr><td></td><td colspan="7"><b>Table: Customization/Power points per Day</b></td></tr>
-						<tr decoration="underline"><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td></tr>
-						<tr><td>1st</td><td>3</td><td>1</td><td>11th</td><td>15</td><td>24</td></tr>
-						<tr><td>2nd</td><td>4</td><td>2</td><td>12th</td><td>16</td><td>28</td></tr>
-						<tr><td>3rd</td><td>5</td><td>3</td><td>13th</td><td>17</td><td>32</td></tr>
-						<tr><td>4th</td><td>7</td><td>5</td><td>14th</td><td>19</td><td>37</td></tr>
-						<tr><td>5th</td><td>8</td><td>7</td><td>15th</td><td>20</td><td>42</td></tr>
-						<tr><td>6th</td><td>9</td><td>9</td><td>16th</td><td>21</td><td>47</td></tr>
-						<tr><td>7th</td><td>10</td><td>11</td><td>17th</td><td>22</td><td>52</td></tr>
-						<tr><td>8th</td><td>11</td><td>14</td><td>18th</td><td>23</td><td>58</td></tr>
-						<tr><td>9th</td><td>13</td><td>17</td><td>19th</td><td>25</td><td>64</td></tr>
-						<tr><td>10th</td><td>14</td><td>20</td><td>20th</td><td>26</td><td>70</td></tr>
+						<tr><td></td><td colspan="7"><b>Table: Power points per Day, Powers Known, Maximum Power Level Known</b></td></tr>
+						<tr decoration="underline"><td><b>Level</b></td><td><b>Power Points/Day</b></td><td><b>Power Known</b></td><td><b>Maximum Power Level Known</b></td><td><b>Level</b></td><td><b>Power Points/Day</b></td><td><b>Power Known</b></td><td><b>Maximum Power Level Known</b></td></tr>
+						<tr><td>1st</td><td>2</td><td>1</td><td>1st</td><td>11th</td><td>106</td><td>11</td><td>6th</td></tr>
+						<tr><td>2nd</td><td>6</td><td>2</td><td>1st</td><td>12th</td><td>126</td><td>12</td><td>6th</td></tr>
+						<tr><td>3rd</td><td>11</td><td>3</td><td>2nd</td><td>13th</td><td>147</td><td>13</td><td>7th</td></tr>
+						<tr><td>4th</td><td>17</td><td>4</td><td>2nd</td><td>14th</td><td>170</td><td>14</td><td>7th</td></tr>
+						<tr><td>5th</td><td>25</td><td>5</td><td>3rd</td><td>15th</td><td>195</td><td>15</td><td>8th</td></tr>
+						<tr><td>6th</td><td>35</td><td>6</td><td>3rd</td><td>16th</td><td>221</td><td>16</td><td>8th</td></tr>
+						<tr><td>7th</td><td>46</td><td>7</td><td>4th</td><td>17th</td><td>250</td><td>17</td><td>9th</td></tr>
+						<tr><td>8th</td><td>58</td><td>8</td><td>4th</td><td>18th</td><td>280</td><td>18</td><td>9th</td></tr>
+						<tr><td>9th</td><td>72</td><td>9</td><td>5th</td><td>19th</td><td>311</td><td>19</td><td>9th</td></tr>
+						<tr><td>10th</td><td>88</td><td>10</td><td>5th</td><td>20th</td><td>343</td><td>20</td><td>9th</td></tr>
 					</table>
+					<p></p>
+					<p><b>Class Features</b></p>
+					<p></p>
+					<p>All of the following are class features of the tactician.</p>
+					<p></p>
+					<p><b>Weapon and Armor Proficiency:</b> Tacticians are proficient with all simple and martial weapons, with all types of light and medium armor,</p>
+					<p>and with shields (except tower shields).</p>
+					<p></p>
+					<p><b>Power Points/Day:</b> A tactician's ability to manifest powers is limited by the power points he has available. His base daily allotment of</p>
+					<p>power points is given on Table: The Tactician. In addition, he receives bonus power points per day if he has a high Intelligence score</p>
+					<p>(see Table: Ability Modifiers and Bonus Power Points) His race may also provide bonus power points per day, as may certain feats and items.</p>
+					<p></p>
+					<p><b>Powers Known:</b> A tactician begins play knowing one tactician power of your choice. Each time he achieves a new level, he unlocks knowledge of a new power.</p>
+					<p></p>
+					<p>Choose the powers known from the tactician power list. (Exception: The feat Expanded Knowledge does allow a tactician to learn powers from</p>
+					<p>the lists of other classes.) A tactician can manifest any power that has a power point cost equal to or lower than his manifester level.</p>
+					<p></p>
+					<p>The total number of powers a tactician can manifest in a day is limited only by his daily power points.</p>
+					<p></p>
+					<p>A tactician simply knows his powers, they are ingrained in his mind. He does not need to prepare them (in the way that some spellcasters</p>
+					<p>prepare their spells), though he must get a good night's sleep each day to regain all his spent powers.</p>
+					<p></p>
+					<p>The Difficulty Class for saving throws against the tacticians powers is 10 + the power's level + the tactician's Intelligence modifier.</p>
+					<p></p>
+					<p><b>Maximum Power Level Known:</b> A tactician begins play with the ability to learn 1st-level powers. As he attains higher levels, he may gain the</p>
+					<p>ability to master more complex powers.</p>
+					<p></p>
+					<p>To learn or manifest a power, a tactician must have an Intelligence score of at least 10 + the power's level.</p>
 				</text>
 			</statblock>
 			<proficiencies>
@@ -1876,105 +2055,206 @@
 			<core>
 				<name type="string">Core tactician</name>
 				<index>
-					<astralrepair>
+					<collective>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.tactician.astralrepair@PFRPG Misc Classes</recordname>
+							<recordname>reference.tactician.collective@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Astral Repair</name>
-					</astralrepair>
+						<name type="string">Collective (Su)</name>
+					</collective>
+					<coordinatedstrike>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.coordinatedstrike@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Coordinated Strike</name>
+					</coordinatedstrike>
+					<lesserstrategies>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.lesserstrategies@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Lesser Strategies</name>
+					</lesserstrategies>
+					<spiritofmany>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.spiritofmany@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Spirit of Many</name>
+					</spiritofmany>
+					<telepathy>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.telepathy@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Telepathy</name>
+					</telepathy>
+					<strategy>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.strategy@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Strategy</name>
+					</strategy>
+					<improvedshare>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.improvedshare@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Improved Share</name>
+					</improvedshare>
+					<coordinate>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.coordinate@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Coordinate</name>
+					</coordinate>
+					<teamworkfeat>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.teamworkfeat@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Teamwork Feat</name>
+					</teamworkfeat>
+					<echoeffect>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.echoeffect@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Echo Effect</name>
+					</echoeffect>
+					<pooledknowledge>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.pooledknowledge@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Pooled Knowledge</name>
+					</pooledknowledge>
+					<masterstrategist>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.tactician.masterstrategist@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Master Strategist</name>
+					</masterstrategist>
 				</index>
 			</core>
 		</tactician>
 		<vitalist>
 			<basemenu>
-				<name type="string">Aegis Class</name>
+				<name type="string">Vitalist Class</name>
 				<index>
 					<r1stats>
 						<listlink type="windowreference">
 							<class>referencetextwide</class>
-							<recordname>lists.aegis.statblock@PFRPG Misc Classes</recordname>
+							<recordname>lists.vitalist.statblock@PFRPG Misc Classes</recordname>
 						</listlink>
 						<name type="string">Leveling Stats</name>
 					</r1stats>
 					<r2proficiencies>
 						<listlink type="windowreference">
 							<class>referenceindex</class>
-							<recordname>lists.aegis.proficiencies@PFRPG Misc Classes</recordname>
+							<recordname>lists.vitalist.proficiencies@PFRPG Misc Classes</recordname>
 						</listlink>
 						<name type="string">Proficiencies</name>
 					</r2proficiencies>
-					<r3favoredclass>
+					<r3corevitalist>
 						<listlink type="windowreference">
 							<class>referenceindex</class>
-							<recordname>lists.aegis.favoredclass@PFRPG Misc Classes</recordname>
+							<recordname>lists.vitalist.core@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Favored Class</name>
-					</r3favoredclass>
-					<r4coreaegis>
-						<listlink type="windowreference">
-							<class>referenceindex</class>
-							<recordname>lists.aegis.core@PFRPG Misc Classes</recordname>
-						</listlink>
-						<name type="string">Core aegis</name>
-					</r4coreaegis>
-					<!--				<r5aegisarchetypes>
-					<listlink type="windowreference">
-					<class>referenceindex</class>
-					<recordname>lists.aegis.archetypes@PFRPG Misc Classes</recordname>
-					</listlink>
-					<name type="string">Archetypes</name>
-					</r5aegisarchetypes>-->
+						<name type="string">Core Vitalist</name>
+					</r3corevitalist>
 				</index>
 			</basemenu>
 			<statblock>
-				<name type="string">aegis</name>
+				<name type="string">Vitalist</name>
 				<text type="formattedtext">
 					<p><b>Alignment:</b> Any</p>
-					<p><b>Hit Die:</b> d10</p>
+					<p><b>Hit Die:</b> d6</p>
 					<p><b>Class Skills</b></p>
-					<p>The aegis's class skills are Acrobatics (Dex), Autohypnosis* (Wis), Climb (Str), Craft (Int), Knowledge (psionics)* (Int), Profession (Wis), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).</p>
-					<p><b>Skill Ranks Per Level:</b> 4 + Int modifier.</p>
-					<p><b>Starting Wealth:</b> 3d6 x 10 gp (average 105 gp)</p>
+					<p>The class name's class skills are Autohypnosis (Wis), Bluff (Cha), Craft (Int), Diplomacy (Cha), Heal (Wis), Intimidate (Cha), Knowledge (history) (Int), Knowledge (local) (Int), Knowledge (psionics) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), and Survival (Wis).</p>
+					<p><b>Skill Ranks Per Level:</b> 2 + Int modifier.</p>
+					<p><b>Starting Wealth:</b> 4d4 × 10 gp (average 100 gp.)</p>
 					<table>
-						<tr><td colspan="9"><b>Table: The aegis</b></td></tr>
+						<tr><td colspan="9"><b>Table: The Vitalist</b></td></tr>
 						<tr decoration="underline"><td><b>Level </b></td><td colspan="2"><b>Base Attack</b></td><td><b>Fort</b></td><td><b>Ref</b></td><td><b>Will</b></td><td colspan="3"><b>Special</b></td></tr>
-						<tr><td>1st</td><td colspan="2">+1</td><td>+2</td><td>+0</td><td>+2</td><td colspan="3">Astral repair, form astral suit</td></tr>
-						<tr><td>2nd</td><td colspan="2">+2</td><td>+3</td><td>+0</td><td>+2</td><td colspan="3">Craftsman (+1), damage reduction (2/-)</td></tr>
-						<tr><td>3rd</td><td colspan="2">+3</td><td>+3</td><td>+1</td><td>+3</td><td colspan="3">Invigorating suit, reconfigure (1/day)</td></tr>
-						<tr><td>4th</td><td colspan="2">+4</td><td>+4</td><td>+1</td><td>+4</td><td colspan="3">Augment suit (1)</td></tr>
-						<tr><td>5th</td><td colspan="2">+5</td><td>+4</td><td>+1</td><td>+4</td><td colspan="3">Damage reduction (3/-), Master Craftsman, reconfigure (2/day)</td></tr>
-						<tr><td>6th</td><td colspan="2">+6/+1</td><td>+5</td><td>+2</td><td>+5</td><td colspan="3">Craftsman (+2)</td></tr>
-						<tr><td>7th</td><td colspan="2">+7/+2</td><td>+5</td><td>+2</td><td>+5</td><td colspan="3">Reconfigure (3/day)</td></tr>
-						<tr><td>8th</td><td colspan="2">+8/+3</td><td>+6</td><td>+2</td><td>+6</td><td colspan="3">Augment suit (2), damage reduction (4/-)</td></tr>
-						<tr><td>9th</td><td colspan="2">+9/+4</td><td>+6</td><td>+3</td><td>+6</td><td colspan="3">Reconfigure (4/day)</td></tr>
-						<tr><td>10th</td><td colspan="2">+10/+5</td><td>+7</td><td>+3</td><td>+7</td><td colspan="3">Craftsman (+3)</td></tr>
-						<tr><td>11th</td><td colspan="2">+11/+6/+1</td><td>+7</td><td>+3</td><td>+7</td><td colspan="3">Damage reduction (5/-), reconfigure (5/day)</td></tr>
-						<tr><td>12th</td><td colspan="2">+12/+7/+2</td><td>+8</td><td>+4</td><td>+8</td><td colspan="3">Augment suit (3), cannibalize suit (1/day)</td></tr>
-						<tr><td>13th</td><td colspan="2">+13/+8/+3</td><td>+8</td><td>+4</td><td>+8</td><td colspan="3">Reconfigure (6/day)</td></tr>
-						<tr><td>14th</td><td colspan="2">+14/+9/+4</td><td>+9</td><td>+4</td><td>+9</td><td colspan="3">Craftsman (+4), cannibalize suit (2/day), damage reduction (6/-)</td></tr>
-						<tr><td>15th</td><td colspan="2">+15/+10/+5</td><td>+9</td><td>+5</td><td>+9</td><td colspan="3">Reconfigure (7/day)</td></tr>
-						<tr><td>16th</td><td colspan="2">+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+10</td><td colspan="3">Augment suit (4), cannibalize suit (3/day)</td></tr>
-						<tr><td>17th</td><td colspan="2">+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td colspan="3">Damage reduction (7/-), reconfigure (8/day)</td></tr>
-						<tr><td>18th</td><td colspan="2">+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+11</td><td colspan="3">Cannibalize suit (4/day), Craftsman (+5)</td></tr>
-						<tr><td>19th</td><td colspan="2">+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td colspan="3">Reconfigure (9/day)</td></tr>
-						<tr><td>20th</td><td colspan="2">+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td colspan="3">Augment suit (5), cannibalize suit (5/day), damage reduction (8/-), perfect merger</td></tr>
+						<tr><td>1st</td><td colspan="2">+0</td><td>+2</td><td>+0</td><td>+2</td><td colspan="3">Vitalist method, collective, collective healing, medic powers, knacks, transfer wounds (1d6)</td></tr>
+						<tr><td>2nd</td><td colspan="2">+1</td><td>+3</td><td>+0</td><td>+2</td><td colspan="3">Vitalist's touch, health sense (identify), spirit of many</td></tr>
+						<tr><td>3rd</td><td colspan="2">+1</td><td>+3</td><td>+1</td><td>+3</td><td colspan="3">Steal health (touch), telepathy</td></tr>
+						<tr><td>4th</td><td colspan="2">+2</td><td>+4</td><td>+1</td><td>+4</td><td colspan="3">Transfer wounds (2d6)</td></tr>
+						<tr><td>5th</td><td colspan="2">+2</td><td>+4</td><td>+1</td><td>+4</td><td colspan="3">Request aid</td></tr>
+						<tr><td>6th</td><td colspan="2">+3</td><td>+5</td><td>+2</td><td>+5</td><td colspan="3">Pulse</td></tr>
+						<tr><td>7th</td><td colspan="2">+3</td><td>+5</td><td>+2</td><td>+5</td><td colspan="3">Health sense (stabilize), steal health (ranged), transfer wounds (3d6)</td></tr>
+						<tr><td>8th</td><td colspan="2">+4</td><td>+6</td><td>+2</td><td>+6</td><td colspan="3">Swift aid</td></tr>
+						<tr><td>9th</td><td colspan="2">+4</td><td>+6</td><td>+3</td><td>+6</td><td colspan="3">Expanded Knowledge</td></tr>
+						<tr><td>10th</td><td colspan="2">+5</td><td>+7</td><td>+3</td><td>+7</td><td colspan="3">Transfer Wounds (4d6)</td></tr>
+						<tr><td>11th</td><td colspan="2">+5</td><td>+7</td><td>+3</td><td>+7</td><td colspan="3">Vitalist expertise</td></tr>
+						<tr><td>12th</td><td colspan="2">+6/+1</td><td>+8</td><td>+4</td><td>+8</td><td colspan="3">Health sense (treat poison)</td></tr>
+						<tr><td>13th</td><td colspan="2">+6/+1</td><td>+8</td><td>+4</td><td>+8</td><td colspan="3">Transfer wounds (5d6)</td></tr>
+						<tr><td>14th</td><td colspan="2">+7/+2</td><td>+9</td><td>+4</td><td>+9</td><td colspan="3">Steal life</td></tr>
+						<tr><td>15th</td><td colspan="2">+7/+2</td><td>+9</td><td>+5</td><td>+9</td><td colspan="3">Collective range (unlimited)</td></tr>
+						<tr><td>16th</td><td colspan="2">+8/+3</td><td>+10</td><td>+5</td><td>+10</td><td colspan="3">Transfer wounds (6d6)</td></tr>
+						<tr><td>17th</td><td colspan="2">+8/+3</td><td>+10</td><td>+5</td><td>+10</td><td colspan="3">Health sense (treat disease)</td></tr>
+						<tr><td>18th</td><td colspan="2">+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td colspan="3">Expanded Knowledge</td></tr>
+						<tr><td>19th</td><td colspan="2">+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td colspan="3">Transfer wounds (7d6), collective range (planar)</td></tr>
+						<tr><td>20th</td><td colspan="2">+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td colspan="3">Master vitalist</td></tr>
 					</table>
 					<p></p>
 					<table>
-						<tr><td></td><td colspan="7"><b>Table: Customization/Power points per Day</b></td></tr>
-						<tr decoration="underline"><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td><td><b>Lvl</b></td><td><b>Customization Points</b></td><td><b>Power Points/Day</b></td></tr>
-						<tr><td>1st</td><td>3</td><td>1</td><td>11th</td><td>15</td><td>24</td></tr>
-						<tr><td>2nd</td><td>4</td><td>2</td><td>12th</td><td>16</td><td>28</td></tr>
-						<tr><td>3rd</td><td>5</td><td>3</td><td>13th</td><td>17</td><td>32</td></tr>
-						<tr><td>4th</td><td>7</td><td>5</td><td>14th</td><td>19</td><td>37</td></tr>
-						<tr><td>5th</td><td>8</td><td>7</td><td>15th</td><td>20</td><td>42</td></tr>
-						<tr><td>6th</td><td>9</td><td>9</td><td>16th</td><td>21</td><td>47</td></tr>
-						<tr><td>7th</td><td>10</td><td>11</td><td>17th</td><td>22</td><td>52</td></tr>
-						<tr><td>8th</td><td>11</td><td>14</td><td>18th</td><td>23</td><td>58</td></tr>
-						<tr><td>9th</td><td>13</td><td>17</td><td>19th</td><td>25</td><td>64</td></tr>
-						<tr><td>10th</td><td>14</td><td>20</td><td>20th</td><td>26</td><td>70</td></tr>
+						<tr><td></td><td colspan="7"><b>Table: Power points per Day, Powers Known, Maximum Power Level Known</b></td></tr>
+						<tr decoration="underline"><td><b>Level</b></td><td><b>Power Points/Day</b></td><td><b>Power Known</b></td><td><b>Maximum Power Level Known</b></td><td><b>Level</b></td><td><b>Power Points/Day</b></td><td><b>Power Known</b></td><td><b>Maximum Power Level Known</b></td></tr>
+						<tr><td>1st</td><td>2</td><td>2</td><td>1st</td><td>11th</td><td>106</td><td>7</td><td>6th</td></tr>
+						<tr><td>2nd</td><td>6</td><td>2</td><td>1st</td><td>12th</td><td>126</td><td>7</td><td>6th</td></tr>
+						<tr><td>3rd</td><td>11</td><td>3</td><td>2nd</td><td>13th</td><td>147</td><td>8</td><td>7th</td></tr>
+						<tr><td>4th</td><td>17</td><td>3</td><td>2nd</td><td>14th</td><td>170</td><td>8</td><td>7th</td></tr>
+						<tr><td>5th</td><td>25</td><td>4</td><td>3rd</td><td>15th</td><td>195</td><td>9</td><td>8th</td></tr>
+						<tr><td>6th</td><td>35</td><td>4</td><td>3rd</td><td>16th</td><td>221</td><td>9</td><td>8th</td></tr>
+						<tr><td>7th</td><td>46</td><td>5</td><td>4th</td><td>17th</td><td>250</td><td>10</td><td>9th</td></tr>
+						<tr><td>8th</td><td>58</td><td>5</td><td>4th</td><td>18th</td><td>280</td><td>10</td><td>9th</td></tr>
+						<tr><td>9th</td><td>72</td><td>6</td><td>5th</td><td>19th</td><td>311</td><td>11</td><td>9th</td></tr>
+						<tr><td>10th</td><td>88</td><td>6</td><td>5th</td><td>20th</td><td>343</td><td>11</td><td>9th</td></tr>
 					</table>
+					<p></p>
+					<p><b>Class Features</b></p>
+					<p></p>
+					<p>All of the following are class features of the Vitalist.</p>
+					<p></p>
+					<p>Weapon and Armor Proficiency: Vitalists are proficient with all simple weapons and light armor, but not with shields. Armor does not, however,</p>
+					<p>interfere with the manifestation of powers.</p>
+					<p></p>
+					<p><b>Power Points/Day</b></p>
+					<p></p>
+					<p>A vitalist's ability to manifest powers is limited by the power points he has available. His base daily allotment of power points is given on Table:</p>
+					<p>The Vitalist. In addition, he receives bonus power points per day if he has a high Wisdom score (see Table: Ability Modifiers and Bonus Power Points).</p>
+					<p>His race may also provide bonus power points per day, as may certain feats and items.</p>
+					<p></p>
+					<p><b>Powers Known</b></p>
+					<p></p>
+					<p>A vitalist begins play knowing two vitalist powers of your choice. At every odd-numbered class level after 1st, he unlocks the ability to know</p>
+					<p>more powers at any given time.</p>
+					<p></p>
+					<p>Choose the powers known from the vitalist power list, or from the list of powers of your chosen discipline (if any). You cannot choose powers</p>
+					<p>from disciplines other than your chosen discipline. (Exception: The feat Expanded Knowledge does allow a vitalist to learn powers from the lists</p>
+					<p>of other disciplines or even other classes.) A vitalist can manifest any power that has a power point cost equal to or lower than his manifester level.</p>
+					<p></p>
+					<p>The number of times a vitalist can manifest powers in a day is limited only by his daily power points.</p>
+					<p></p>
+					<p>A vitalist never needs to prepare powers ahead of time; he draws them from his mind when needed. When a vitalist recovers his daily power points</p>
+					<p>after resting, he may choose to rotate one or more powers he knows for new ones. These powers must always be chosen from the vitalist power list,</p>
+					<p>and the maximum number of powers the vitalist may know at any one time in this fashion is listed on Table: The Vitalist. If a vitalist learns a</p>
+					<p>power through other means, such as the Expanded Knowledge feat or psychic chirurgery, this power is known in addition to his normal powers. He</p>
+					<p>may never exchange it for another power from the vitalist list when he chooses his powers known, and it doesn't count against his limit of powers</p>
+					<p>known at any one time.</p>
+					<p></p>
+					<p>The Difficulty Class for saving throws against vitalist powers is 10 + the power's level + the vitalist's Wisdom modifier.</p>
+					<p></p>
+					<p><b>Maximum Power Level Known:</b> A vitalist begins play with the ability to learn 1st-level powers. As he attains higher levels, he may gain the ability</p>
+					<p>to master more complex powers.</p>
+					<p></p>
+					<p>To learn or manifest a power, a vitalist must have an Wisdom score of at least 10 + the power's level.</p>
 				</text>
 			</statblock>
 			<proficiencies>
@@ -1997,83 +2277,130 @@
 				</index>
 			</proficiencies>
 			<core>
-				<name type="string">Core Aegis</name>
+				<name type="string">Core Vitalist</name>
 				<index>
-					<astralrepair>
+					<knacks>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.astralrepair@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.knacks@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Astral Repair</name>
-					</astralrepair>
-					<formastralsuit>
+						<name type="string">Knacks</name>
+					</knacks>
+					<collective>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.formastralsuit@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.collective@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Form Astral Suit</name>
-					</formastralsuit>
-					<craftsman>
+						<name type="string">Collective</name>
+					</collective>
+					<collectivehealing>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.craftsman@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.collectivehealing@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Craftsman</name>
-					</craftsman>
-					<damagereduction>
+						<name type="string">Collective Healing</name>
+					</collectivehealing>
+					<medicpowers>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.damagereduction@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.medicpowers@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Damage Reduction</name>
-					</damagereduction>
-					<invigoratingsuit>
+						<name type="string">Medic Powers</name>
+					</medicpowers>
+					<vitaliststouch>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.invigoratingsuit@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.vitaliststouch@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Invigorating Suit</name>
-					</invigoratingsuit>
-					<reconfigure>
+						<name type="string">Vitalist's Touch</name>
+					</vitaliststouch>
+					<healthsense>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.reconfigure@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.healthsense@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Reconfigure</name>
-					</reconfigure>
-					<augmentsuit>
+						<name type="string">Health Sense</name>
+					</healthsense>
+					<spiritofmany>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.augmentsuit@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.spiritofmany@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Augment Suit</name>
-					</augmentsuit>
-					<mastercraftsman>
+						<name type="string">Spirit of Many</name>
+					</spiritofmany>
+					<stealhealth>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.mastercraftsman@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.stealhealth@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Master Craftsman</name>
-					</mastercraftsman>
-					<cannibalizesuit>
+						<name type="string">Steal Health</name>
+					</stealhealth>
+					<telepathy>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.cannibalizesuit@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.telepathy@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Cannibalize Suit</name>
-					</cannibalizesuit>
-					<perfectmerger>
+						<name type="string">Telepathy</name>
+					</telepathy>
+					<requestaid>
 						<listlink type="windowreference">
 							<class>referencefeat</class>
-							<recordname>reference.aegis.perfectmerger@PFRPG Misc Classes</recordname>
+							<recordname>reference.vitalist.requestaid@PFRPG Misc Classes</recordname>
 						</listlink>
-						<name type="string">Perfect Merger</name>
-					</perfectmerger>
+						<name type="string">Request Aid</name>
+					</requestaid>
+					<pulse>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.vitalist.pulse@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Pulse</name>
+					</pulse>
+					<swiftaid>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.vitalist.swiftaid@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Swift Aid</name>
+					</swiftaid>
+					<expandedknowledge>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.vitalist.expandedknowledge@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Expanded Knowledge</name>
+					</expandedknowledge>
+					<vitalistsexpertise>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.vitalist.vitalistsexpertise@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Vitalists Expertise</name>
+					</vitalistsexpertise>
+					<steallife>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.vitalist.steallife@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Steal Life</name>
+					</steallife>
+					<mastervitalist>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.vitalist.mastervitalist@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Master Vitalist</name>
+					</mastervitalist>
+					<vitalistmethod>
+						<listlink type="windowreference">
+							<class>referencefeat</class>
+							<recordname>reference.vitalist.vitalistmethod@PFRPG Misc Classes</recordname>
+						</listlink>
+						<name type="string">Vitalist Method</name>
+					</vitalistmethod>
 				</index>
 			</core>
 		</vitalist>
-		
-	</lists>
 		<item>
 			<librarylink type="windowreference">
 				<class>referenceindexsorted</class>
@@ -2081,4 +2408,5 @@
 			</librarylink>
 			<name type="string">Items</name>
 		</item>
+	</lists>
 </root>
