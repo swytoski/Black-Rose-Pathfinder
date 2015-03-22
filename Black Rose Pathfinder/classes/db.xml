@@ -6452,7 +6452,8 @@
 			<name type="string">Conceal Thoughts</name>
 			<school type="string">telepathy [mind-affecting]</school>
 			<level type="string">cryptic 1, dread 0/1, gifted blade 1, marksman 0,
-				psion/wilder 0, psychic warrior 0, tactician 0</level>
+				psion/wilder 0, psychic warrior 0, tactician 0
+			</level>
 			<components type="string">Mental</components>
 			<castingtime type="string">1 standard action</castingtime>
 			<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
@@ -6467,7 +6468,8 @@
 					checks against those attempting to discern its true intentions with
 					Sense Motive. It also gains a +4 bonus on its saving throw against
 					any power or spell used to read its mind (such as read thoughts or
-					mind probe).</p>
+					mind probe).
+				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
 		</concealthoughts>
@@ -6476,7 +6478,8 @@
 			<school type="string">clairsentience</school>
 			<level type="string">cryptic 0, dread 0, gifted blade 1, marksman 0,
 				psion/wilder 0, psychic warrior 0, sighted seeker 1, tactician 0,
-				vitalist 0</level>
+				vitalist 0
+			</level>
 			<components type="string">Auditory and visual</components>
 			<castingtime type="string">1 standard action</castingtime>
 			<range type="string">60 ft.</range>
@@ -6493,10 +6496,12 @@
 					psionic subtype, and creatures with the Wild Talent feat possess
 					psionic auras. The amount of information revealed by the
 					manifestation of this power depends on how long you study a
-					particular area or subject.</p>
+					particular area or subject.
+				</p>
 				<p>1st Round: Presence or absence of psionic auras.</p>
 				<p>2nd Round: Number of different psionic auras and the strength of
-					the most potent aura.</p>
+					the most potent aura.
+				</p>
 				<p>3rd Round: The strength and location of each aura. If the items
 					or creatures bearing the auras are in line of sight, you can make
 					Knowledge (Psionics) checks to determine the discipline involved in
@@ -6504,14 +6509,17 @@
 					one-half manifester level for an effect that is not created by a
 					power, such as that of a psionic item.) If the aura emanates from a
 					psionic item, you can attempt to identify its properties (see
-					Spellcraft).</p>
+					Spellcraft).
+				</p>
 				<p>Psionically charged locations, multiple disciplines, or strong
-					local psionic emanations may confuse or conceal weaker auras.</p>
+					local psionic emanations may confuse or conceal weaker auras.
+				</p>
 				<p>Aura Strength: A psionic aura's strength depends on a functioning
 					power's level or an item's manifester level. If an aura falls into
 					more than one category, detect Psionics indicates the stronger of
 					the two. Detection of an overwhelming aura (see the accompanying
-					table) dazes you for 1 round and the power ends.</p>
+					table) dazes you for 1 round and the power ends.
+				</p>
 				<table>
 					<tr>
 						<td>Power or Item</td>
@@ -6546,13 +6554,15 @@
 					</tr>
 				</table>
 				<p>* For creatures without a manifester level, use the creature's CR
-					or hit die, whichever is lower.</p>
+					or hit die, whichever is lower.
+				</p>
 				<p>Lingering Aura: A psionic aura lingers after its original source
 					dissipates (in the case of a power) or is destroyed (in the case of
 					a psionic item). If detect Psionics is manifested and directed at
 					such a location, the power indicates an aura of dim (even weaker
 					than a faint aura). How long the aura lingers at this dim level
-					depends on its original strength:</p>
+					depends on its original strength:
+				</p>
 				<table>
 					<tr>
 						<td>Original Strength</td>
@@ -6576,10 +6586,12 @@
 					</tr>
 				</table>
 				<p>Each round, you can turn to detect Psionics in a new area. You
-					can tell the difference between magical and psionic auras.</p>
+					can tell the difference between magical and psionic auras.
+				</p>
 				<p>The power can penetrate barriers, but 1 foot of stone, 1 inch of
 					common metal, a thin sheet of lead, or 3 feet of wood or dirt
-					blocks it.</p>
+					blocks it.
+				</p>
 				<p>Augment This power may be augmented in the following way.</p>
 				<p>Augment: If you spend 2 additional power points, the duration
 					changes to 3 rounds/lvl. (D) (no concentration required) and it
@@ -6594,7 +6606,8 @@
 			<name type="string">Distract</name>
 			<school type="string">telepathy [mind-affecting]</school>
 			<level type="string">cryptic 0 (see note), dread 0/1, gifted blade 1,
-				marksman 0, psion/wilder 0, psychic warrior 0, tactician 0</level>
+				marksman 0, psion/wilder 0, psychic warrior 0, tactician 0
+			</level>
 			<components type="string">M</components>
 			<castingtime type="string">1 standard action</castingtime>
 			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
@@ -6609,8 +6622,10 @@
 					Subjects under the effect of distract make all Perception and Sense
 					Motive checks at a -4 penalty.
 
-					Augment If you expend your psionic focus when manifesting this power, the
-					cost of the power is reduced by 1 (to a minimum of 0).
+					Augment If you expend your psionic
+					focus when manifesting this power, the
+					cost of the power is reduced
+					by 1 (to a minimum of 0).
 				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
@@ -6619,7 +6634,8 @@
 			<name type="string">Fortify, Lesser</name>
 			<school type="string">psychometabolism [network]</school>
 			<level type="string">cryptic 0 (see note), dread 0, guardian 0,
-				psion/wilder 0, psychic warrior 0, tactician 0</level>
+				psion/wilder 0, psychic warrior 0, tactician 0
+			</level>
 			<components type="string">M</components>
 			<castingtime type="string">1 standard action</castingtime>
 			<range type="string">Personal</range>
@@ -6630,7 +6646,8 @@
 			<powerpoints type="string">psionic focus or 1</powerpoints>
 			<description type="formattedtext">
 				<p>You imbue yourself with psionic energy that protects you from
-					harm, granting yourself a +1 resistance bonus on saves.</p>
+					harm, granting yourself a +1 resistance bonus on saves.
+				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
 		</fortifylesser>
@@ -6639,12 +6656,14 @@
 			<school type="string">telepathy [mind-affecting, language-dependent]
 			</school>
 			<level type="string">cryptic 0 (see note), dread 0, psion/wilder 0,
-				tactician 0/1, vitalist 1</level>
+				tactician 0/1, vitalist 1
+			</level>
 			<components type="string">M</components>
 			<castingtime type="string">1 standard action</castingtime>
 			<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
 			<effect type="string">One creature Effect Mental message delivered to
-				subject</effect>
+				subject
+			</effect>
 			<duration type="string">Instantaneous</duration>
 			<save type="string">None</save>
 			<sr type="string">yes</sr>
@@ -6655,12 +6674,17 @@
 					you to the subject. If you do not share a common language, the
 					subject "hears" meaningless mental syllables.
 
-					Augment You can augment this power in one of the following ways.
+					Augment You can
+					augment this power in one of the following ways.
 
-					1. For every 2 additional power points you spend, this power's range
-					increases by 5 feet.
-					2. If you expend your psionic focus when manifesting this power, the
-					cost of the power is reduced by 1 (to a minimum of 0), but it
+					1. For every 2
+					additional power points you spend, this power's range
+					increases by 5
+					feet.
+					2. If you expend your psionic focus when manifesting this
+					power, the
+					cost of the power is reduced by 1 (to a minimum of 0),
+					but it
 					cannot be further augmented.
 				</p>
 			</description>
@@ -6688,19 +6712,30 @@
 					against it. After a creature has been dazed by this power, it is
 					immune to the effects of this power for 1 minute.
 
-					Augment This power can be augmented in one or more of the following ways.
+					Augment This power
+					can be augmented in one or more of the following ways.
 
-					1. For every additional power point you spend, this power can
-					affect a target that has Hit Dice equal to 4 + the additional
+					1. For every
+					additional power point you spend, this power can
+					affect a target
+					that has Hit Dice equal to 4 + the additional
 					points.
-					2. For every additional power point you spend, increase the duration
-					of the effect by 1 round. If you spend 6 additional power points in
-					this fashion, the target is instead stunned for 1 round.
-					Additionally, for every two additional power points spent on either
-					of the above options, this power's save DC increases by 1.
-					3. If you expend your psionic focus when manifesting this power, the
-					cost of the power is reduced by 1 (to a minimum of 0), but the
-					power may not be augmented.
+					2. For every
+					additional power point you spend, increase the duration
+					of the
+					effect by 1 round. If you spend 6 additional power points in
+					this
+					fashion, the target is instead stunned for 1 round.
+					Additionally,
+					for every two additional power points spent on either
+					of the above
+					options, this power's save DC increases by 1.
+					3. If you expend your
+					psionic focus when manifesting this power, the
+					cost of the power is
+					reduced by 1 (to a minimum of 0), but the
+					power may not be
+					augmented.
 				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
@@ -6709,7 +6744,8 @@
 			<name type="string">Call to Mind</name>
 			<school type="string">telepathy [mind-affecting]</school>
 			<level type="string">cryptic 1, psion/wilder 1, tactician 1, sighted
-				seeker 1</level>
+				seeker 1
+			</level>
 			<components type="string">M</components>
 			<castingtime type="string">1 minute</castingtime>
 			<range type="string">Personal</range>
@@ -6723,8 +6759,10 @@
 					competence bonus. If successful, you instantly recall what was
 					previously buried in your subconscious.
 
-					Augment For every 2 additional power points you spend, the competence
-					bonus increases by +1.
+					Augment For every 2
+					additional power points you spend, the competence
+					bonus increases by
+					+1.
 				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
@@ -6749,8 +6787,10 @@
 					flat-footed), you may add this bonus to a single Reflex save as a
 					resistance bonus; doing so ends the effect.
 
-					Augment: For every 5 additional power points you spend, the insight bonus
-					increases by +1.
+					Augment: For every 5
+					additional power points you spend, the insight bonus
+					increases by
+					+1.
 				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
@@ -6783,15 +6823,22 @@
 					you may once again direct the debris to attempt to entangle all
 					creatures that have avoided or escaped entanglement.
 
-					Augment: This power may be augmented in one or more of the following ways.
+					Augment: This
+					power may be augmented in one or more of the following ways.
 
-					1. For each additional 2 power points spent, this power can affect
-					an area 5 ft. larger in radius.
-					2. By spending an additional 4 power points, this power causes 2d6
-					points of damage per round to creatures that failed their Reflex
+					1. For
+					each additional 2 power points spent, this power can affect
+					an area
+					5 ft. larger in radius.
+					2. By spending an additional 4 power points,
+					this power causes 2d6
+					points of damage per round to creatures that
+					failed their Reflex
 					save.
-					In addition, for every 2 additional power points you spend to achieve
-					any of these effects, this power's save DC increases by 1.
+					In addition, for every 2 additional power
+					points you spend to achieve
+					any of these effects, this power's save
+					DC increases by 1.
 				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
@@ -6824,6 +6871,891 @@
 			</description>
 			<shortdescription type="string"></shortdescription>
 		</entanglingectoplasm>
+		<inevitablestrike>
+			<name type="string">Inevitable Strike</name>
+			<school type="string">clairsentience</school>
+			<level type="string">cryptic 1 (see note), marksman 1, psion/wilder 1,
+				psychic warrior 1, tactician 1
+			</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 swift action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">See text</duration>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>You gain temporary, intuitive insight into the immediate future
+					during your next attack. Your next single attack roll (if it is
+					made before the end of the next round) gains a +5 insight bonus.
+					Additionally, you are not affected by the miss chance that applies
+					to attackers trying to strike a concealed target.
+
+					Augment: This
+					power may be augmented in one or both of the following ways.
+					1. You
+					can increase the manifesting time to 1 standard action and
+					increase
+					the insight bonus to +20.
+					2. For every additional power point spent,
+					the insight bonus
+					increases by 2, but the total bonus may not exceed
+					+25.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</inevitablestrike>
+		<knowdirectionandlocation>
+			<name type="string">Know Direction and Location</name>
+			<school type="string">clairsentience</school>
+			<level type="string">cryptic 1, psion/wilder 1, tactician 1, sighted
+				seeker 2
+			</level>
+			<components type="string">Mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">Instantaneous</duration>
+			<powerpoints type="string">Power Points: cryptic 1, psion/wilder
+				1, tactician 1, sighted seeker 3
+			</powerpoints>
+			<description type="formattedtext">
+				<p>You generally know where you are. This power is useful to
+					characters that end up at unfamiliar destinations after
+					teleporting, using a gate, or traveling to or from other planes of
+					existence. The power reveals general information about your
+					location as a feeling or presentiment. The information is usually
+					no more detailed than a summary that locates you according to a
+					prominent local or regional site. Using this power also tells you
+					what direction you are facing. Using this power prior to making a
+					Knowledge (planes) check with astral caravan grants a +2 bonus on
+					the check.
+
+					Augment If you expend your psionic focus when manifesting
+					this power, the
+					cost of the power is reduced by 1 (to a minimum of
+					0).
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</knowdirectionandlocation>
+		<precognition>
+			<name type="string">Precognition</name>
+			<school type="string">clairsentience</school>
+			<level type="string">seer 1, sighted seeker 1, tactician 1</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">Up to 10 min./level, until discharged; see
+				text
+			</duration>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>Precognition allows your mind to glimpse fragments of potential
+					future events-what you see will probably happen if no one takes
+					action to change it. However, your vision is incomplete, and it
+					makes no real sense until the actual events you glimpsed begin to
+					unfold. That's when everything begins to come together, and you can
+					act, if you act swiftly, on the information you previously received
+					when you manifested this power. In practice, manifesting this power
+					grants you a "precognitive edge." Normally, you can have only a
+					single precognitive edge at one time. You must use your edge within
+					a period of no more than 10 minutes per level, at which time your
+					preknowledge fades and you lose your edge. You can use your
+					precognitive edge in a variety of ways. Essentially, the edge
+					translates into a +2 insight bonus that you can apply at any time
+					to either an attack roll, a damage roll, a saving throw, or a skill
+					check. You can elect to apply the bonus to the roll after you
+					determine that your unmodified roll is lower than desired.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</precognition>
+		<precognitiondefensive>
+			<name type="string">Precognition, Defensive</name>
+			<school type="string">clairsentience</school>
+			<level type="string">cryptic 1, dread 1, gifted blade 1, marksman 1,
+				psion/wilder 1, psychic warrior 1, sighted seeker 1, tactician 1
+			</level>
+			<components type="string">Material and visual</components>
+			<castingtime type="string">1 standard action; see text
+			</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">1 min./level (D)</duration>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>Your awareness extends a fraction of a second into the future,
+					allowing you to better evade an opponent's blows. You gain a +1
+					insight bonus to AC and on all saving throws. If caught in a
+					situation where your Dexterity bonus isn't applied to your Armor
+					Class, this bonus to AC and saving throws does not apply.
+
+					Augment
+					You can augment this power in one or both of the following ways.
+					1.
+					For every 3 additional power points you spend, the insight bonus
+					gained increases by 1.
+					2. If you spend 6 additional power points,
+					you can manifest this
+					power as a swift action.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</precognitiondefensive>
+		<precognitiontactical>
+			<name type="string">Precognition, Tactical</name>
+			<school type="string">clairsentience</school>
+			<level type="string">cryptic 1 (see note), gifted blade 1, psychic
+				warrior 1, tactician 1
+			</level>
+			<components type="string">Auditory and olfactory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">1 round/level</duration>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>Your awareness extends a fraction of a second into the future,
+					allowing you to better perform a particular combat maneuver. Select
+					one type of combat maneuver, such as bull rush or reposition, when
+					you manifest this power. You gain a +2 enhancement bonus to combat
+					maneuver checks of that type for the duration of the effect.
+
+					Augment This power may be augmented in one or more of the following
+					ways.
+					1. For every 2 additional power points you spend, the
+					enhancement
+					bonus increases by 1.
+					2. For every 3 additional power
+					points you spend, you can select an
+					additional combat maneuver.
+					3. If
+					you spend 4 additional power points, using the combat maneuver
+					selected does not provoke attacks of opportunity.
+					4. If you spend 6
+					additional power points, you can manifest this
+					power as an immediate
+					action.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</precognitiontactical>
+		<senselink>
+			<name type="string">Sense Link</name>
+			<school type="string">telepathy [mind-affecting]</school>
+			<level type="string">psion/wilder 1, tactician 1, vitalist 1</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Medium (100 ft. + 10 ft./level)</range>
+			<effect type="string">One willing creature</effect>
+			<duration type="string">Concentration, up to 1min./level</duration>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>You perceive what the subject creature perceives using its sight,
+					hearing, taste, or smell. Only one sense is linked, and you cannot
+					switch between senses with the same manifestation. You make any
+					skill checks involving senses, such as Perception, as the subject,
+					and only within the subject's field of view. You lose your
+					Dexterity bonus to AC while directly sensing what the subject
+					senses. Once sense link is manifested, the link persists even if
+					the subject moves out of the range of the original manifestation
+					(but the link does not work across planes). You do not control the
+					subject, nor can you communicate with it by means of this power.
+					The strength of the subject's linked sense could be enhanced by
+					other powers or items, allowing you the same enhanced sense. You
+					are subject to any gaze attack affecting the subject creature (if
+					you linked vision). If you are blinded or deafened, or suffer some
+					other sensory deprivation, the linked creature functions as an
+					independent sensory organ, and provides you the benefit of the
+					linked sense from its perspective while this power's duration
+					lasts.
+
+					Augment You can augment this power in one or more of the
+					following ways.
+					1. If you spend 2 additional power points, you can
+					have the subject
+					perceive one of your senses instead of the other
+					way around.
+					2. If you spend 4 additional power points, you can link
+					to a second
+					sense of the same subject.
+					3. If you spend 2 additional
+					power points, you can target an
+					unwilling creature (Will save
+					negates), but cannot augment this
+					power in any other way. Treat the
+					power as a 2nd level power when
+					determining the save DC.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</senselink>
+		<skillsasone>
+			<name type="string">Skills as One</name>
+			<school type="string">Telepathy [mind-affecting, network, shared]
+			</school>
+			<level type="string">Tactician 1</level>
+			<components type="string">mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">you plus one willing creature</effect>
+			<duration type="string">1 rnd./lvl.</duration>
+			<save type="string">None (see text)</save>
+			<sr type="string">Yes</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>When manifesting this power, you must choose one skill. If your
+					rank in that skill is higher, the target uses your ranks in place
+					of his own ranks (maximum 5 ranks), and vice versa. If a target's
+					skill ranks are replaced by this power, they are treated as though
+					they actually had the shared ranks in the skill for all purposes
+					(including class skill bonuses and the use of trained-only skills).
+
+					Augment: You can augment this power in one or more of the following
+					ways.
+					1. For every 2 additional power points you spend, you can
+					choose an
+					additional skill to share. Compare each skill
+					individually.
+					2. For every 2 additional power points you spend, the
+					maximum ranks
+					you can share increases by 5 ranks.
+					3. If you spend 2
+					additional power points, this power can affect an
+					unwilling target,
+					and the power's saving throw becomes "Will
+					negates (harmless)".
+					Unwilling targets do not gain the benefit of
+					increased skill ranks,
+					although their skill ranks may be shared
+					with willing targets.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</skillsasone>
+		<unearthlyterror>
+			<name type="string">Unearthly Terror</name>
+			<school type="string">Telepath [Fear, Mind-Affecting, Network]</school>
+			<level type="string">Dread 1, psion/wilder 1, Tactician 1</level>
+			<components type="string">Mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">one creature</effect>
+			<duration type="string">1 round/level</duration>
+			<save type="string">Will negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>You form a mental bond between yourself and an enemy, and use
+					that bond to bombard their mind with horrifying images and incite
+					fear. Targets of this power who fail their saving throws are shaken
+					for the duration of the power.
+
+					Augment: You may augment this power
+					in one or more of the following ways.
+
+					If you spend 4 additional
+					power points, creatures that fail their
+					save become frightened for
+					the duration and those that succeed are
+					considered shaken. If you
+					spend 8 additional power points,
+					creatures that fail their saves
+					become panicked for the duration,
+					and those that succeed are shaken.
+
+					For every 2 additional power points you spend (including those
+					spent
+					on the above augment options) increase the save DC by 1.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</unearthlyterror>
+		<dazzle>
+			<name type="string">Dazzle</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">Vitalist 0</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">30 ft.</range>
+			<effect type="string">One living creature</effect>
+			<duration type="string">1 round</duration>
+			<save type="string">No</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">psionic focus or 1</powerpoints>
+			<description type="formattedtext">
+				<p>You attempt to disrupt the vision of the targeted creature by
+					making a ranged touch attack. If the attack is successful, the
+					creature is dazzled until the beginning of your next turn.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</dazzle>
+		<disruptivetouch>
+			<name type="string">Disruptive Touch</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">Vitalist 0</level>
+			<components type="string">Auditory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">One living creature touched</effect>
+			<duration type="string">3 rounds</duration>
+			<save type="string">Fort negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">psionic focus or 1</powerpoints>
+			<description type="formattedtext">
+				<p>Your touch disrupts the natural energy of the creature's body,
+					causing them to be staggered unless they make a successful
+					Fortitude save.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</disruptivetouch>
+		<hinder>
+			<name type="string">Hinder</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">Vitalist 0</level>
+			<components type="string">auditory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">30 ft.</range>
+			<effect type="string">1 living creature</effect>
+			<duration type="string">1 minute or until discharged; see text
+			</duration>
+			<save type="string">none</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">psionic focus or 1</powerpoints>
+			<description type="formattedtext">
+				<p>If you make a successful ranged touch attack against the target,
+					it takes a -1 penalty on the next attack roll, saving throw, or
+					skill check. You must choose which type of roll the penalty applies
+					to at the time you manifest the power. If the target does not make
+					that type of roll before the power ends, it has no effect.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</hinder>
+		<inducepain>
+			<name type="string">Induce Pain</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">Vitalist 0</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">30 ft.</range>
+			<effect type="string">1 living creature</effect>
+			<duration type="string">instantaneous</duration>
+			<save type="string">none</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">psionic focus or 1</powerpoints>
+			<description type="formattedtext">
+				<p>You attempt to cause a creature to feel pain. If you make a
+					successful ranged touch attack at the target, it takes 1d3 points
+					of damage.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</inducepain>
+		<sensepoison>
+			<name type="string">Sense Poison</name>
+			<school type="string">clairsentience</school>
+			<level type="string">psion/wilder 0, psychic warrior 0, Vitalist 0
+			</level>
+			<components type="string">Material, visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">One creature, one object, or a 5-ft. cube
+			</effect>
+			<duration type="string">instantaneous</duration>
+			<save type="string">none</save>
+			<sr type="string">no</sr>
+			<powerpoints type="string">Psionic Focus or 1</powerpoints>
+			<description type="formattedtext">
+				<p>You determine whether a creature, object, or area has been
+					poisoned or is poisonous. You can determine the exact type of
+					poison with a DC 20 Wisdom check. A character with the Craft
+					(alchemy) skill may try a DC 20 Craft (alchemy) check if the Wisdom
+					check fails, or may try the Craft (alchemy) check prior to the
+					Wisdom check. The power can penetrate barriers, but 1 foot of
+					stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of
+					wood or dirt blocks it.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</sensepoison>
+		<sickenbody>
+			<name type="string">Sicken Body</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">Vitalist 0</level>
+			<components type="string">olfactory, visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">30 ft.</range>
+			<effect type="string">1 living creature</effect>
+			<duration type="string">1 round</duration>
+			<save type="string">Will negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">psionic focus or 1</powerpoints>
+			<description type="formattedtext">
+				<p>You cause the target to be sickened until the start of your next
+					turn unless the creature makes a successful Will save.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</sickenbody>
+		<vim>
+			<name type="string">Vim</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">cryptic 0 (see note), dread 0, psion/wilder 0,
+				psychic warrior 0, vitalist 0
+			</level>
+			<components type="string">Material, olfactory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">1 min./level</duration>
+			<powerpoints type="string">Psionic focus or 1</powerpoints>
+			<description type="formattedtext">
+				<p>You suffuse yourself with power, gaining 1 temporary hit point.
+					This temporary hit point overlaps (does not stack) with temporary
+					hit points from any source, including previous manifestations of
+					this power.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</vim>
+		<biofeedback>
+			<name type="string">Biofeedback</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">dread 1, gifted blade 1, psion/wilder 2, psychic
+				warrior 1, vitalist 1
+			</level>
+			<components type="string">Material and visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">1 min./level (D)</duration>
+			<powerpoints type="string">Power Points: dread 1, gifted blade 1,
+				psion/wilder 3, psychic warrior 1, vitalist 1
+			</powerpoints>
+			<description type="formattedtext">
+				<p>You can toughen your body against wounds, lessening their impact.
+					For the duration of this power, you gain damage reduction 2/-.
+
+					Augment For every 3 additional power points you spend, your damage
+					reduction increases by 1.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</biofeedback>
+		<collapse>
+			<name type="string">Collapse</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">Vitalist 1</level>
+			<components type="string">auditory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">1 living creature</effect>
+			<duration type="string">instantaneous</duration>
+			<save type="string">Fort negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>You disrupt the muscles and nerves of the target, causing it to
+					be knocked prone on a failed save.
+
+					Augment: You can augment this
+					power in one or more of the following ways.
+					1. If you spend 2
+					additional power points, on a failed save the
+					target is fatigued,
+					sickened, or staggered, at your choice, for 1
+					round/lvl., in
+					addition to being knocked prone. Multiple
+					applications of this power
+					do not cause the target to become
+					exhausted.
+					2. If you spend 4
+					additional power points, on a failed save the
+					target is nauseated
+					for 1 round/lvl., in addition to being knocked
+					prone.
+					In addition,
+					for every 2 power points spent augmenting this power,
+					the save DC
+					increases by 1.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</collapse>
+		<detectcompulsion>
+			<name type="string">Detect Compulsion</name>
+			<school type="string">clairsentience</school>
+			<level type="string">vitalist 1, psion/wilder 1</level>
+			<components type="string">None (see text)</components>
+			<castingtime type="string">One swift action</castingtime>
+			<range type="string">60 feet</range>
+			<effect type="string">1 creature</effect>
+			<duration type="string">instantaneous</duration>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>You detect if the target creature is under the effects of a
+					compulsion or charm. Affected creatures appear to have an amber
+					aura, though no one but you sees this visual effect.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</detectcompulsion>
+		<elfsight>
+			<name type="string">Elfsight</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">cryptic 1, gifted blade 1, marksman 1, psion/wilder
+				2, psychic warrior 1, vitalist 1
+			</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">1 hour/level</duration>
+			<powerpoints type="string">Power Points: cryptic 1, psion/wilder
+				3, psychic warrior 1, vitalist 1
+			</powerpoints>
+			<description type="formattedtext">
+				<p>You gain low-light vision (as an elf) for the duration of the
+					power, as well as a +2 bonus on vision-based Perception checks.
+
+					If
+					elfsight is used in conjunction with my light, the cone of light
+					extends out to 80 feet instead of 40 feet.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</elfsight>
+		<naturalhealing>
+			<name type="string">Natural Healing</name>
+			<school type="string">Psychometabolism (Healing)</school>
+			<level type="string">Egoist 1, Vitalist 1</level>
+			<components type="string">Auditory and visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">Instantaneous</duration>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>You rapidly accelerate your natural healing ability. You heal 3
+					hit points of damage.
+
+					Augment For every additional power point you
+					spend, this power heals an
+					additional 3 hit points.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</naturalhealing>
+		<suppresscompulsion>
+			<name type="string">Suppress Compulsion</name>
+			<school type="string">Telepathy [mind-affecting]</school>
+			<level type="string">Vitalist 1, telepath 1</level>
+			<components type="string">none</components>
+			<castingtime type="string">One swift action</castingtime>
+			<range type="string">close (25 feet + 5 feet/two levels)</range>
+			<effect type="string">One dominated or controlled creature</effect>
+			<duration type="string">1 round</duration>
+			<save type="string">none</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>You can attempt to suppress a compulsion or charm effect on
+					another creature by overwhelming the creature with conflicting
+					telepathic signals, temporarily canceling the domination. When you
+					manifest this power, make a manifester level check against the
+					ongoing controlling power currently in effect on the creature. The
+					manifester level check is 1d20 + your manifester level against a
+					Difficulty Class of 11 + the manifester level of the entity that
+					originally manifested the controlling power. On a successful check,
+					the control is suppressed for 1 full round. Even though suppressed,
+					the compulsion or charm is still considered to be running off its
+					duration.
+
+					Augment: You can augment this power in one or more of the
+					following ways.
+					1. If you spend 4 additional power points, you can
+					attempt to
+					permanently terminate a compulsion or charm effect on
+					another
+					creature, including mind control. When you manifest this
+					power,
+					make a manifester level check against the ongoing controlling
+					power
+					currently in effect on the creature against a Difficulty Class
+					of
+					11 + the manifester level of the entity that originally
+					manifested
+					the controlling power. On a successful check, you
+					terminate the
+					effect.
+					2. For every additional power point you spend,
+					you increase your
+					check result by +1 and extend the duration by 1
+					round.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</suppresscompulsion>
+		<synesthete>
+			<name type="string">Synesthete</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">gifted blade 1, psion/wilder 1, psychic warrior 1,
+				vitalist 1
+			</level>
+			<components type="string">Material</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">10 min./level (D)</duration>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>You receive one kind of sensory input when a different sense is
+					stimulated. In particular, you can either feel light or feel sound.
+					You can shift your stimulated sense between these two options once
+					per round as a swift action. Your senses continue to work normally
+					as well, unless they are impaired for some reason. Your face must
+					be uncovered to use this power, because it is the skin of your face
+					that acts as the sensory receiver. If you are feeling light by
+					absorbing ambient light onto your skin, you have your normal visual
+					abilities (except for darkvision), even if your eyes are closed or
+					you are blinded. If your eyes are working normally, you gain a +4
+					circumstance bonus on all visual Perception checks. While feeling
+					light, you are immune to gaze attacks. If you are feeling sound by
+					absorbing sound onto your skin and your ears are working normally,
+					the expanded audio input provides you with a +4 circumstance bonus
+					on Perception checks to listen. psionic or magical displacement
+					effects, invisibility effects, illusions, and other similar effects
+					confuse your synesthete senses just as they would your normal
+					senses. You can also use this power to see sound if you are
+					deafened, or hear light if you are blinded, thus removing all
+					penalties associated with either condition (though you gain no
+					bonuses for using the power in this way if you are not deafened or
+					blinded).
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</synesthete>
+		<thickenskin>
+			<name type="string">Thicken Skin</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">egoist 1, gifted blade 1, psychic warrior 1,
+				vitalist 1
+			</level>
+			<components type="string">Material and olfactory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">10 min./level</duration>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>Your skin or natural armor thickens and spreads across your body,
+					increasing your natural armor bonus by +1.
+
+					Augment You can augment
+					this power in one or both of the following ways.
+					1. For every 3
+					additional power points you spend, the bonus
+					increases by 1.
+					2. If
+					you spend 6 additional power points, you can manifest this
+					power as
+					a swift action.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</thickenskin>
+		<vigor>
+			<name type="string">Vigor</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">cryptic 1, gifted blade 1, marksman 1, psion/wilder
+				1, psychic warrior 1, vitalist 1
+			</level>
+			<components type="string">Material and olfactory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">1 min./level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>You suffuse yourself with power, gaining 5 temporary hit points.
+					Using this power again when an earlier manifestation has not
+					expired merely replaces the older temporary hit points (if any
+					remain) with the newer ones.
+
+					Augment For every additional power
+					point you spend, the number of
+					temporary hit points you gain
+					increases by 5.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</vigor>
+		<coordinateasone>
+			<name type="string">Coordinate as One</name>
+			<school type="string">Telepathy [mind-affecting, network, shared]
+			</school>
+			<level type="string">Tactician 2</level>
+			<components type="string">mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">1 willing creature other than you</effect>
+			<duration type="string">1 rnd./lvl</duration>
+			<save type="string">Will negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 3</powerpoints>
+			<description type="formattedtext">
+				<p>You form a mental bond with one creature within range, giving
+					them the ability to 'borrow' your perception and use that
+					information to direct their movements.
+
+					You may choose to direct the
+					target either offensively, alerting them
+					to weaknesses in their
+					opponent's defenses, or defensively,
+					alerting them to incoming
+					attacks. You may change whether you are
+					directing offensively or
+					defensively once per round as a free
+					action. While being directed
+					offensively, the subject gains a +1
+					insight bonus on attack rolls
+					and damage rolls. While being
+					directed defensively, the subject
+					receives a +1 insight bonus on
+					armor class and saving throws.
+
+					Augment: This power may be augmented in one or both of the
+					following ways.
+
+					1. For every 3 additional power points you spend,
+					increase the
+					insight bonus by 1.
+
+					2. If you spend 6 additional power
+					points, the target can be directed
+					both offensively and defensively.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</coordinateasone>
+		<detecthostileintent>
+			<name type="string">Detect Hostile Intent</name>
+			<school type="string">telepathy [mind-affecting]</school>
+			<level type="string">cryptic 2, gifted blade 2, marksman 2, psion/wilder
+				2, psychic warrior 2, tactician 2
+			</level>
+			<components type="string">Olfactory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">30 ft.</range>
+			<effect type="string">30-ft.-radius emanation centered on you</effect>
+			<duration type="string">10 min./level (D)</duration>
+			<save type="string">none</save>
+			<sr type="string">no</sr>
+			<powerpoints type="string">Power Points: 3</powerpoints>
+			<description type="formattedtext">
+				<p>While the duration of this power lasts, you become aware of the
+					presence of any creatures with hostile intent within 30 feet of
+					you, and their direction from you (but not their specific
+					location). The power detects active aggression, as opposed to
+					vigilance. In addition, while this power is active you cannot be
+					surprised or caught flat-footed by creatures that are susceptible
+					to mind-affecting powers.
+
+					While under the effect of this power, you
+					can make Sense Motive checks
+					as a free action against anyone within
+					30 feet of you.
+
+					The power can penetrate barriers, but 3 feet of
+					stone, 3 inches of
+					common metal, 1 inch of lead, or 6 feet of wood
+					or dirt blocks it.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</detecthostileintent>
+		<dimensionswap>
+			<name type="string">Dimension Swap</name>
+			<school type="string">psychoportation (teleportation)</school>
+			<level type="string">gifted blade 2, nomad 2, psychic warrior 2,
+				tactician 2
+			</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">You and one ally in range, or any two allies in
+				range; see text
+			</effect>
+			<duration type="string">Instantaneous</duration>
+			<save type="string">Will negates (harmless, object)</save>
+			<sr type="string">Yes (harmless, object)</sr>
+			<powerpoints type="string">Power Points: 3</powerpoints>
+			<description type="formattedtext">
+				<p>You instantly swap positions between your current position and
+					that of a designated ally in range. Alternatively, you can swap the
+					positions of any two allies in range. This power affects creatures
+					of Large or smaller size. You can bring along objects, but not
+					other creatures.
+
+					Special A psychic warrior can manifest this power
+					to swap positions with
+					an ally, but not to swap the positions of two
+					allies.
+
+					Augment For every 2 additional power points you spend, this
+					power can
+					affect a target one size category larger.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</dimensionswap>
+		<empathictransfer>
+			<name type="string">Empathic Transfer</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">egoist 2, psychic warrior 2, tactician 2, vitalist
+				2</level>
+			<components type="string">Auditory and material</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">Willing creature touched</effect>
+			<duration type="string">Instantaneous</duration>
+			<powerpoints type="string">Power Points: 3</powerpoints>
+			<description type="formattedtext">
+				<p>You heal another creature's wounds, transferring some of its
+					damage to yourself. When you manifest this power, you can heal as
+					much as 2d10 points of damage. The target regains a number of hit
+					points equal to the dice result, and you lose hit points equal to
+					half of that amount. (This loss can bring you to 0 or fewer hit
+					points.) Powers and abilities you may have such as damage reduction
+					and regeneration do not lessen or change this damage, since you are
+					taking the target's pain into yourself in an empathic manner. The
+					damage transferred by this power has no type, so even if you have
+					immunity to the type of damage the target originally took, the
+					transfer occurs normally and deals hit point damage to you.
+
+					Alternatively, you can use this power to absorb one poison or one
+					disease afflicting the target creature into yourself. When you
+					absorb a poison or disease, you do not take any of the damage
+					previously dealt to the target by the affliction, but you do assume
+					the burden of making the secondary and/or continuing Fortitude
+					saves to combat the affliction.
+
+					Finally, you can use this power to transfer up to 1 point of ability damage
+					per manifester level from the target to yourself.
+
+					Augment For every additional power point you spend, you can heal an
+					additional 2d10 points of damage (to a maximum of 10d10 points per
+					manifestation).
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</empathictransfer>
 		<a>
 			<name type="string">a</name>
 			<school type="string">Transmutation [earth]</school>
@@ -6875,6 +7807,178 @@
 			</description>
 			<shortdescription type="string"></shortdescription>
 		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+
+
 	</spelldesc>
 	<lists static="true">
 		<aegis>
@@ -7674,7 +8778,8 @@
 						<listlink type="windowreference">
 							<class>referencefeat</class>
 							<recordname>spelldesc.customizations.adhesivefeet@PFRPG Misc
-								Classes</recordname>
+								Classes
+							</recordname>
 						</listlink>
 						<name type="string">Adhesive Feet</name>
 					</adhesivefeet>
@@ -7682,7 +8787,8 @@
 						<listlink type="windowreference">
 							<class>referencefeat</class>
 							<recordname>spelldesc.customizations.augmentedweapon@PFRPG Misc
-								Classes</recordname>
+								Classes
+							</recordname>
 						</listlink>
 						<name type="string">Augmented Weapon</name>
 					</augmentedweapon>
@@ -7714,7 +8820,8 @@
 						<listlink type="windowreference">
 							<class>referencefeat</class>
 							<recordname>spelldesc.customizations.crystallizedweapon@PFRPG
-								Misc Classes</recordname>
+								Misc Classes
+							</recordname>
 						</listlink>
 						<name type="string">Crystallized Weapon</name>
 					</crystallizedweapon>
@@ -9791,7 +10898,7 @@
 			<spells>
 				<description type="string">Tacticion Powers</description>
 				<groups>
-					<level1>
+					<level01>
 						<description type="string">Level 0 (talents)</description>
 						<spells>
 							<concealthoughts>
@@ -9841,8 +10948,8 @@
 								<level type="number">0</level>
 							</telepathiclash>
 						</spells>
-					</level1>
-					<level2>
+					</level01>
+					<level02>
 						<description type="string">Level 1</description>
 						<spells>
 							<calltomind>
@@ -9877,67 +10984,177 @@
 								</link>
 								<level type="number">1</level>
 							</entanglingectoplasm>
-							<a>
+							<inevitablestrike>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.inevitablestrike@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">1</level>
-							</a>
-							<a>
+							</inevitablestrike>
+							<knowdirectionandlocation>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.knowdirectionandlocation@PFRPG Misc
+										Classes
+									</recordname>
 								</link>
 								<level type="number">1</level>
-							</a>
-							<a>
+							</knowdirectionandlocation>
+							<precognition>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.precognition@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">1</level>
-							</a>
-							<a>
+							</precognition>
+							<precognitiondefensive>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.precognitiondefensive@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">1</level>
-							</a>
-							<a>
+							</precognitiondefensive>
+							<precognitiontactical>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.precognitiontactical@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">1</level>
-							</a>
-							<a>
+							</precognitiontactical>
+							<senselink>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.senselink@PFRPG Misc Classes</recordname>
 								</link>
 								<level type="number">1</level>
-							</a>
-							<a>
+							</senselink>
+							<skillsasone>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.skillsasone@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">1</level>
-							</a>
-							<a>
+							</skillsasone>
+							<unearthlyterror>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.unearthlyterror@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">1</level>
-							</a>
+							</unearthlyterror>
 						</spells>
-					</level2>
-					<level3>
-						<description type="string">Level 1</description>
+					</level02>
+					<level03>
+						<description type="string">Level 2</description>
 						<spells>
+							<coordinateasone>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.coordinateasone@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">2</level>
+							</coordinateasone>
+							<detecthostileintent>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.detecthostileintent@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">2</level>
+							</detecthostileintent>
+							<dimensionswap>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.dimensionswap@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">2</level>
+							</dimensionswap>
+							<empathictransfer>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.empathictransfer@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">2</level>
+							</empathictransfer>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
 							<a>
 								<link type="windowreference">
 									<class>spelldesc</class>
@@ -9946,9 +11163,9 @@
 								<level type="number">2</level>
 							</a>
 						</spells>
-					</level3>
-					<level4>
-						<description type="string">Level 1</description>
+					</level03>
+					<level04>
+						<description type="string">Level 3</description>
 						<spells>
 							<a>
 								<link type="windowreference">
@@ -9958,9 +11175,9 @@
 								<level type="number">3</level>
 							</a>
 						</spells>
-					</level4>
-					<level5>
-						<description type="string">Level 1</description>
+					</level04>
+					<level05>
+						<description type="string">Level 4</description>
 						<spells>
 							<a>
 								<link type="windowreference">
@@ -9970,9 +11187,9 @@
 								<level type="number">4</level>
 							</a>
 						</spells>
-					</level5>
-					<level6>
-						<description type="string">Level 1</description>
+					</level05>
+					<level06>
+						<description type="string">Level 5</description>
 						<spells>
 							<a>
 								<link type="windowreference">
@@ -9982,9 +11199,9 @@
 								<level type="number">5</level>
 							</a>
 						</spells>
-					</level6>
-					<level7>
-						<description type="string">Level 1</description>
+					</level06>
+					<level07>
+						<description type="string">Level 6</description>
 						<spells>
 							<a>
 								<link type="windowreference">
@@ -9994,9 +11211,9 @@
 								<level type="number">6</level>
 							</a>
 						</spells>
-					</level7>
-					<level8>
-						<description type="string">Level 1</description>
+					</level07>
+					<level08>
+						<description type="string">Level 7</description>
 						<spells>
 							<a>
 								<link type="windowreference">
@@ -10006,21 +11223,21 @@
 								<level type="number">7</level>
 							</a>
 						</spells>
-					</level8>
-					<level9>
-						<description type="string">Level 1</description>
+					</level08>
+					<level09>
+						<description type="string">Level 8</description>
 						<spells>
 							<a>
 								<link type="windowreference">
 									<class>spelldesc</class>
 									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
 								</link>
-								<level type="number">8</level>
+								<level type="number">9</level>
 							</a>
 						</spells>
-					</level9>
+					</level09>
 					<level10>
-						<description type="string">Level 1</description>
+						<description type="string">Level 9</description>
 						<spells>
 							<a>
 								<link type="windowreference">
@@ -10061,6 +11278,14 @@
 						</listlink>
 						<name type="string">Core Vitalist</name>
 					</r3corevitalist>
+					<r4corevitalist>
+						<listlink type="windowreference">
+							<class>reference_classspelllist</class>
+							<recordname>lists.vitalist.spells@PFRPG Misc Classes
+							</recordname>
+						</listlink>
+						<name type="string">Power List: vitalist</name>
+					</r4corevitalist>
 				</index>
 			</basemenu>
 			<statblock>
@@ -10712,6 +11937,340 @@
 					</soulthiefmethod>
 				</index>
 			</vitalistmethod>
+			<spells>
+				<description type="string">Vitalist Powers</description>
+				<groups>
+					<level01>
+						<description type="string">Level 0 (talents)</description>
+						<spells>
+							<dazzle>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.dazzle@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">0</level>
+							</dazzle>
+							<detectpsionics>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.detectpsionics@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">0</level>
+							</detectpsionics>
+							<disruptivetouch>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.disruptivetouch@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">0</level>
+							</disruptivetouch>
+							<hinder>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.hinder@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">0</level>
+							</hinder>
+							<inducepain>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.inducepain@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">0</level>
+							</inducepain>
+							<sensepoison>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.sensepoison@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">0</level>
+							</sensepoison>
+							<sickenbody>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.sickenbody@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">0</level>
+							</sickenbody>
+							<vim>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.vim@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">0</level>
+							</vim>
+						</spells>
+					</level01>
+					<level02>
+						<description type="string">Level 1</description>
+						<spells>
+							<biofeedback>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.biofeedback@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</biofeedback>
+							<collapse>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.collapse@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</collapse>
+							<detectcompulsion>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.detectcompulsion@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</detectcompulsion>
+							<elfsight>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.elfsight@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</elfsight>
+							<missive>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.missive@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</missive>
+							<naturalhealing>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.naturalhealing@PFRPG Misc
+										Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</naturalhealing>
+							<senselink>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.senselink@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</senselink>
+							<suppresscompulsion>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.suppresscompulsion@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</suppresscompulsion>
+							<synesthete>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.synesthete@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</synesthete>
+							<thickenskin>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.thickenskin@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">1</level>
+							</thickenskin>
+							<vigor>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.vigor@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">1</level>
+							</vigor>
+						</spells>
+					</level02>
+					<level03>
+						<description type="string">Level 2</description>
+						<spells>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<empathictransfer>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.empathictransfer@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">2</level>
+							</empathictransfer>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">2</level>
+							</a>
+						</spells>
+					</level03>
+					<level04>
+						<description type="string">Level 3</description>
+						<spells>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">3</level>
+							</a>
+						</spells>
+					</level04>
+					<level05>
+						<description type="string">Level 4</description>
+						<spells>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">4</level>
+							</a>
+						</spells>
+					</level05>
+					<level06>
+						<description type="string">Level 5</description>
+						<spells>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">5</level>
+							</a>
+						</spells>
+					</level06>
+					<level07>
+						<description type="string">Level 6</description>
+						<spells>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">6</level>
+							</a>
+						</spells>
+					</level07>
+					<level08>
+						<description type="string">Level 7</description>
+						<spells>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">7</level>
+							</a>
+						</spells>
+					</level08>
+					<level09>
+						<description type="string">Level 8</description>
+						<spells>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">9</level>
+							</a>
+						</spells>
+					</level09>
+					<level10>
+						<description type="string">Level 9</description>
+						<spells>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">9</level>
+							</a>
+						</spells>
+					</level10>
+				</groups>
+			</spells>
 		</vitalist>
 		<sorcerer>
 			<basemenu>
