@@ -8419,19 +8419,541 @@
 					this augment option. This does not prevent reinfection after a new
 					exposure to the same disease at a later date.
 
-					2. If you spend 4 additional power points, this power can instead
-					detoxify any sort of venom in you. You must make a manifester level
-					check (1d20 + manifester level) against the DC of each poison
-					affecting you. Success means that the poison is neutralized. You
-					suffer no additional effects from the neutralized poison, and any
-					temporary effects are ended, but this does not reverse
-					instantaneous effects, such as hit point damage, temporary ability
-					damage, or effects that don't go away on their own. The power's
-					duration changes to Instantaneous when using this augment option.
+					2. If you spend 4
+					additional power points, this power can instead
+					detoxify any sort of
+					venom in you. You must make a manifester level
+					check (1d20 +
+					manifester level) against the DC of each poison
+					affecting you.
+					Success means that the poison is neutralized. You
+					suffer no
+					additional effects from the neutralized poison, and any
+					temporary
+					effects are ended, but this does not reverse
+					instantaneous effects,
+					such as hit point damage, temporary ability
+					damage, or effects that
+					don't go away on their own. The power's
+					duration changes to
+					Instantaneous when using this augment option.
 				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
 		</resisttoxin>
+		<battlesense>
+			<name type="string">Battlesense</name>
+			<school type="string">Telepathy [mind-affecting]</school>
+			<level type="string">Vitalist 3, Tactician 3, telepath 3</level>
+			<components type="string">mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">30 feet (see text)</range>
+			<effect type="string">1 willing creature/lvl.</effect>
+			<duration type="string">1 rnd./lvl.</duration>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>You link the minds of your allies, dramatically improving their
+					coordination. When you manifest this power, a type of heads-up
+					display appears in each target's mind, improving their coordination
+					and group awareness. Each affected target can use the Aid Another
+					action as an immediate action. Creatures that move out of the 30
+					foot range after the power is manifested are still affected by the
+					power.
+
+					Additionally, all targets that are also willing members of
+					your collective (if
+					any) gain one special ability of your choice
+					from this list. Your
+					choice affects all members equally.
+
+					* +1
+					circumstance bonus to attack rolls
+					* +1 circumstance bonus to AC
+					* +2
+					circumstance bonus to weapon damage
+					* +5 circumstance bonus to base
+					speed
+
+					Augment: You may augment this power in one or both of the
+					following ways.
+
+					1. If you spend 2 additional power points, you can
+					choose a second
+					special ability from the collective bonus list. You
+					may choose the
+					same benefit again; if you do, it stacks with itself
+					(up to +5 for
+					attack rolls or AC, +10 for weapon damage, or +25 for
+					bonus to
+					speed).
+
+					2. If you spend 2 additional power points, you can
+					use this power as
+					if you had the collective class feature, treating
+					creatures with
+					which you have established a mental link, such as the
+					mindlink
+					power, as members. Creatures that would not consider you an
+					ally if
+					not for the link do not count as willing members.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</battlesense>
+		<dangersense>
+			<name type="string">Danger Sense</name>
+			<school type="string">clairsentience</school>
+			<level type="string">
+				cryptic 3, marksman 3, psion/wilder 3, psychic
+				warrior 3, tactician 3,
+				sighted seeker 3
+			</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">1 hour/level (D)</duration>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>You can sense the presence of danger before your senses would
+					normally allow it. Your intuitive sense alerts you to danger from
+					traps, giving you a +4 insight bonus on Reflex saves to avoid traps
+					and a +4 insight bonus to Armor Class against attacks by traps.
+
+					Augment If you spend 3 additional power points, this power also
+					gives you the uncanny dodge ability; if you spend 6 additional
+					power points, this power gives you the improved uncanny dodge
+					ability as well.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</dangersense>
+		<delayedresponse>
+			<name type="string">Delayed Response</name>
+			<school type="string">psychoportation</school>
+			<level type="string">tactician 2</level>
+			<components type="string">Auditory, Mental</components>
+			<castingtime type="string">1 immediate action</castingtime>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">One creature</effect>
+			<duration type="string">instantaneous</duration>
+			<save type="string">Will negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>You force the target to delay their action until after the next
+					creature in the initiative order takes their action unless the
+					target makes a successful Will save. You must manifest this power
+					before the results of the creature's actions are determined. This
+					may result in the creature's action being invalid, such as
+					attacking a target that has moved, in which case the action is
+					wasted. If the target was manifesting a power or casting a spell,
+					they do not need to make a concentration check.
+
+					Augment: For every 3
+					additional power points you spend, the target's action
+					is delayed
+					until after an additional creature in the initiative
+					order.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</delayedresponse>
+		<ectoplasmicgrapnel>
+			<name type="string">Ectoplasmic Grapnel</name>
+			<school type="string">Metacreativity (Creation)</school>
+			<level type="string">Cryptic 3, gifted blade 3, Marksman 3, psychic
+				warrior 3, tactician 3
+			</level>
+			<components type="string">material</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">1 creature, object, or structure</effect>
+			<duration type="string">instantaneous</duration>
+			<save type="string">none</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>A blob of malleable, adhesive ectoplasm shoots out from your
+					outstretched hand, attached by an ectoplasmic cord. Upon hitting
+					its target, this ectoplasmic grapnel reels in, pulling the target
+					to you - or you to it.
+
+					When manifesting this power, you must have a
+					hand free, and must make a
+					ranged touch attack against the target; a
+					miss causes the grapnel
+					to retract instantly without attaching to
+					anything. Alternately,
+					you may have it shoot out from your shield
+					instead of a free hand;
+					you still get your shield's AC bonus against
+					the target, but lose
+					it against anyone else for the duration of the
+					power.
+
+					If you target a creature no more than one size category
+					larger than
+					you, you may attempt a drag combat maneuver check. If
+					successful,
+					you move the creature 5 feet closer to you. For every 5
+					by which
+					your attack exceeds your opponent's CMD, you can drag the
+					target an
+					additional 5 feet toward you. If the creature is willing,
+					you may
+					drag it up to 30 feet closer to you.
+
+					If you target an
+					unattended object, you may pull it up to 30 feet
+					towards you; if
+					this moves it into your square, you may grasp the
+					item immediately
+					as a free action, although you must have a free
+					hand to do so. If
+					you target an attended object, the ranged touch
+					attack is made
+					against the opponent, and you must succeed at a
+					disarm or steal
+					(your choice) combat maneuver check to wrest the
+					item free.
+
+					If you
+					fail at the combat maneuver check (or if you target an
+					immovable
+					object such as a creature more than one size category
+					larger than
+					you, an object bolted to the floor, or a building wall,
+					floor, or
+					ceiling), you are instead moved up to 30 feet towards the
+					target.
+					This movement provokes attacks of opportunity. Alternately,
+					you may
+					choose to relinquish your grip on the ectoplasmic cord,
+					knocking you
+					prone and ending the power immediately rather than
+					moving you
+					towards the target. If you end your movement at a
+					climbable location
+					(such as a wall or ledge), you must attempt a
+					Climb check (at normal
+					DC) to grab hold (or pull yourself over the
+					edge, in the case of a
+					ledge); failure means you begin falling, and
+					must make a second
+					Climb check with +20 DC to catch yourself.
+
+					If you spend a full-round
+					action bracing yourself before manifesting
+					this power, you get a +2
+					bonus on the above combat maneuver checks.
+					Each adjacent ally that
+					spends an Aid Another action to grab hold
+					of you also adds a +2
+					bonus to your combat maneuver check, but also
+					suffers the
+					consequence of being dragged or knocked prone with you
+					should the
+					check fail. If the power duration should be extended
+					beyond
+					instantaneous (see augment below), each ally holding onto
+					you must
+					spend an Aid Another action each turn to maintain their
+					hold. If you
+					end your movement at a climbable location, each ally
+					may make a
+					Climb check to grab the wall, or may instead continue
+					holding onto
+					you; your own Climb check is penalized as normal if
+					their combined
+					weight drops your encumbrance into a category with a
+					worse armor
+					check penalty.
+
+					If you manifest this power while engaged in a grapple
+					that you are in
+					control of, you immediately make a grapple combat
+					maneuver check;
+					failure means you are no longer grappling the
+					creature, while
+					success means you gain a +2 bonus to your drag
+					combat maneuver
+					check for each creature (besides yourself)
+					participating in the
+					grapple. If the drag combat maneuver check
+					fails, you and everyone
+					in the grapple are dragged (or knocked
+					prone) accordingly.
+
+					If you manifest this power while engaged in a
+					grapple that you are
+					not in control of, you immediately make a
+					grapple combat maneuver
+					check; success means you have broken free of
+					the grapple, while
+					failure means you are still grappling (but gain a
+					+2 bonus to your
+					drag combat maneuver check for each creature
+					(besides yourself)
+					participating in the grapple). If the drag combat
+					maneuver check
+					fails, you and everyone in the grapple are dragged
+					(or knocked
+					prone) accordingly, unless the creature grappling you is
+					too large
+					for you to drag (in which case the cord snaps and the
+					power fails).
+					The grappling creature may voluntarily release you
+					from the grapple
+					to avoid being dragged or knocked prone, but must
+					do so before the
+					combat maneuver check is rolled.
+
+					Augment: You can
+					augment this power in one or more of the following ways:
+
+					1. If you
+					spend 2 additional power points, the duration increases
+					to 1
+					rnd./lvl. if the ranged touch attack hits. The cord does not
+					automatically retract; you may choose to retract or extend the cord
+					up to 30 feet (to the limit of the power's range) as a standard
+					action, and must succeed at a combat maneuver check each time you
+					attempt to drag an unwilling creature in this manner. Other
+					creatures may climb or manipulate the cord as they would a rope,
+					but it is as strong as a chain. An unwilling creature attached to
+					the grapnel must cut (5 hp, hardness 10, AC 10) or burst (Str DC
+					26) the cord to move away from you, unless he succeeds at a drag
+					combat maneuver check to pull you behind him. If the cord is cut or
+					burst, or if you let go of the cord (a free action), the power ends
+					immediately.
+
+					2. If you spend 2 additional power points, the range of
+					the power
+					increases to Medium (100 ft. + 10 ft./lvl.).
+
+					3. If you
+					spend 4 additional power points, the cord retracts the full
+					length
+					instantly. A successful combat maneuver check, by any
+					margin, pulls
+					the target adjacent to you, while a failed combat
+					maneuver check
+					pulls you adjacent to the target (unless you
+					relinquish the cord and
+					go prone instead).
+
+					4. For every 4 additional power points you spend,
+					this power can drag
+					creatures an additional size category larger
+					than you, and the
+					cord's hardness increases by 2, hit points
+					increases by 10, and
+					break DC increases by 2.
+
+					5. If you spend 4
+					additional power points, you can manifest this
+					power as a move
+					action.
+
+					In addition, for every 2 additional power points you spend
+					to achieve
+					any of these effects, you also gain a +1 bonus on any
+					combat
+					maneuver checks or Climb checks you make for this power.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</ectoplasmicgrapnel>
+		<empathictransferhostile>
+			<name type="string">Empathic Transfer, Hostile</name>
+			<school type="string">telepathy [mind-affecting]</school>
+			<level type="string">psychic warrior 3, telepath 3,tactician 3,vitalist
+				3
+			</level>
+			<components type="string">Auditory and material</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">Instantaneous</duration>
+			<save type="string">Will half</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>You transfer your hurt to another. When you manifest this power
+					and then make a successful touch attack, you can transfer 50 points
+					of damage (or less, if you choose) from yourself to the touched
+					creature. The damage you transfer may not exceed the damage you
+					currently have. You immediately regain hit points equal to the
+					amount of damage you transfer.
+
+					You cannot use this power to gain hit
+					points in excess of your full
+					normal total. The transferred damage
+					is empathic in nature, so
+					powers and abilities the subject may have
+					such as damage reduction
+					and regeneration do not lessen or change
+					this damage.
+
+					The damage transferred by this power has no type, so
+					even if the
+					subject has immunity to the type of damage you
+					originally took, the
+					transfer occurs normally and deals hit point
+					damage to the subject.
+
+					Augment You can augment this power in one or
+					both of the following
+					ways.
+
+					For every additional power point you
+					spend, you can transfer an
+					additional 5 points of damage (maximum 70
+					points per
+					manifestation), although you must still have that amount
+					of actual
+					damage to transfer.
+					If you spend 6 additional power points,
+					this power affects all
+					creatures in a 20-foot-radius spread centered
+					on you, transferring
+					the full amount of damage to each creature,
+					although no matter how
+					many targets you affect, you only heal the
+					highest amount
+					transferred to any one target.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</empathictransferhostile>
+		<exposeweakness>
+			<name type="string">Expose Weakness</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">Egoist 3, psychic warrior 3, Tactician 3</level>
+			<components type="string">auditory, visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Medium (100 ft. + 10 ft./level)</range>
+			<effect type="string">One creature</effect>
+			<duration type="string">One round/level</duration>
+			<save type="string">Fortitude negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>The target of the power becomes clumsy and moves in the worst
+					possible way when attacked. The target is considered flanked to all
+					attackers and all attacks on the subject gain a +4 circumstance
+					bonus to confirm critical hits. Any fortification against sneak
+					attacks and critical hits must be rolled twice, with the worse roll
+					used to determine if the extra damage is negated.
+
+					Augment: By
+					spending an additional 6 power points, the target is considered
+					flat-footed rather than flanked.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</exposeweakness>
+		<improvedresponse>
+			<name type="string">Improved Response</name>
+			<school type="string">psychoportation [Network]</school>
+			<level type="string">Tactician 3</level>
+			<components type="string">mental, visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">1 creature</effect>
+			<duration type="string">instantaneous</duration>
+			<save type="string">Will negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>You accelerate the reaction time of the target, allowing them to
+					take this round's actions ahead of the creature who would have
+					otherwise gone immediately before the target. If this would place
+					the target before you and he has not already taken this round's
+					actions, the target must immediately take this round's actions. If
+					the target has already taken this round's actions, the power
+					affects them on the next round.
+
+					A creature may only be affected by
+					this power once per round. This
+					power does not allow a creature to
+					act in a round if he would not
+					normally be allowed to (such as
+					during the surprise round).
+
+					Augment: For every additional 6 power
+					points spent, the target's
+					place in the initiative order is improved
+					by one additional step.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</improvedresponse>
+		<sharepainforced>
+			<name type="string">Share Pain, Forced</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">psion/wilder 3, tactician 3, vitalist 3</level>
+			<components type="string">Material and mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">One creature</effect>
+			<duration type="string">1 round/level (D)</duration>
+			<save type="string">Fortitude negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>As share pain, except as noted here.
+
+					You attempt to force the
+					sharing of your wounds with an unwilling
+					creature for less time. If
+					you are immune to the type of damage
+					dealt, or if you convert lethal
+					damage into nonlethal, the target
+					takes no damage.
+
+					Augment For every
+					2 additional power points you spend, this power's save
+					DC increases
+					by 1.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</sharepainforced>
+		<solicitpsicrystal>
+			<name type="string">Solicit Psicrystal</name>
+			<school type="string">telepathy</school>
+			<level type="string">psion/wilder 3, tactician 3, vitalist 3</level>
+			<components type="string">Auditory</components>
+			<castingtime type="string">1 swift action</castingtime>
+			<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">Your psicrystal</effect>
+			<duration type="string">1 round/level (D)</duration>
+			<save type="string">no</save>
+			<sr type="string">no</sr>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>Your psicrystal takes over the responsibility of maintaining
+					concentration on any single power you have manifested and are
+					concentrating on. While maintaining this concentration, the
+					psicrystal is limited to move actions in each round, as normal,
+					unless the maintaining concentration on the power would not allow a
+					move action. When the duration of solicit psicrystal expires, the
+					power you transferred to the psicrystal ends (even if this would
+					mean that the power ends earlier than normal). If necessary, the
+					psicrystal makes concentration checks using your modifier.
+
+					You can manifest this power (and transfer the responsibility) with an
+					instant thought, quickly enough to gain the benefit of the power
+					before you take any other actions in a round.
+
+					Augment For every additional power point you spend, this power's maximum
+					duration increases by 1 round.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</solicitpsicrystal>
 		<a>
 			<name type="string">a</name>
 			<school type="string">Transmutation [earth]</school>
@@ -8466,6 +8988,24 @@
 			</description>
 			<shortdescription type="string"></shortdescription>
 		</a>
+		<a>
+			<name type="string">a</name>
+			<school type="string">Transmutation [earth]</school>
+			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
+			<components type="string">V, S</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">1 minute/level</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 1</powerpoints>
+			<description type="formattedtext">
+				<p>a.</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</a>
+
 	</spelldesc>
 	<lists static="true">
 		<aegis>
@@ -11663,6 +12203,86 @@
 					<level04>
 						<description type="string">Level 3</description>
 						<spells>
+							<battlesense>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.battlesense@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</battlesense>
+							<dangersense>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.dangersense@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</dangersense>
+							<delayedresponse>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.delayedresponse@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</delayedresponse>
+							<ectoplasmicgrapnel>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.ectoplasmicgrapnel@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</ectoplasmicgrapnel>
+							<empathictransferhostile>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.empathictransferhostile@PFRPG Misc
+										Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</empathictransferhostile>
+							<exposeweakness>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.exposeweakness@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</exposeweakness>
+							<improvedresponse>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.improvedresponse@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</improvedresponse>
+							<sharepainforced>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.sharepainforced@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</sharepainforced>
+							<solicitpsicrystal>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.solicitpsicrystal@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</solicitpsicrystal>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">3</level>
+							</a>
 							<a>
 								<link type="windowreference">
 									<class>spelldesc</class>
@@ -12695,6 +13315,14 @@
 					<level04>
 						<description type="string">Level 3</description>
 						<spells>
+							<battlesense>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.battlesense@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</battlesense>
 							<a>
 								<link type="windowreference">
 									<class>spelldesc</class>
@@ -12702,6 +13330,75 @@
 								</link>
 								<level type="number">3</level>
 							</a>
+							<dangersense>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.dangersense@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</dangersense>
+							<empathictransferhostile>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.empathictransferhostile@PFRPG Misc
+										Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</empathictransferhostile>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">3</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">3</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">3</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">3</level>
+							</a>
+							<a>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">3</level>
+							</a>
+							<sharepainforced>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.sharepainforced@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</sharepainforced>
+							<solicitpsicrystal>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.solicitpsicrystal@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">3</level>
+							</solicitpsicrystal>
+
 						</spells>
 					</level04>
 					<level05>
