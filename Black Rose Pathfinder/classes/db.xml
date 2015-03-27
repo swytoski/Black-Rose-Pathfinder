@@ -1047,7 +1047,6 @@
 					<p>The tactician is always considered a member of his own
 						collective, and does not count against this limit.
 					</p>
-					<p></p>
 					<p>The tactician can choose to remove a member as a free action on
 						his turn, and any member can voluntarily leave the collective as a
 						free action on their turn.
@@ -1069,7 +1068,6 @@
 					<p>is still a member, this has no mechanical benefit until higher
 						levels (see telepathy below).
 					</p>
-					<p></p>
 					<p>A tactician can manifest certain powers through his collective.
 						If a tactician power specifies one or more willing targets (or is
 						harmless) and has a
@@ -1089,7 +1087,6 @@
 					<p>with a range greater than touch can also be used through the
 						collective.
 					</p>
-					<p></p>
 					<p>If a member of the collective dies, the member is removed from
 						the collective and the tactician must make a Fortitude save (DC
 						15) or lose 1 power point
@@ -1097,11 +1094,9 @@
 					<p>for every Hit Die of the fallen member or be sickened for an
 						equal number of rounds.
 					</p>
-					<p></p>
 					<p>At 15th level, a tactician's collective range is limitless on
 						the same plane as the tactician
 					</p>
-					<p></p>
 					<p>At 19th level, a tactician's range reaches even across other
 						planes and dimensions.
 					</p>
@@ -2164,6 +2159,30 @@
 					</p>
 				</benefit>
 			</guardianmethod>
+			<guardianknacks>
+				<name type="string">Guardian Knacks</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+				</benefit>
+			</guardianknacks>
+			<menderknacks>
+				<name type="string">Mender Knacks</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+				</benefit>
+			</menderknacks>
+			<soulthiefknacks>
+				<name type="string">Soulthief Knacks</name>
+				<type type="string">Class</type>
+				<mult type="number">0</mult>
+				<stack type="number">0</stack>
+				<benefit type="formattedtext">
+				</benefit>
+			</soulthiefknacks>
 			<mendermethod>
 				<name type="string">Mender Method</name>
 				<type type="string">Class</type>
@@ -8944,50 +8963,300 @@
 					mean that the power ends earlier than normal). If necessary, the
 					psicrystal makes concentration checks using your modifier.
 
-					You can manifest this power (and transfer the responsibility) with an
+					You can
+					manifest this power (and transfer the responsibility) with an
 					instant thought, quickly enough to gain the benefit of the power
 					before you take any other actions in a round.
 
-					Augment For every additional power point you spend, this power's maximum
-					duration increases by 1 round.
+					Augment For every
+					additional power point you spend, this power's maximum
+					duration
+					increases by 1 round.
 				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
 		</solicitpsicrystal>
-		<a>
-			<name type="string">a</name>
-			<school type="string">Transmutation [earth]</school>
-			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
-			<components type="string">V, S</components>
+		<strikeasone>
+			<name type="string">Strike as One</name>
+			<school type="string">Telepathy [mind-affecting, network, shared]
+			</school>
+			<level type="string">Tactician 3</level>
+			<components type="string">mental</components>
 			<castingtime type="string">1 standard action</castingtime>
-			<range type="string">touch</range>
-			<effect type="string">creature touched</effect>
-			<duration type="string">1 minute/level</duration>
-			<save type="string">Fortitude negates (harmless)</save>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">you and one willing creature</effect>
+			<duration type="string">1 rnd./lvl.</duration>
+			<save type="string">none (harmless)</save>
 			<sr type="string">yes (harmless)</sr>
-			<powerpoints type="string">Power Points: 1</powerpoints>
+			<powerpoints type="string">Power Points: 5</powerpoints>
 			<description type="formattedtext">
-				<p>a.</p>
+				<p>You form a mental bond with a creature within range and use that
+					bond to coordinate your attacks to throw your foes off balance.
+
+					Creatures affected by this power may designate their own square or
+					any square adjacent to them as the square they occupy for the
+					purposes of flanking on their turn. If they occupy the designated
+					square, they gain an additional +2 bonus from flanking.
+
+					All targets
+					gain some measure of awareness from other targets,
+					guarding each
+					other from external threats. If any target is aware
+					of danger, all
+					targets are. No target may be flat-footed or flanked
+					unless all
+					targets are.
+				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
-		</a>
-		<a>
-			<name type="string">a</name>
-			<school type="string">Transmutation [earth]</school>
-			<level type="string">cleric 2, druid 2, magus 2, ranger 2</level>
-			<components type="string">V, S</components>
+		</strikeasone>
+		<withstandasone>
+			<name type="string">Withstand as One</name>
+			<school type="string">Telepathy [mind-affecting, network, shared]
+			</school>
+			<level type="string">Tactician 3</level>
+			<components type="string">mental</components>
 			<castingtime type="string">1 standard action</castingtime>
-			<range type="string">touch</range>
-			<effect type="string">creature touched</effect>
-			<duration type="string">1 minute/level</duration>
-			<save type="string">Fortitude negates (harmless)</save>
-			<sr type="string">yes (harmless)</sr>
-			<powerpoints type="string">Power Points: 1</powerpoints>
+			<range type="string">close (25 ft. + 5 ft/2 levels)</range>
+			<effect type="string">you plus one other creature</effect>
+			<duration type="string">1 rnd./lvl.</duration>
+			<save type="string">Will negates (harmless, see text)</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 5</powerpoints>
 			<description type="formattedtext">
-				<p>a.</p>
+				<p>When manifesting this power, you must choose one kind of saving
+					throw: Fortitude, Reflex, or Will. For the duration of the power,
+					all willing targets share the highest base bonus to that save. This
+					only includes bonus to saves from hit dice (including Racial hit
+					dice and class levels), not any bonuses from ability scores, Racial
+					Traits, class features, temporary effects such as powers, spells,
+					and items, or such. You and all willing targets may use the highest
+					save between you in place of their original values.
+
+					Alternatively,
+					you may force all targets to use the lowest save bonus between you
+					in place of their original base save. If this decreases the
+					target's bonus, then the target may attempt a Will save (with his
+					normal Will saving throw modifier) every round to ignore the
+					effects of this power for that round.
+
+					Augment: You can augment this
+					power in one or more of the following ways.
+
+					1. If you spend 2
+					additional power points, you may choose a second
+					kind of saving
+					throw to share. If you spend 6 additional power
+					points, you may
+					choose to share all three kinds of saves with all
+					targets. Compare
+					each new save individually with each target's
+					original, and use the
+					favorable choice for the version of the power
+					you are using.
+
+					2. For
+					every 4 additional power points you spend, you may also select
+					one
+					class feature belonging to you or a target that directly
+					modifies
+					the saving throw(s) you share, either by providing a bonus
+					or by
+					altering the effects of successful and/or failed saves.
+					Example
+					class features include Evasion and Improved Evasion, Still
+					Mind,
+					Divine Grace, and Slippery Mind. The GM may allow additional
+					abilities at his discretion. You may effectively grant this class
+					feature to any or all willing targets of your choice; treat them as
+					if they actually had the class feature in question, with one
+					exception: if a class feature has additional benefits besides
+					directly modifying the saving throw (such as fear immunity from
+					Aura of Courage), then they are not included.
+
+					In addition, for every
+					2 power points spent to achieve either of
+					these effects, the save DC
+					increases by 1.
+				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
-		</a>
+		</withstandasone>
+		<bodypurification>
+			<name type="string">Body Purification</name>
+			<school type="string">psychometabolism (healing)</school>
+			<level type="string">gifted blade 2, marksman 2, psion/wilder 3, psychic
+				warrior 2, vitalist 3
+			</level>
+			<components type="string">Auditory and material</components>
+			<castingtime type="string">1 round</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">Instantaneous</duration>
+			<powerpoints type="string">Power Points: marksman 3, psion/wilder
+				5, psychic warrior 3, vitalist 5
+			</powerpoints>
+			<description type="formattedtext">
+				<p>You restore up to 2 points of damage to a single ability score.
+					You cannot use body purification to heal ability drain.
+
+					Augment For
+					every additional power point you spend, this power heals 1
+					additional point of damage to the same ability score.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</bodypurification>
+		<endorphinsurge>
+			<name type="string">Endorphin Surge</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">gifted blade 2, psion/wilder 3, psychic warrior 2,
+				Vitalist 3
+			</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">1 round/lvl. (D)</duration>
+			<save type="string">Fortitude negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: gifted blade 3,
+				psion/wilder 5, psychic warrior 3, Vitalist 5
+			</powerpoints>
+			<description type="formattedtext">
+				<p>The glands of your body emit massive quantities of endorphins,
+					augmenting your natural abilities. While this power is active, you
+					are treated as if in a barbarian rage, giving you a +2 morale bonus
+					to your Constitution and Strength, a +1 morale bonus on Will saves,
+					and a -2 penalty to your Armor Class. The effect is otherwise
+					identical with a barbarian's rage except you aren't fatigued at the
+					end of the rage.
+
+					Augment: If you spend 6 additional power points,
+					the morale bonus to your
+					Constitution and Strength is increased by
+					2, and the morale bonus
+					on Will saves is increased by 1.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</endorphinsurge>
+		<guardedsleep>
+			<name type="string">Guarded Sleep</name>
+			<school type="string">clairsentience</school>
+			<level type="string">Dread 3, psion/wilder 3, Vitalist 3</level>
+			<components type="string">mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">1 sleeping creature</effect>
+			<duration type="string">Until the target wakes</duration>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>You create a temporary dreamstate in the mind of a sleeping
+					creature, sheltering it from outside influence while providing it
+					with a pristine resting environment, ideal for recovering mental
+					energies. For the duration of this power, the subject is immune to
+					all mind-affecting effects and may make saving throws normally (it
+					is not automatically considered "willing" as unconscious creatures
+					usually are). After a guarded sleep of at least 8 hours, a
+					subject's mind is in top condition, and it gains special benefits
+					based upon its particular abilities. If the target could manifest
+					psionic powers, it gains one temporary power point for each
+					manifester level it has (which it can access as if from a
+					cognizance crystal). If the target could cast arcane spells
+					spontaneously, it gains one additional spell slot of his highest
+					level. If the target prepares arcane spells, it may prepare spells
+					in half the usual amount of time. These benefits fade when the
+					target next sleeps. You cannot manifest guarded sleep on yourself
+					unless you are capable of manifesting powers while unconscious
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</guardedsleep>
+		<hustle>
+			<name type="string">Hustle</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">egoist 3, gifted blade 3, marksman 3, psychic
+				warrior 2, vitalist 3
+			</level>
+			<components type="string">Auditory</components>
+			<castingtime type="string">1 swift action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">1 extra move action</effect>
+			<duration type="string">Instantaneous</duration>
+			<powerpoints type="string">Power Points: egoist 5, gifted blade 5,
+				marksman 5, psychic warrior 3, vitalist 5
+			</powerpoints>
+			<description type="formattedtext">
+				<p>You gain an additional move action in the current round. Taking a
+					full round's worth of attacks and then using this power to move
+					away from your foe does provoke attacks of opportunity.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</hustle>
+		<mendbody>
+			<name type="string">Mend Body</name>
+			<school type="string">psychometabolism (Healing)</school>
+			<level type="string">Vitalist 3</level>
+			<components type="string">Auditory, Mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">instantaneous</duration>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>You mend your own wounds, healing 3d8 points of damage.
+
+					Augment:
+					This power may be augmented in one or both of the following ways.
+
+					1. For every 2 power points spent, the power heals an additional
+					1d8 points of damage.
+
+					2. By expending your psionic focus, each 1d8
+					points of damage healed
+					is instead 2d6 points of damage healed.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</mendbody>
+		<resistdeath>
+			<name type="string">Resist Death</name>
+			<school type="string">psychometabolism [Network]</school>
+			<level type="string"> Vitalist 3, Egoist 4</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">personal</range>
+			<effect type="string">Self</effect>
+			<duration type="string">1 hr./lvl.</duration>
+			<save type="string">Will negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 5</powerpoints>
+			<description type="formattedtext">
+				<p>The manifester combines life force and psionic energy into a
+					shield that protects the target from negative energy attacks. This
+					power prevents energy drain and any negative energy effects,
+					including channeled energy. Once the power has prevented (or helped
+					prevent) one effect, the power dissipates. When manifested the
+					power deals 2 points of non-lethal damage to the target. The damage
+					may be healed normally. The subject gains +4 moral bonus against
+					death spells and magical/psionic death effects even if a save to
+					negate such effects is not normally allowed.
+
+					This power does not remove negative levels that the target has already
+					gained, but it does remove penalties from negative levels for the
+					duration of the power.
+
+					Resist death does not protect against other sorts of attacks, even if
+					those attacks might be lethal.
+
+					Augment: For every additional 2 points spent, the power prevents 1
+					additional effect.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</resistdeath>
 		<a>
 			<name type="string">a</name>
 			<school type="string">Transmutation [earth]</school>
@@ -12276,20 +12545,22 @@
 								</link>
 								<level type="number">3</level>
 							</solicitpsicrystal>
-							<a>
+							<strikeasone>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.strikeasone@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">3</level>
-							</a>
-							<a>
+							</strikeasone>
+							<withstandasone>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.withstandasone@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">3</level>
-							</a>
+							</withstandasone>
 						</spells>
 					</level04>
 					<level05>
@@ -13323,13 +13594,14 @@
 								</link>
 								<level type="number">3</level>
 							</battlesense>
-							<a>
+							<bodypurification>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.bodypurification@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">3</level>
-							</a>
+							</bodypurification>
 							<dangersense>
 								<link type="windowreference">
 									<class>spelldesc</class>
@@ -13347,41 +13619,44 @@
 								</link>
 								<level type="number">3</level>
 							</empathictransferhostile>
-							<a>
+							<endorphinsurge>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.endorphinsurge@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">3</level>
-							</a>
-							<a>
+							</endorphinsurge>
+							<guardedsleep>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.guardedsleep@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">3</level>
-							</a>
-							<a>
+							</guardedsleep>
+							<hustle>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.hustle@PFRPG Misc Classes</recordname>
 								</link>
 								<level type="number">3</level>
-							</a>
-							<a>
+							</hustle>
+							<mendbody>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.mendbody@PFRPG Misc Classes</recordname>
 								</link>
 								<level type="number">3</level>
-							</a>
-							<a>
+							</mendbody>
+							<resistdeath>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.resistdeath@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">3</level>
-							</a>
+							</resistdeath>
 							<sharepainforced>
 								<link type="windowreference">
 									<class>spelldesc</class>
@@ -13398,7 +13673,6 @@
 								</link>
 								<level type="number">3</level>
 							</solicitpsicrystal>
-
 						</spells>
 					</level04>
 					<level05>
