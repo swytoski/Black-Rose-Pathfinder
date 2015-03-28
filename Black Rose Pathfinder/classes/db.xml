@@ -9244,19 +9244,779 @@
 					death spells and magical/psionic death effects even if a save to
 					negate such effects is not normally allowed.
 
-					This power does not remove negative levels that the target has already
-					gained, but it does remove penalties from negative levels for the
-					duration of the power.
+					This power does not
+					remove negative levels that the target has already
+					gained, but it
+					does remove penalties from negative levels for the
+					duration of the
+					power.
 
-					Resist death does not protect against other sorts of attacks, even if
+					Resist death does not protect against other sorts of attacks,
+					even if
 					those attacks might be lethal.
 
-					Augment: For every additional 2 points spent, the power prevents 1
+					Augment: For every additional
+					2 points spent, the power prevents 1
 					additional effect.
 				</p>
 			</description>
 			<shortdescription type="string"></shortdescription>
 		</resistdeath>
+		<alienation>
+			<name type="string">Alienation</name>
+			<school type="string">Telepathy (Compulsion) [mind-affecting]</school>
+			<level type="string">Tactician 4, telepath 4</level>
+			<components type="string">auditory, mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Medium (100 ft. + 10 ft./lvl.)</range>
+			<effect type="string">1 living creature</effect>
+			<duration type="string">1 rnd./lvl.</duration>
+			<save type="string">Will negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>You close off the centers of the subject's mind that deal with
+					communication and social interaction. The subject effectively loses
+					knowledge of all languages (including telepathic and body language)
+					and is treated as illiterate for the duration of the power. He may
+					still "speak" and provide verbal components, and to him they sound
+					completely normal, but to anyone else they appear as complete
+					gibberish. The subject is unable to understand anyone else on any
+					level and is unable to determine friend from foe. This prevents
+					things such as Sense Motive, the Aid Another action (or benefits
+					from another's Aid Another), any skill check involving
+					communication (including Linguistics), using teamwork feats,
+					knowing if a magical effect used on him is harmless or not until it
+					hits him (thus, he attempts a save against all effects he could)
+					unless he makes a successful Spellcraft check to identify the
+					effect, gaining the benefits from abilities such as bardic
+					performance, or using any Charisma-based skill check (except Use
+					Magic Device). The target no longer counts as an ally for the
+					purposes of determining flanking and all creatures who threaten the
+					subject are considered allies for their own flanking purposes. In
+					addition, the subject cannot make attacks of opportunity while
+					under this effect.
+
+					The subject still understands if his attacks or
+					powers are successful.
+
+					Augment: For every additional power point you
+					spend, this power may
+					affect an additional target. No two targets
+					may be further than 15
+					feet apart. For every 2 power points spent
+					this way, the power's
+					save DC increases by 1.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</alienation>
+		<battletransformation>
+			<name type="string">Battle Transformation</name>
+			<school type="string">clairsentience</school>
+			<level type="string">psychic warrior 4, Tactician 4</level>
+			<components type="string">mental, visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">1 rnd./lvl.</duration>
+			<save type="string">None; see text</save>
+			<sr type="string">No; see text</sr>
+			<powerpoints type="string">Power Points: Psychic warrior 7,
+				Tactician 7
+			</powerpoints>
+			<description type="formattedtext">
+				<p>You become a paragon of battle-stronger, tougher, faster, and
+					more skilled in combat.
+
+					You gain a +2 luck bonus on attack rolls,
+					weapon damage rolls,
+					Strength checks, and Strength-based skill
+					checks. You also gain 1
+					temporary hit point per manifester level.
+					Whenever you make a
+					full-attack action, you can make an additional
+					attack at your full
+					base attack bonus, plus any appropriate
+					modifiers. This additional
+					attack is not cumulative with similar
+					effects, such as physical
+					acceleration or weapons with the speed
+					special ability.
+
+					Augment: This power may be augmented in one or more
+					of the following ways.
+
+					1. For every 3 additional power points spent,
+					the luck bonus
+					improves by 1.
+
+					2. If you spend 4 additional power
+					points, the power's duration
+					becomes 10 minutes/level.
+
+					3. If you
+					spend 2 additional power points, this power gains the
+					Network
+					descriptor. If used in this fashion, the power's saving
+					throw
+					becomes Will negates (harmless) and Power Resistance becomes
+					Yes
+					(harmless).
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</battletransformation>
+		<correspond>
+			<name type="string">Correspond</name>
+			<school type="string">telepathy [mind-affecting]</school>
+			<level type="string">psion/wilder 4, tactician 4</level>
+			<components type="string">Mental</components>
+			<castingtime type="string">10 minutes</castingtime>
+			<range type="string">See text</range>
+			<effect type="string">One creature with an Intelligence score of 3 or
+				higher
+			</effect>
+			<duration type="string">1 round/level</duration>
+			<save type="string">none</save>
+			<sr type="string">no</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>You forge a passive mental link with a creature with which you
+					have previously had physical or mental contact. The subject need
+					not be within sight or even on the same plane as you are. The
+					subject recognizes you, and you can mentally communicate with it
+					for the duration (though nothing forces the subject to respond to
+					you), exchanging messages of twenty-five words or less once per
+					round. Receiving a message is not an action and does not provoke
+					attacks of opportunity; however, sending a message is equivalent to
+					a standard action that can provoke attacks of opportunity. You do
+					not need line of sight or line of effect to use this power.
+
+					Augment
+					If you spend an additional 4 power points, the power's duration
+					increases to 10 minutes/level.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</correspond>
+		<intellectfortress>
+			<name type="string">Intellect Fortress</name>
+			<school type="string">psychokinesis</school>
+			<level type="string">psion/wilder 4, tactician 4</level>
+			<components type="string">Auditory, Visual</components>
+			<castingtime type="string">1 immediate action</castingtime>
+			<range type="string">20 ft.</range>
+			<effect type="string">20-ft.-radius spread centered on you</effect>
+			<duration type="string">1 round</duration>
+			<save type="string">none</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>You encase yourself and your allies in a shimmering fortress of
+					telekinetic force. All damage from powers and psi-like abilities
+					taken by subjects inside the area of the intellect fortress,
+					including ability damage, is halved. This lowering takes place
+					prior to the effects of other powers or abilities that lessen
+					damage, such as damage reduction and evasion.
+
+					Powers that are not
+					subject to power resistance are not affected by an
+					intellect
+					fortress.
+
+					Augment This power may be augmented in one or both of the
+					following ways.
+
+					For every additional power point you spend, this
+					power's duration
+					increases by 1 round.
+					By spending 4 additional power
+					points, this power may also affect
+					breath weapons that deal damage.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</intellectfortress>
+		<psychicreformation>
+			<name type="string">Psychic Reformation</name>
+			<school type="string">telepathy [mind-affecting]</school>
+			<level type="string">gifted blade 4, psion/wilder 4, tactician 4,
+				vitalist 4
+			</level>
+			<components type="string">Auditory, mental, and visual</components>
+			<castingtime type="string">10 minutes</castingtime>
+			<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">One creature</effect>
+			<duration type="string">Instantaneous</duration>
+			<save type="string">none</save>
+			<sr type="string">no</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>When this power is manifested, the subject can choose to spend
+					its most recently gained skill ranks differently (picking new
+					skills and abandoning old ones if it chooses) and to choose a
+					different feat from the one it selected when advancing from its
+					previous level to its current level.
+
+					The subject can also choose to
+					forget powers or spells it acquired
+					when advancing to its current
+					level, replacing them with new ones.
+
+					The subject can undo decisions
+					of these sorts that were made at
+					lower levels, although he suffers
+					increased penalties the farther
+					back he goes to undo decisions. The
+					subject must abide by the
+					standard rules for selecting skills and
+					feats, and so it cannot
+					take feats for which it doesn't qualify. Any
+					change made must have
+					been available at the level selected. For
+					example, a 7th level
+					Psion who uses this power to change a 2nd level
+					power gained at 3rd
+					level Psion cannot select a 4th level power to
+					replace it - he must
+					choose a 1st or 2nd level power.
+
+					The subject is
+					not limited to changing only a single level's choices
+					should he
+					decide to undo decisions from prior levels. Every level
+					between his
+					current level and the earliest level may be altered, so
+					long as the
+					choices made were valid at the appropriate level.
+
+					If the subject
+					goes farther back than the changes from the previous
+					level to its
+					current level, the subject suffers a cumulative -1
+					penalty on all
+					ability checks, attack rolls, combat maneuver
+					checks, Combat
+					Maneuver Defense, saving throws, and skill checks
+					for each level
+					back the power changes. In addition, the creature
+					reduces its
+					current and total hit points by 5 for each level back
+					the power
+					changes. The creature is also treated as one level lower
+					for the
+					purpose of level-dependent variables (such as spellcasting
+					or
+					manifesting) for each level back the power changes. These
+					penalties
+					last for 24 hours.
+
+					Augment This power may be augmented in either of
+					the following ways.
+
+					1. If you spend 2 additional power points, the
+					penalties end after the
+					subject rests for 8 hours.
+					2. If you spend 6
+					additional power points, the subject does not suffer
+					any penalties.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</psychicreformation>
+		<psychokineticcharge>
+			<name type="string">Psychokinetic Charge</name>
+			<school type="string">Psychokinesis[force]</school>
+			<level type="string">psion/wilder 4, Tactician 4</level>
+			<components type="string">Auditory, Mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">one willing creature</effect>
+			<duration type="string">instantaneous</duration>
+			<save type="string">Will negates (harmless)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>You telekinetically launch an ally (or yourself) across the
+					battlefield to anywhere within this power's range. While moving,
+					your ally is flying just above the ground unless you wish
+					otherwise. Movement from this power provokes attacks of opportunity
+					as normal, although you can lift your ally over objects or out of
+					enemy reach, as long as your ally remains within range. If your
+					ally lands adjacent to an opponent, he can spend an immediate
+					action to make a melee attack against that opponent with a +2 bonus
+					on the attack roll.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</psychokineticcharge>
+		<senseasone>
+			<name type="string">Sense as One</name>
+			<school type="string">Telepathy [mind-affecting, network, shared]
+			</school>
+			<level type="string">Tactician 4</level>
+			<components type="string">mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">you plus one willing creature</effect>
+			<duration type="string">1 rnd./lvl.</duration>
+			<save type="string">None (see text)</save>
+			<sr type="string">yes (harmless)</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>When you manifest this power, choose one of the following sensory
+					special abilities that you or a willing target possesses:
+					blindsense, darkvision, low-light vision, scent, tremorsense. You
+					and the target are both treated as having the special ability for
+					the duration of the effect.
+
+					Augment: You can augment this power in
+					one or more of the following ways.
+
+					1. If you spend 2 additional
+					power points, you may also choose
+					blindsight as a special ability to
+					share.
+
+					2. If you spend 2 additional power points, this power can
+					affect an unwilling target, and the power's saving throw becomes
+					"Will negates." Unwilling targets do not gain the benefit of the
+					shared sense, and you may cause that target to be treated as if it
+					did not have the sensory special ability.
+
+					In addition, for every 2
+					power points spent augmenting this power,
+					the save DC increases by
+					1.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</senseasone>
+		<slipthebonds>
+			<name type="string">Slip the Bonds</name>
+			<school type="string">psychoportation</school>
+			<level type="string">cryptic 4, gifted blade 4, marksman 4, psion/wilder
+				4, psychic warrior 4, tactician 4
+			</level>
+			<components type="string">Auditory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">10 min./level</duration>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>You can move and attack normally for the duration of the power,
+					even under the influence of effects that usually impedes movement,
+					such as paralysis, solid fog, slow, and web. All combat maneuver
+					checks made to grapple you automatically fail. You automatically
+					succeed on any combat maneuver checks and Escape Artist checks made
+					to escape a grapple or a pin.
+
+					You can also move and attack normally
+					while underwater, even with
+					slashing weapons such as axes and swords
+					or with bludgeoning
+					weapons such as flails, hammers, and maces,
+					provided that the
+					weapon is wielded in the hand rather than hurled.
+					This does not,
+					however, grant water breathing.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</slipthebonds>
+		<wallofectoplasm>
+			<name type="string">Wall of Ectoplasm</name>
+			<school type="string">metacreativity (creation)</school>
+			<level type="string">psion/wilder 4, tactician 4</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">Wall whose area is up to one 10-ft. square/level
+				or a sphere or hemisphere with a radius of up to 1 ft./level
+			</effect>
+			<duration type="string">1 min./level (D)</duration>
+			<save type="string">none</save>
+			<sr type="string">no</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>You fashion a roiling wall of ectoplasm, imbuing it with
+					solidity. The wall cannot move once it is formed. It is 1 inch
+					thick per four manifester levels and occupies up to one 5-foot
+					square per level. Each 5-foot square of the wall has 10 hit points
+					per inch of thickness and hardness 5. A section of the wall whose
+					hit points drop to 0 is breached. If a creature tries to break
+					through the wall, the DC for the Strength check is 15 + 2 per inch
+					of thickness.
+
+					The wall of ectoplasm is susceptible to dispel
+					psionics, but it gains
+					a +4 bonus on any check to determine whether
+					the wall is negated.
+					Spells, powers, and breath weapons cannot pass
+					through the wall in
+					either direction (though they could damage it).
+					It blocks ethereal
+					creatures as well as material creatures (though
+					ethereal creatures
+					can usually get around the wall by floating under
+					or over it
+					through material floors and ceilings). The wall is
+					opaque, so
+					neither vision nor gaze attacks operate through it. The
+					wall does
+					not block psychoportive travel, such as that provided by
+					the
+					psychoport power.
+
+					You can form the wall into a flat plane whose
+					area is up to one
+					10-foot square per level or into a sphere or
+					hemisphere with a
+					radius of up to 1 foot per level.
+
+					The wall of
+					ectoplasm must be continuous and unbroken when manifested.
+					If its
+					surface is interrupted by any object or creature, the power
+					fails.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</wallofectoplasm>
+		<empathicfeedback>
+			<name type="string">Empathic Feedback</name>
+			<school type="string">telepathy [mind-affecting]</school>
+			<level type="string">gifted blade 3, psion/wilder 4, psychic warrior 3,
+				vitalist 4
+			</level>
+			<components type="string">auditory and material</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">10 min./level</duration>
+			<save type="string">Will negates; see text</save>
+			<sr type="string">Yes</sr>
+			<powerpoints type="string">Power Points: gifted blade 5,
+				psion/wilder 7, psychic warrior 5, vitalist 7
+			</powerpoints>
+			<description type="formattedtext">
+				<p>You empathically share your pain and suffering with your
+					attacker. Each time a creature strikes you in melee, it takes
+					damage equal to one quarter the amount it dealt to you (rounded
+					down, minimum 1) unless it succeeds on a Will save. This damage is
+					empathic in nature, so powers and abilities the attacker may have
+					such as damage reduction and regeneration do not lessen or change
+					this damage. The damage from empathic feedback has no type, so even
+					if you took fire damage from a creature that has immunity to fire,
+					empathic feedback will damage your attacker. The damage from
+					empathic feedback is a mind-affecting effect, a successful Will
+					save negates this damage, and the damage is subject to power
+					resistance.
+
+					Augment This power may be augmented in one of the
+					following ways.
+
+					By spending 3 additional power points, the damage
+					suffered by your
+					attacker increases to one half the damage dealt to
+					you.
+					By spending 6 additional power points, the damage suffered by
+					your
+					attacker is equal to the damage dealt to you.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</empathicfeedback>
+		<energyadaptation>
+			<name type="string">Energy Adaptation</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">cryptic 4, gifted blade 4, psion/wilder 4, psychic
+				warrior 4, vitalist 4
+			</level>
+			<components type="string">Visual; see text</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">10 min./level</duration>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>Your body assimilates some of the effect of an energy attack and
+					converts it to harmless light. You gain resistance 10 against any
+					attack that deals acid, cold, electricity, fire, or sonic damage.
+
+					When you absorb damage, you can choose to radiate visible light
+					that illuminates a 60-foot radius for a number of rounds equal to
+					the points of damage you successfully resisted, or merely dissipate
+					the energy without giving off a visual display.
+
+					The energy
+					resistance provided by this power increases to 20 points at
+					7th
+					manifester level and to a maximum of 30 points at 11th level.
+
+					The
+					power protects your equipment as well.
+
+					The resistance provided by
+					this power does not stack with other forms
+					of energy resistance.
+
+					Augment If you spend 4 additional power points, you can manifest
+					this
+					power as an immediate action.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</energyadaptation>
+		<evadeburst>
+			<name type="string">Evade Burst</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">cryptic 3, gifted blade 3, marksman 4, psion/wilder
+				7, psychic warrior 3, tactician 7, vitalist 4
+			</level>
+			<components type="string">Material</components>
+			<castingtime type="string">1 immediate action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">Instantaneous</duration>
+			<powerpoints type="string">Power Points: cryptic 5, gifted blade
+				5, marksman 7, psion/wilder 13, psychic warrior 5, tactician 13,
+				vitalist 7
+			</powerpoints>
+			<description type="formattedtext">
+				<p>You throw off a faux ectoplasmic shell, allowing you to slide out
+					of range of a damaging effect. When you manifest this power in
+					conjunction with making a successful Reflex save against an attack
+					that normally deals half damage on a successful save, you instead
+					take no damage.
+
+					Augment If you spend 4 additional power points, you
+					take only half damage
+					on a failed Reflex save.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</evadeburst>
+		<immovability>
+			<name type="string">Immovability</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">gifted blade 4, psychic warrior 4, vitalist 4
+			</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">Concentration</duration>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>You are almost impossible to move. Your weight does not vary;
+					instead, you mentally attach yourself to the underlying fabric of
+					the plane. Thus, you could conceivably anchor yourself in midair.
+					Any creature attempting to physically move you must succeed on an
+					opposed Strength check, and you gain a +20 bonus on the check. You
+					can't voluntarily move to a new location unless you stop
+					concentrating, which ends the power.
+
+					You cannot apply your Dexterity
+					bonus to Armor Class; however, your
+					anchored body gains damage
+					reduction 15/-.
+
+					You cannot make physical attacks or perform any
+					other large-scale
+					movements (you can make small-scale movements,
+					such as breathing,
+					turning your head, moving your eyes, talking, and
+					so on). Powers
+					with the teleportation descriptor, or any telekinetic
+					effect,
+					manifested on you automatically fail.
+
+					Augment: If you spend 8
+					additional power points, you can manifest this
+					power as an immediate
+					action.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</immovability>
+		<incitepassion>
+			<name type="string">Incite Passion</name>
+			<school type="string">Telepathy [mind-affecting]</school>
+			<level type="string">Psion/Wilder 4, Vitalist 4</level>
+			<components type="string">material, Olfactory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">close (25 ft. + 5 ft./2 levels)</range>
+			<effect type="string">1 creature</effect>
+			<duration type="string">1 round/lvl.</duration>
+			<save type="string">Will negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>The target creature's mind is subtly altered to embrace its more
+					instinctual urges instead of logic. For the duration of the power,
+					the target creature takes a -2 penalty on all Intelligence-related
+					checks and may not take 10 or take 20 on any skill check. In
+					addition, the target cannot competently grasp combat tactics and
+					suffers a -2 penalty on attack rolls and Armor Class, cannot fight
+					defensively, and cannot use Combat Expertise or any other feats
+					that require it.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</incitepassion>
+		<inertialbarrier>
+			<name type="string">Inertial Barrier</name>
+			<school type="string">psychokinesis</school>
+			<level type="string">kineticist 4, marksman 4, psychic warrior 4,
+				vitalist 4
+			</level>
+			<components type="string">Auditory and mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Personal</range>
+			<effect type="string">You</effect>
+			<duration type="string">10 min./level</duration>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>You create a skin-tight psychokinetic barrier around yourself
+					that resists blows, cuts, stabs, and slashes, as well as providing
+					some protection against falling. You gain damage reduction 5/-.
+					Inertial barrier also absorbs half the damage you take from any
+					fall.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</inertialbarrier>
+		<physicalacceleration>
+			<name type="string">Physical Acceleration</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">egoist 3, gifted blade 3, marksman 3, psychic
+				warrior 3, sighted seeker 4, vitalist 4
+			</level>
+			<components type="string">auditory</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">personal</range>
+			<effect type="string">you</effect>
+			<duration type="string">1 rnd./lvl.</duration>
+			<powerpoints type="string">Power Points: egoist 5, gifted blade 5,
+				marksman 5, psychic warrior 5, sighted seeker 7, vitalist 7
+			</powerpoints>
+			<description type="formattedtext">
+				<p>You move and act more quickly than normal. This extra speed has
+					several effects.
+
+					When making a full attack action, you gain one
+					additional attack. The
+					attack is made using your full base attack
+					bonus, plus any
+					modifiers appropriate to the situation. (This effect
+					is not
+					cumulative with similar effects, such as that provided by a
+					speed
+					weapon, nor does it actually grant an extra action, so you
+					can't
+					use it to manifest a second power or otherwise take an extra
+					action
+					in the round.)
+
+					You gain a +1 bonus on attack rolls and a +1
+					dodge bonus to AC and
+					Reflex saves. Any condition that makes you
+					lose your Dexterity
+					bonus to Armor Class (if any) also makes you
+					lose dodge bonuses.
+
+					All of your modes of movement (including land
+					movement, burrow,
+					climb, fly, and swim) increase by 30 feet, to a
+					maximum of twice
+					your normal speed using that form of movement. This
+					increase counts
+					as an enhancement bonus, and it affects your jumping
+					distance as
+					normal for increased speed. Multiple physical
+					acceleration effects
+					don't stack, nor does it stack with haste.
+					Physical acceleration
+					negates slow.
+
+					Augment: If you spend an
+					additional 6 power points, you can manifest this
+					power as a swift
+					action.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</physicalacceleration>
+		<psychicdrain>
+			<name type="string">Psychic Drain</name>
+			<school type="string">Psychometabolism</school>
+			<level type="string">Egoist 4, psychic warrior 4, vitalist 4</level>
+			<components type="string">Mental</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">Touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">Instantaneous</duration>
+			<save type="string">Fortitude negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>This power shrouds your hand or a natural weapon you possess with
+					darkness that you can use to drain an opponent's power.
+
+					If you
+					manifest this power to affect your hand, the next successful
+					melee
+					touch attack you make (if the victim fails its Fortitude
+					save)
+					drains 2 power points from your foe for every manifester
+					level you
+					have. The drained points simply dissipate. Your touch
+					attack,
+					charged with psionic power, is treated as an armed attack.
+
+					If you
+					manifest this power to affect a natural weapon you possess,
+					you must
+					make a successful melee attack with the weapon to gain the
+					power's
+					benefit.
+
+					Against a psionic being that has no power points or a
+					nonpsionic foe, your
+					attack instead deals 2 points of Intelligence,
+					Wisdom, or Charisma
+					damage (your choice).
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</psychicdrain>
+		<wither>
+			<name type="string">Wither</name>
+			<school type="string">psychometabolism</school>
+			<level type="string">Vitalist 4, psion/wilder 4</level>
+			<components type="string">Visual</components>
+			<castingtime type="string">1 standard action</castingtime>
+			<range type="string">touch</range>
+			<effect type="string">creature touched</effect>
+			<duration type="string">instantaneous</duration>
+			<save type="string">Fortitude negates</save>
+			<sr type="string">yes</sr>
+			<powerpoints type="string">Power Points: 7</powerpoints>
+			<description type="formattedtext">
+				<p>Your touch disrupts the target's physical form, draining the
+					strength from its muscles. The creature suffers 2d4 points of
+					Strength damage. A successful Fortitude save halves the Strength
+					damage taken.
+
+					Augment: For each additional 4 power points spent, this power causes an
+					additional 1d4 points of Strength damage.
+				</p>
+			</description>
+			<shortdescription type="string"></shortdescription>
+		</wither>
 		<a>
 			<name type="string">a</name>
 			<school type="string">Transmutation [earth]</school>
@@ -12566,13 +13326,78 @@
 					<level05>
 						<description type="string">Level 4</description>
 						<spells>
-							<a>
+							<alienation>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.alienation@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">4</level>
-							</a>
+							</alienation>
+							<battletransformation>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.battletransformation@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</battletransformation>
+							<correspond>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.correspond@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</correspond>
+							<intellectfortress>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.intellectfortress@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</intellectfortress>
+							<psychicreformation>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.psychicreformation@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</psychicreformation>
+							<psychokineticcharge>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.psychokineticcharge@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</psychokineticcharge>
+							<senseasone>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.senseasone@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</senseasone>
+							<slipthebonds>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.slipthebonds@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</slipthebonds>
+							<wallofectoplasm>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.wallofectoplasm@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</wallofectoplasm>
 						</spells>
 					</level05>
 					<level06>
@@ -12607,8 +13432,16 @@
 									<class>spelldesc</class>
 									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
 								</link>
-								<level type="number">7</level>
+								<level type="number">4</level>
 							</a>
+							<evadeburst>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.evadeburst@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">7</level>
+							</evadeburst>
 						</spells>
 					</level08>
 					<level09>
@@ -13678,13 +14511,85 @@
 					<level05>
 						<description type="string">Level 4</description>
 						<spells>
-							<a>
+							<empathicfeedback>
 								<link type="windowreference">
 									<class>spelldesc</class>
-									<recordname>spelldesc.a@PFRPG Misc Classes</recordname>
+									<recordname>spelldesc.empathicfeedback@PFRPG Misc Classes
+									</recordname>
 								</link>
 								<level type="number">4</level>
-							</a>
+							</empathicfeedback>
+							<energyadaptation>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.energyadaptation@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</energyadaptation>
+							<evadeburst>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.evadeburst@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</evadeburst>
+							<immovability>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.immovability@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</immovability>
+							<incitepassion>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.incitepassion@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</incitepassion>
+							<inertialbarrier>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.inertialbarrier@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</inertialbarrier>
+							<physicalacceleration>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.physicalacceleration@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</physicalacceleration>
+							<psychicdrain>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.psychicdrain@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</psychicdrain>
+							<psychicreformation>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.psychicreformation@PFRPG Misc Classes
+									</recordname>
+								</link>
+								<level type="number">4</level>
+							</psychicreformation>
+							<wither>
+								<link type="windowreference">
+									<class>spelldesc</class>
+									<recordname>spelldesc.wither@PFRPG Misc Classes</recordname>
+								</link>
+								<level type="number">7</level>
+							</wither>
 						</spells>
 					</level05>
 					<level06>
